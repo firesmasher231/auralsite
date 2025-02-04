@@ -87,7 +87,7 @@ class AudioProcessor:
                     # Add word number with period if it's a word variant
                     if not variant.isdigit():
                         patterns.append(f"{variant}.")  # "uno.", "dos."
-                    
+
                     for pattern in patterns:
                         if (
                             f" {pattern} " in f" {cleaned_text} "
@@ -106,7 +106,13 @@ class AudioProcessor:
             for variant in variants:
                 for marker in markers:
                     # Build a regex matching marker followed by the variant (ignoring case)
-                    pattern = r"\b" + re.escape(marker.lower()) + r"\s+" + re.escape(variant.lower()) + r"\b"
+                    pattern = (
+                        r"\b"
+                        + re.escape(marker.lower())
+                        + r"\s+"
+                        + re.escape(variant.lower())
+                        + r"\b"
+                    )
                     if re.search(pattern, cleaned_text):
                         return section_key, timestamp
 

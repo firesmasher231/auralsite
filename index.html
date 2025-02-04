@@ -113,6 +113,7 @@
 										src="icons/volume-icon.svg"
 										alt="Volume"
 										class="h-6 w-6"
+										id="muteIcon"
 									/>
 								</button>
 								<!-- Black Styled Slider -->
@@ -550,12 +551,29 @@
 			const volumeSlider = document.getElementById("volumeSlider");
 			updateVolumeSliderBackground(volumeSlider);
 			volumeSlider.addEventListener("input", (e) => {
+				// If audio is muted and the slider value is increased above 0, unmute the audio
+				if (audio.muted && e.target.value > 0) {
+					audio.muted = false;
+					// Change icon back to normal volume icon
+					muteBtn.querySelector("img").src = "icons/volume-icon.svg";
+				}
 				audio.volume = e.target.value;
 				updateVolumeSliderBackground(e.target);
 			});
 			const muteBtn = document.getElementById("muteBtn");
 			muteBtn.addEventListener("click", () => {
 				audio.muted = !audio.muted;
+				if (audio.muted) {
+					// Change icon to muted and update slider to reflect muted state
+					muteBtn.querySelector("img").src = "icons/muted.svg";
+					volumeSlider.value = 0;
+					updateVolumeSliderBackground(volumeSlider);
+				} else {
+					// Change icon back to normal volume icon and restore volume (default to full volume)
+					muteBtn.querySelector("img").src = "icons/volume-icon.svg";
+					volumeSlider.value = 1;
+					updateVolumeSliderBackground(volumeSlider);
+				}
 			});
 
 			playPauseBtn.addEventListener("click", () => {
@@ -694,6 +712,11 @@
 
 			.site-heading {
 				font-family: "VT323", monospace;
+			}
+
+			/* When hovering on any range input (e.g. volume slider), show pointer cursor */
+			input[type="range"]:hover {
+				cursor: pointer;
 			}
 		</style>
 	</body>
