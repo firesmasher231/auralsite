@@ -26,6 +26,10 @@
 		<title>Aural Practice</title>
 		<!-- Include Tailwind via CDN -->
 		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body
 		class="flex flex-col min-h-screen m-0 p-0 font-[Poppins]"
@@ -48,11 +52,11 @@
 		"
 	>
 		<main>
-			<h2
-				class="text-center text-2xl mb-4 shadow-lg bg-white border-gray-300 border-2 rounded-b-md max-w-[600px] border-t-0 mx-auto p-5"
+			<div
+				class="text-center text-2xl mb-4 shadow-lg bg-white border-gray-300 border-2 rounded-b-md max-w-xs border-t-0 mx-auto p-5"
 			>
-				Aural examinations with ease
-			</h2>
+				<h1 class="site-heading font-extralight">Aurals.LC</h1>
+			</div>
 
 			<!-- Audio Selector Dropdown -->
 			<div class="flex justify-center mb-4 gap-4">
@@ -686,6 +690,10 @@
 			}
 			#progressContainer:active {
 				cursor: grabbing;
+			}
+
+			.site-heading {
+				font-family: "VT323", monospace;
 			}
 		</style>
 	</body>

@@ -7,6 +7,7 @@ from datetime import datetime
 from faster_whisper import WhisperModel
 from pathlib import Path
 from config import LANGUAGE_CONFIGS
+import re  # <--- ADDED for regex matching
 
 # Minimal helper for timestamp formatting (MM:SS)
 format_timestamp = lambda s: f"{int(s // 60):02d}:{int(s % 60):02d}"
@@ -72,7 +73,6 @@ class AudioProcessor:
                     # Only use section numbers that exist in our config
                     if section_key in self.config["sections"]:
                         return section_key, timestamp
-                    return None, None
 
         # For Spanish, look for "número X", "X.", and "uno.", "dos." patterns
         if self.language == "es":
@@ -87,7 +87,7 @@ class AudioProcessor:
                     # Add word number with period if it's a word variant
                     if not variant.isdigit():
                         patterns.append(f"{variant}.")  # "uno.", "dos."
-
+                    
                     for pattern in patterns:
                         if (
                             f" {pattern} " in f" {cleaned_text} "
@@ -100,17 +100,16 @@ class AudioProcessor:
                                 return section_key, timestamp
                             return None, None
 
-        # For other languages, use the existing logic
+        # For other languages (e.g. Italian) use regex matching so that cases like
+        # "per la sezione A" are correctly detected even with extra words.
         for section_key, variants in self.config["sections"].items():
             for variant in variants:
                 for marker in markers:
-                    exact_marker = f"{marker} {variant}"
-                    if (
-                        f" {exact_marker} " in f" {cleaned_text} "
-                        or cleaned_text.startswith(exact_marker + " ")
-                        or cleaned_text.endswith(" " + exact_marker)
-                    ):
+                    # Build a regex matching marker followed by the variant (ignoring case)
+                    pattern = r"\b" + re.escape(marker.lower()) + r"\s+" + re.escape(variant.lower()) + r"\b"
+                    if re.search(pattern, cleaned_text):
                         return section_key, timestamp
+
         return None, None
 
     def process_file(self, filename: str, model: WhisperModel):

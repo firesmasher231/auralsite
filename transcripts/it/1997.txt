@@ -121,8 +121,11 @@ Ogni primo del mese, presso il tuo giornalaio, o se decidi di abbonarti, spese p
 [08:16 - 08:23]
 Il giornalino è il giornale per te, per il tuo tempo libero.
 
-[08:23 - 08:28]
-Per le tue feste, con sole 2000 lire risolvi il tuo tempo libero.
+[08:23 - 08:25]
+Per le tue feste.
+
+[08:25 - 08:28]
+Con sole 2000 lire risolvi il tuo tempo libero.
 
 [08:29 - 08:31]
 Cercalo, compralo, leggilo e tienilo.
@@ -149,13 +152,13 @@ Più che un bollettino delle vacanze, oggi dovremmo darvi un bollettino del malt
 Piogge, temporali, grandinate un po' su tutta la penisola, per lo più al centro nord, hanno rovinato questa domenica pre-ferragosto.
 
 [09:56 - 09:59]
-Di molti vinnelgianti, che fuggono dalle spiagge, sotto la minaccia di un cielo imbronciato.
+Di molti vinnelgianti, che fuggono dalle spiagge.
 
-[09:59 - 11:03]
+[10:41 - 11:03]
 Piogge, temporali, grandinate un po' su tutta la penisola, per lo più al centro nord, hanno rovinato questa domenica pre-ferragosto.
 
 [11:08 - 11:15]
-Sul Monte Bianco, una comitiva di turisti, che stava prendendo il sole sulle sponde di un lago, nei pressi del Monte Bianco,
+Un monte bianco. Una comitiva di turisti, che stava prendendo il sole sulle sponde di un lago, nei pressi del monte bianco,
 
 [11:15 - 11:20]
 è stata travolta da un lastrone di ghiaccio, che si era improvvisamente staccato dalla montagna.
@@ -163,31 +166,40 @@ Sul Monte Bianco, una comitiva di turisti, che stava prendendo il sole sulle spo
 [11:21 - 11:25]
 Undici persone sono state ferite, la più grave una bambina di otto anni.
 
-[11:25 - 11:28]
+[11:26 - 11:28]
 I feriti sono stati soccorsi da due elicotteri.
 
 [11:29 - 12:03]
 A Torino, riesplode la guerra fra bande di immigranti extracomunitari.
 
-[12:04 - 12:10]
-La notte scorsa, nei pressi della stazione Porta Nuova, ci sono stati disordini.
+[12:04 - 12:08]
+La notte scorsa, nei pressi della stazione Porta Nuova,
 
-[12:12 - 12:20]
-All'arrivo della polizia, un uomo, che cercava di sfuggire alla cattura, è precipitato da un viadotto ed è morto.
+[12:10 - 12:12]
+ci sono stati disordini per il controllo del mercato della droga.
+
+[12:12 - 12:17]
+All'arrivo della polizia, un uomo, che cercava di sfuggire alla cattura,
+
+[12:17 - 12:20]
+è precipitato da un viadotto ed è morto.
 
 [12:20 - 12:28]
 A Torino, riesplode la guerra fra bande di immigranti extracomunitari.
 
-[12:29 - 12:37]
-La notte scorsa, nei pressi della stazione Porta Nuova, ci sono stati disordini per il controllo del mercato della droga.
+[12:29 - 12:33]
+La notte scorsa, nei pressi della stazione Porta Nuova,
 
-[12:37 - 12:44]
-All'arrivo della polizia, un uomo, che cercava di sfuggire alla cattura, è precipitato da un viadotto.
+[12:33 - 12:37]
+ci sono stati disordini per il controllo del mercato della droga.
 
-[12:44 - 12:44]
-All'arrivo della polizia, un uomo, che cercava di sfuggire alla cattura, è precipitato da un viadotto ed è morto.
+[12:37 - 12:41]
+All'arrivo della polizia, un uomo, che cercava di sfuggire alla cattura,
 
-[13:20 - 13:24]
+[12:42 - 12:44]
+è precipitato da un viadotto ed è morto.
+
+[12:44 - 13:24]
 Ora, leggere le istruzioni per la sezione B.
 
 [13:24 - 13:50]
@@ -197,16 +209,19 @@ Ora, leggere le domande per il dialogo numero 1.
 Dialogo numero 1.
 
 [14:19 - 14:24]
-Uno studente italiano parla con la direttrice di una scuola d'inglese.
+Uno studente italiano parla con la direttrice di una scuola di inglese.
 
-[14:28 - 14:33]
-Buongiorno, desidererei delle informazioni sulle vacanze e studi in Irlanda nel mese di luglio.
+[14:28 - 14:28]
+Buongiorno.
+
+[14:29 - 14:33]
+Desidererei delle informazioni sulle vacanze e studi in Irlanda, nel mese di luglio.
 
 [14:34 - 14:36]
 Mi interesserebbe un corso di lingua inglese.
 
-[14:36 - 14:40]
-Il luglio, precisamente, la prima quindicina di luglio.
+[14:37 - 14:40]
+Il luglio, precisamente la prima quindicina di luglio.
 
 [14:41 - 14:42]
 Sì, vediamo.
@@ -224,30 +239,21 @@ Mi interesserebbe un corso audio-orale, per migliorare la comprensione ed arricc
 L'inglese lo so già abbastanza bene, ma ho dei problemi con la pronuncia e la comprensione.
 
 [15:04 - 15:07]
-All'orale serve un corso intensivo di lingua.
+Allora le serve un corso intensivo di lingua.
 
-[15:07 - 15:13]
-In tutto sono 20 lezioni settimanali di 50 minuti l'una, da lunedì a venerdì,
-
-[15:13 - 15:16]
-in classi con un massimo di 12 iscritti.
+[15:07 - 15:16]
+In tutto sono 20 lezioni settimanali di 50 minuti l'una, da lunedì a venerdì, in classi con un massimo di 12 iscritti.
 
 [15:44 - 15:50]
-Buongiorno, desidererei delle informazioni sulle vacanze e studi in Irlanda nel mese di luglio.
+Buongiorno, desidererei delle informazioni sulle vacanze e studi in Irlanda, nel mese di luglio.
 
-[15:50 - 15:52]
-Mi interesserebbe un corso di lingua inglese.
+[15:50 - 15:56]
+Mi interesserebbe un corso di lingua inglese, il luglio, precisamente la prima quindicina di luglio.
 
-[15:52 - 15:56]
-Il luglio, precisamente, la prima quindicina di luglio.
+[16:17 - 16:25]
+Sì, vediamo, c'è un corso a Dublino dal 28 giugno al 12 luglio, in un college, a 20 minuti dal centro.
 
-[16:17 - 16:18]
-Sì, vediamo.
-
-[16:18 - 16:25]
-C'è un corso a Dublino dal 28 giugno al 12 luglio, in un college, a 20 minuti dal centro.
-
-[16:46 - 16:48]
+[16:25 - 16:48]
 Quelle due settimane andrebbero proprio bene.
 
 [16:48 - 16:54]
@@ -256,29 +262,20 @@ Mi interesserebbe un corso audio-orale, per migliorare la comprensione ed arricc
 [16:54 - 16:59]
 L'inglese lo so già abbastanza bene, ma ho dei problemi con la pronuncia e la comprensione.
 
-[16:59 - 17:23]
-All'orale serve un corso intensivo di lingua.
+[17:21 - 17:23]
+Allora le serve un corso intensivo di lingua.
 
-[17:23 - 17:30]
-In tutto sono 20 lezioni settimanali di 50 minuti l'una, da lunedì a venerdì,
+[17:23 - 17:32]
+In tutto sono 20 lezioni settimanali di 50 minuti l'una, da lunedì a venerdì, in classi con un massimo di 12 iscritti.
 
-[17:30 - 17:32]
-in classi con un massimo di 12 iscritti.
+[18:38 - 18:43]
+Buongiorno, desidererei delle informazioni sulle vacanze e studi in Irlanda, nel mese di luglio.
 
-[18:39 - 18:44]
-Buongiorno, desidererei delle informazioni sulle vacanze e studi in Irlanda nel mese di luglio.
+[18:44 - 18:50]
+Mi interesserebbe un corso di lingua inglese, il luglio, precisamente la prima quindicina di luglio.
 
-[18:44 - 18:47]
-Mi interesserebbe un corso di lingua inglese.
-
-[18:47 - 18:50]
-Il luglio, precisamente, la prima quindicina di luglio.
-
-[18:51 - 18:53]
-Sì, vediamo.
-
-[18:53 - 18:59]
-C'è un corso a Dublino dal 28 giugno al 12 luglio, in un college, a 20 minuti dal centro.
+[18:51 - 18:59]
+Sì, vediamo, c'è un corso a Dublino dal 28 giugno al 12 luglio, in un college, a 20 minuti dal centro.
 
 [19:00 - 19:02]
 Quelle due settimane andrebbero proprio bene.
@@ -289,25 +286,22 @@ Mi interesserebbe un corso audio-orale, per migliorare la comprensione ed arricc
 [19:09 - 19:14]
 L'inglese lo so già abbastanza bene, ma ho dei problemi con la pronuncia e la comprensione.
 
-[19:15 - 19:17]
-All'orale serve un corso intensivo di lingua.
+[19:15 - 19:16]
+Allora le serve un corso intensivo.
 
-[19:17 - 19:23]
-In tutto sono 20 lezioni settimanali di 50 minuti l'una, da lunedì a venerdì,
-
-[19:23 - 19:25]
-in classi con un massimo di 12 iscritti.
+[19:16 - 19:26]
+In tutto sono 20 lezioni settimanali di 50 minuti l'una, da lunedì a venerdì, in classi con un massimo di 12 iscritti.
 
 [19:35 - 19:39]
-Ora, leggere le domande per il dialogo numero due.
+Ora, leggere le domande per il dialogo numero 2.
 
 [20:07 - 20:08]
-Dialogo numero due.
+Dialogo numero 2.
 
 [20:09 - 20:12]
 Luca parla con Valentina delle vacanze.
 
-[20:13 - 20:16]
+[20:14 - 20:16]
 Ciao Valentina, dove sei stata in vacanza?
 
 [20:16 - 20:18]
@@ -316,29 +310,35 @@ Sono stata alle Cinque Terre.
 [20:18 - 20:20]
 È una zona splendida.
 
-[20:20 - 20:23]
-Il mare è pulito, ci sono rocce, scogliere.
+[20:20 - 20:21]
+Il mare è pulito.
 
-[20:23 - 20:25]
-È l'ideale per la pesca subacquea.
+[20:21 - 20:23]
+Ci sono rocce, scogliere.
+
+[20:23 - 20:24]
+È l'ideale per le vacanze.
+
+[20:24 - 20:25]
+Per la pesca subacquea.
 
 [20:25 - 20:29]
 E anche in piena stagione non ci sono mai troppi turisti.
 
 [20:29 - 20:33]
-Sai, per arrivarci bisogna prendere il treno,
+Sai, per arrivarci bisogna prendere il treno o la barca.
 
 [20:33 - 20:35]
-o la barca, non c'è una strada per le auto.
+Non c'è una strada per le auto.
 
-[20:36 - 20:39]
-Beata te, io in vacanza non ci sono andato,
+[20:36 - 20:37]
+Beata te.
 
-[20:39 - 20:42]
-perché sono stato rimandato in chimica e in fisica,
+[20:37 - 20:42]
+Io in vacanza non ci sono andato, perché sono stato rimandato in chimica e in fisica.
 
 [20:42 - 20:44]
-e ho dovuto ripetere a settembre.
+E ho dovuto ripetere a settembre.
 
 [20:45 - 20:47]
 Oltretutto ho dovuto aiutare mio padre in ditta.
@@ -349,11 +349,14 @@ Capirai che pacchia.
 [20:49 - 20:52]
 Per fortuna gli esami a settembre sono andati bene.
 
+[20:52 - 20:53]
+Poveraccio.
+
 [20:53 - 20:54]
-Poveraccio, che estate!
+Che estate!
 
 [20:55 - 20:57]
-Clelia ed io ci siamo divertite un sacco.
+Dai Dio, ci siamo divertite un sacco.
 
 [20:57 - 21:00]
 Una vacanza in tenda è così avventurosa.
@@ -361,31 +364,40 @@ Una vacanza in tenda è così avventurosa.
 [21:00 - 21:02]
 Si apprezza di più la natura.
 
-[21:02 - 21:06]
+[21:03 - 21:06]
 Pensa che ogni sera facevamo una grigliata sulla spiaggia.
 
-[21:07 - 21:11]
-Ballavamo, ascoltavamo musica, poi facevamo il bagno a mezzanotte.
+[21:07 - 21:09]
+Ballavamo, ascoltavamo musica.
+
+[21:09 - 21:11]
+Poi facevamo il bagno a mezzanotte.
 
 [21:11 - 21:13]
 Basta, sto morendo di invidia.
 
-[21:13 - 21:17]
-Quest'anno studierò moltissimo, fin dall'inizio,
+[21:13 - 21:15]
+Quest'anno studierò moltissimo.
+
+[21:16 - 21:17]
+Fin dall'inizio.
 
 [21:17 - 21:20]
-perché voglio superare la maturità con un punteggio alto,
+Perché voglio superare la maturità con un punteggio alto.
 
 [21:20 - 21:22]
-per potermi iscrivere a medicina.
+Per potermi iscrivere a medicina.
 
-[21:22 - 21:27]
-Mi preoccupa però il fatto che con il numero chiuso e l'esame attitudinale
+[21:23 - 21:26]
+Mi preoccupa però il fatto che con il numero chiuso
+
+[21:26 - 21:27]
+e l'esame attitudinale
 
 [21:27 - 21:30]
 diventa sempre più difficile entrare a medicina.
 
-[21:56 - 21:59]
+[21:30 - 21:59]
 Ciao Valentina, dove sei stata in vacanza?
 
 [21:59 - 22:01]
@@ -398,7 +410,7 @@ Sono stata alle Cinque Terre.
 Il mare è pulito.
 
 [22:04 - 22:06]
-Ci sono rocce e scogliere.
+Ci sono rocce, scogliere.
 
 [22:06 - 22:08]
 È l'ideale per la pesca subacquea.
@@ -406,41 +418,41 @@ Ci sono rocce e scogliere.
 [22:08 - 22:12]
 E anche in piena stagione non ci sono mai troppi turisti.
 
-[22:12 - 22:16]
+[22:13 - 22:16]
 Sai, per arrivarci bisogna prendere il treno o la barca.
 
 [22:16 - 22:18]
 Non c'è una strada per le auto.
 
 [22:38 - 22:39]
-Beata te!
+Beata te.
 
 [22:39 - 22:42]
-Io in vacanza non ci sono andato,
+Io in vacanza non ci sono andato
 
 [22:42 - 22:44]
 perché sono stato rimandato in chimica e in fisica.
 
-[22:45 - 22:46]
+[22:44 - 22:46]
 E ho dovuto ripetere a settembre.
 
-[22:47 - 22:49]
-Oltretutto ho dovuto aiutare mio padre in diritto.
+[22:47 - 22:50]
+Oltretutto ho dovuto aiutare mio padre in ditta.
 
-[22:49 - 22:51]
+[22:50 - 22:51]
 Capirai che pacchia.
 
 [22:51 - 22:54]
 Per fortuna gli esami a settembre sono andati bene.
 
 [23:17 - 23:18]
-Poveraccio!
+Poveraccio.
 
 [23:18 - 23:19]
-Che estate!
+Che estate.
 
 [23:19 - 23:22]
-Clelia ed io ci siamo divertite un sacco.
+Clelia e io ci siamo divertite un sacco.
 
 [23:22 - 23:25]
 Una vacanza in tenda è così avventurosa.
@@ -448,20 +460,17 @@ Una vacanza in tenda è così avventurosa.
 [23:25 - 23:27]
 Si apprezza di più la natura.
 
-[23:27 - 23:31]
+[23:28 - 23:31]
 Pensa che ogni sera facevamo una grigliata sulla spiaggia.
 
 [23:32 - 23:34]
 Ballavamo, ascoltavamo musica.
 
-[23:34 - 23:36]
-Poi facevamo il bagno a mezzanotte.
+[23:34 - 23:35]
+Poi facevamo il bambino.
 
-[23:58 - 23:58]
-Basta!
-
-[23:59 - 24:00]
-Sto morendo di invidia.
+[23:58 - 24:00]
+Basta, sto morendo di invidia.
 
 [24:00 - 24:02]
 Quest'anno studierò moltissimo.
@@ -475,20 +484,14 @@ Perché voglio superare la maturità con un punteggio alto.
 [24:07 - 24:09]
 Per potermi iscrivere a medicina.
 
-[24:09 - 24:12]
-Mi preoccupa però il fatto che con il numero chiuso
-
-[24:12 - 24:14]
-e l'esame attitudinale
+[24:09 - 24:14]
+Mi preoccupa però il fatto che con il numero chiuso e l'esame attitudinale
 
 [24:14 - 24:17]
 diventa sempre più difficile entrare a medicina.
 
-[25:22 - 25:23]
-Ciao Valentina!
-
-[25:23 - 25:25]
-Dove sei stata in vacanza?
+[25:22 - 25:25]
+Ciao Valentina, dove sei stata in vacanza?
 
 [25:25 - 25:26]
 Sono stata alle Cinque Terre.
@@ -500,31 +503,28 @@ Sono stata alle Cinque Terre.
 Il mare è pulito.
 
 [25:30 - 25:32]
-Ci sono rocce, scogliere.
+Ci sono rocce e scogliere.
 
 [25:32 - 25:33]
-È l'ideale per la pesca subacquea.
+È l'ideale per me.
+
+[25:33 - 25:34]
+Sono andata per la pesca subacquea.
 
 [25:34 - 25:38]
 E anche in piena stagione non ci sono mai troppi turisti.
 
-[25:38 - 25:40]
-Sai, per arrivare,
-
-[25:40 - 25:42]
-bisogna prendere il treno o la barca.
+[25:38 - 25:42]
+Sai, per arrivarci bisogna prendere il treno o la barca.
 
 [25:42 - 25:44]
 Non c'è una strada per le auto.
 
 [25:44 - 25:45]
-Beata te!
+Beata te.
 
-[25:45 - 25:48]
-Io in vacanza non ci sono andato
-
-[25:48 - 25:51]
-perché sono stato rimandato in chimica e in fisica.
+[25:45 - 25:51]
+Io in vacanza non ci sono andato perché sono stato rimandato in chimica e in fisica.
 
 [25:51 - 25:53]
 E ho dovuto ripetere a settembre.
@@ -539,21 +539,21 @@ Capirai che pacchia.
 Per fortuna gli esami a settembre sono andati bene.
 
 [26:01 - 26:02]
-Poveraccio!
+Poveraccio.
 
 [26:02 - 26:02]
-Che estate!
+Che estate.
 
-[26:03 - 26:06]
-Clelia ed io ci siamo divertite un sacco.
+[26:04 - 26:06]
+Sì, ai Dio, ci siamo divertite un sacco.
 
-[26:06 - 26:09]
+[26:06 - 26:08]
 Una vacanza in tenda è così avventurosa.
 
-[26:09 - 26:10]
+[26:09 - 26:11]
 Si apprezza di più la natura.
 
-[26:10 - 26:15]
+[26:11 - 26:15]
 Pensa che ogni sera facevamo una grigliata sulla spiaggia.
 
 [26:15 - 26:17]
@@ -562,11 +562,8 @@ Ballavamo, ascoltavamo musica.
 [26:17 - 26:19]
 Poi facevamo il bagno a mezzanotte.
 
-[26:20 - 26:20]
-Basta!
-
 [26:20 - 26:22]
-Sto morendo di invidia.
+Basta, sto morendo di invidia.
 
 [26:22 - 26:24]
 Quest'anno studierò moltissimo.
@@ -583,32 +580,23 @@ Per potermi iscrivere a medicina.
 [26:31 - 26:34]
 Mi preoccupa però il fatto che con il numero chiuso
 
-[26:34 - 26:36]
+[26:34 - 26:35]
 e l'esame attitudinale
 
-[26:36 - 26:39]
+[26:35 - 26:39]
 diventa sempre più difficile entrare a medicina.
 
-[26:49 - 26:49]
-Ora,
-
-[26:49 - 26:51]
-leggere le domande
-
-[26:51 - 26:53]
-per il dialogo numero 3.
+[26:49 - 26:53]
+Ora, leggere le domande per il dialogo numero tre.
 
 [27:39 - 27:41]
-Dialogo numero 3.
+Dialogo numero tre.
 
-[27:42 - 27:43]
-Intervista con Raúl Bova,
-
-[27:44 - 27:45]
-un giovane attore italiano.
+[27:42 - 27:45]
+Intervista con Raoul Bova, un giovane attore italiano.
 
 [27:47 - 27:51]
-Trasmettiamo ora un'intervista con Raúl Bova,
+Trasmettiamo ora un'intervista con Raoul Bova,
 
 [27:51 - 27:53]
 il nuovo eroe della piovra,
@@ -619,17 +607,11 @@ lo sceneggiato televisivo più seguito dal pubblico italiano
 [27:56 - 27:59]
 ed esportato anche all'estero.
 
-[28:00 - 28:01]
-Raúl,
+[28:00 - 28:04]
+Raoul, è vero che hai iniziato a recitare per caso?
 
-[28:01 - 28:04]
-è vero che hai iniziato a recitare per caso?
-
-[28:05 - 28:06]
-Sì.
-
-[28:06 - 28:08]
-Devo ringraziare mia sorella Tiziana.
+[28:05 - 28:08]
+Sì, devo ringraziare mia sorella Tiziana.
 
 [28:09 - 28:11]
 Mi aveva scattato alcune belle foto
@@ -637,32 +619,20 @@ Mi aveva scattato alcune belle foto
 [28:11 - 28:14]
 e ha pensato di spedirle a un agente cinematografico.
 
-[28:14 - 28:16]
+[28:15 - 28:16]
 Sì, ricordo.
 
 [28:16 - 28:19]
 Hai esordito nel telefilm di Rai 1
 
-[28:19 - 28:21]
-una storia italiana
+[28:19 - 28:23]
+una storia italiana nel ruolo di un campione di canottaggio.
 
-[28:21 - 28:23]
-nel ruolo di un campione di canottaggio.
+[28:23 - 28:27]
+Sì, avevo il fisico atletico e l'esperienza sportiva.
 
-[28:23 - 28:24]
-Sì.
-
-[28:24 - 28:26]
-Avevo il fisico atletico
-
-[28:26 - 28:27]
-e l'esperienza sportiva.
-
-[28:28 - 28:29]
-Come sai,
-
-[28:29 - 28:32]
-all'inizio ero conosciuto più come campione di nuoto
+[28:27 - 28:32]
+Come sai, all'inizio ero conosciuto più come campione di nuoto
 
 [28:32 - 28:33]
 che come attore.
@@ -670,22 +640,34 @@ che come attore.
 [28:33 - 28:34]
 Sì, ricordo.
 
-[28:34 - 28:38]
-Sei stato campione juniores nei cento d'orso.
+[28:34 - 28:36]
+Sei stato campione juniore,
+
+[28:36 - 28:38]
+nei cento d'orso.
 
 [28:38 - 28:39]
 Caspita, che memoria!
 
 [28:40 - 28:43]
-Sì, il nuoto è stata la mia vita per 16 anni filantro.
+Sì, il nuoto è stata la mia vita per 16 anni filati.
 
-[28:47 - 28:53]
+[28:44 - 28:44]
+Allenamenti, gare.
+
+[28:45 - 28:47]
+Andavo a scuola e poi in piscina fino a tardi.
+
+[28:47 - 28:50]
+La sera mi addormentavo sui libri.
+
+[28:50 - 28:53]
 Non ho mai frequentato discoteche o locali notturni.
 
-[28:53 - 28:56]
+[28:54 - 28:56]
 Perché hai cominciato a fare nuoto?
 
-[28:57 - 28:59]
+[28:56 - 28:59]
 Per una questione di sopravvivenza.
 
 [28:59 - 29:01]
@@ -694,26 +676,20 @@ A tre anni rischiai di annegare in mare.
 [29:01 - 29:03]
 Mio padre mi salvò, ma rimasi scioccato.
 
-[29:04 - 29:06]
-L'inverno successivo,
+[29:04 - 29:07]
+L'inverno successivo, per aiutarmi a superare quella paura,
 
-[29:06 - 29:07]
-per aiutarmi a superare quella paura,
+[29:08 - 29:08]
+mi scriviò.
 
 [29:08 - 29:09]
-mi iscrissero a un corso di nuoto.
+Inizierò un corso di nuoto.
 
 [29:10 - 29:14]
 La tua vita è letteralmente cambiata dopo il provino.
 
-[29:14 - 29:15]
-Dimmi, Raoul,
-
-[29:15 - 29:15]
-come ti senti ora?
-
-[29:16 - 29:17]
-Che effetto ti ha fatto recitare?
+[29:14 - 29:17]
+Dimmi, Raoul, che effetto ti ha fatto recitare?
 
 [29:18 - 29:19]
 Un effetto magnifico.
@@ -731,10 +707,7 @@ che calzano subito a pennello.
 Lo sport mi è stato molto utile.
 
 [29:29 - 29:31]
-Mi ha insegnato a non arrendermi,
-
-[29:31 - 29:31]
-a migliorare.
+Mi ha insegnato a non arrendermi, a migliorare.
 
 [29:32 - 29:34]
 Quanto è importante per te la famiglia?
@@ -742,49 +715,37 @@ Quanto è importante per te la famiglia?
 [29:35 - 29:36]
 Tanto.
 
-[29:36 - 29:37]
-Io vivo in famiglia
+[29:36 - 29:39]
+Io vivo in famiglia e ho uno splendido rapporto
 
-[29:37 - 29:39]
-e ho uno splendido rapporto con i miei genitori
+[29:39 - 29:41]
+con i miei genitori e le mie due sorelle.
 
-[29:40 - 29:41]
-e le mie due sorelle.
-
-[29:41 - 29:43]
+[29:42 - 29:43]
 Sono il mio punto di riferimento.
 
-[29:44 - 29:45]
-Vogliono la mia felicità,
-
-[29:45 - 29:46]
-mi ascoltano,
-
-[29:46 - 29:47]
-mi stimolano.
+[29:44 - 29:47]
+Vogliono la mia felicità, mi ascoltano, mi stimolano.
 
 [29:47 - 29:49]
 Sono contenti dei miei progressi.
 
-[29:50 - 29:50]
-Raoul,
-
 [29:50 - 29:54]
-tu sei stato definito un sex symbol romantico.
+Raoul, tu sei stato definito un sex symbol romantico.
 
 [29:55 - 29:56]
 Lo so e non mi dispiace,
 
-[29:56 - 29:59]
-però preferirei essere considerato
+[29:56 - 30:00]
+però preferirei essere considerato un bravo attore
 
-[29:59 - 30:01]
-un bravo attore più che un bell'attore.
+[30:00 - 30:01]
+più che un bell'attore.
 
 [30:01 - 30:02]
 Non so se mi spiego.
 
-[30:27 - 30:30]
+[30:28 - 30:30]
 Trasmettiamo ora un'intervista con Raoul Bova,
 
 [30:31 - 30:32]
@@ -794,16 +755,13 @@ il nuovo eroe della piovra,
 lo sceneggiato televisivo più seguito dal pubblico italiano
 
 [30:36 - 30:38]
-ed esportato anche all'estero.
+ed esportato anche al filmato.
 
-[30:39 - 31:03]
+[30:38 - 31:03]
 È vero che hai iniziato a recitare per caso?
 
-[31:04 - 31:04]
-Sì.
-
-[31:05 - 31:07]
-Vorrei ringraziare mia sorella Tiziana.
+[31:04 - 31:07]
+Sì, devo ringraziare mia sorella Tiziana.
 
 [31:07 - 31:10]
 Mi aveva scattato alcune belle foto
@@ -817,20 +775,11 @@ Sì, ricordo.
 [31:36 - 31:39]
 Hai esordito nel telefilm di Rai 1
 
-[31:39 - 31:41]
-una storia italiana
+[31:39 - 31:43]
+una storia italiana nel ruolo di un campione di canottaggio.
 
-[31:41 - 31:43]
-nel ruolo di un campione di canottaggio.
-
-[31:44 - 31:44]
-Sì.
-
-[31:44 - 31:46]
-Avevo il fisico atletico
-
-[31:46 - 31:47]
-e l'esperienza sportiva.
+[31:44 - 31:47]
+Sì, avevo il fisico atletico e l'esperienza sportiva.
 
 [31:48 - 31:52]
 Come sai, all'inizio ero conosciuto più come campione di nuoto
@@ -838,17 +787,17 @@ Come sai, all'inizio ero conosciuto più come campione di nuoto
 [31:52 - 31:53]
 che come attore.
 
-[31:53 - 32:17]
+[31:53 - 32:16]
 Sì, ricordo.
 
-[32:17 - 32:20]
+[32:16 - 32:20]
 Sei stato campione juniores nei cento d'orso.
 
 [32:21 - 32:22]
 Caspita, che memoria!
 
 [32:22 - 32:25]
-Sì, il nuoto è stata la mia vita per sedici anni filati.
+Sì, il nuoto è stata la mia vita per 16 anni filati.
 
 [32:26 - 32:27]
 Allenamenti, gare.
@@ -874,19 +823,22 @@ A tre anni rischiai di annegare in mare.
 [33:05 - 33:08]
 Mio padre mi salvò, ma rimasi scioccato.
 
-[33:08 - 33:12]
-L'inverno successivo, per aiutarmi a superare quella paura,
+[33:08 - 33:10]
+L'inverno successivo,
 
-[33:12 - 33:13]
+[33:10 - 33:12]
+per aiutarmi a superare quella paura,
+
+[33:12 - 33:14]
 mi iscrissero a un corso di nuoto.
 
-[33:13 - 33:39]
+[33:36 - 33:39]
 La tua vita è letteralmente cambiata dopo il provino.
 
 [33:40 - 33:43]
-Dimmi Raoul, che effetto ti ha fatto recitare?
+Dimmi, Raoul, che effetto ti ha fatto recitare?
 
-[33:44 - 33:45]
+[33:43 - 33:45]
 Un effetto magnifico.
 
 [33:45 - 33:47]
@@ -904,8 +856,8 @@ Lo sport mi è stato molto utile.
 [33:54 - 33:57]
 Mi ha insegnato a non arrendermi, a migliorare.
 
-[33:57 - 34:22]
-Quanto è importante per te la famiglia?
+[34:20 - 34:22]
+Tanto è importante per te la famiglia?
 
 [34:22 - 34:23]
 Tanto.
@@ -916,17 +868,11 @@ Io vivo in famiglia e ho uno splendido rapporto
 [34:26 - 34:28]
 con i miei genitori e le mie due sorelle.
 
-[34:28 - 34:30]
+[34:28 - 34:31]
 Sono il mio punto di riferimento.
 
-[34:31 - 34:32]
-Vogliono la mia felicità.
-
-[34:32 - 34:33]
-Mi ascoltano.
-
-[34:33 - 34:34]
-Mi stimolano.
+[34:31 - 34:34]
+Vogliono la mia felicità, mi ascoltano, mi stimolano.
 
 [34:34 - 34:36]
 Sono contenti dei miei progressi.
@@ -935,10 +881,10 @@ Sono contenti dei miei progressi.
 Raoul, tu sei stato definito un sex symbol romantico.
 
 [35:04 - 35:05]
-Lo so e non mi dispiace.
+Lo so e non mi dispiace,
 
 [35:05 - 35:09]
-Però preferirei essere considerato un bravo attore
+però preferirei essere considerato un bravo attore
 
 [35:09 - 35:10]
 più che un bell'attore.
@@ -952,28 +898,25 @@ Trasmettiamo ora un'intervista con Raoul Bova,
 [36:21 - 36:23]
 il nuovo eroe della piovra,
 
-[36:23 - 36:27]
-lo sceneggiato televisivo più seguito dal pubblico italiano
+[36:23 - 36:26]
+lo sceneggiato televisivo più seguito dal pubblico
 
-[36:27 - 36:29]
-ed esportato anche all'estero.
+[36:26 - 36:29]
+italiano ed esportato anche all'estero.
 
 [36:31 - 36:35]
 Raoul, è vero che hai iniziato a recitare per caso?
 
-[36:36 - 36:36]
-Sì.
-
 [36:36 - 36:39]
-Devo ringraziare mia sorella Tiziana.
+Sì, devo ringraziare mia sorella Tiziana.
 
 [36:39 - 36:42]
 Mi aveva scattato alcune belle foto
 
-[36:42 - 36:45]
+[36:42 - 36:44]
 e ha pensato di spedirle a un agente cinematografico.
 
-[36:46 - 36:47]
+[36:45 - 36:47]
 Sì, ricordo.
 
 [36:47 - 36:49]
@@ -982,17 +925,14 @@ Hai esordito nel telefilm di Rai 1
 [36:49 - 36:53]
 una storia italiana nel ruolo di un campione di canottaggio.
 
-[36:54 - 36:55]
-Sì.
+[36:54 - 36:58]
+Sì, avevo il fisico atletico e l'esperienza sportiva.
 
-[36:55 - 36:58]
-Avevo il fisico atletico e l'esperienza sportiva.
+[36:58 - 37:00]
+Come sai, all'inizio,
 
-[36:58 - 37:02]
-Come sai, all'inizio ero conosciuto più come campione di nuoto
-
-[37:02 - 37:03]
-che come attore.
+[37:00 - 37:03]
+ero conosciuto più come campione di nuoto che come attore.
 
 [37:03 - 37:05]
 Sì, ricordo.
@@ -1004,7 +944,7 @@ Sei stato campione juniores nei cento d'orso.
 Caspita, che memoria!
 
 [37:10 - 37:13]
-Sì, il nuoto è stato la mia vita per 16 anni filati.
+Sì, il nuoto è stata la mia vita per 16 anni filati.
 
 [37:14 - 37:15]
 Allenamenti, gare.
@@ -1027,20 +967,20 @@ Per una questione di sopravvivenza.
 [37:29 - 37:31]
 A tre anni rischiai di annegare in mare.
 
-[37:31 - 37:34]
+[37:32 - 37:34]
 Mio padre mi salvò, ma rimasi scioccato.
 
 [37:34 - 37:38]
 L'inverno successivo, per aiutarmi a superare quella paura,
 
-[37:39 - 37:40]
+[37:38 - 37:40]
 mi iscrissero a un corso di nuoto.
 
 [37:41 - 37:44]
 La tua vita è letteralmente cambiata dopo il provino.
 
 [37:45 - 37:48]
-Dimmi Raoul, che effetto ti ha fatto recitare?
+Dimmi, Raoul, che effetto ti ha fatto recitare?
 
 [37:48 - 37:50]
 Un effetto magnifico.
@@ -1048,8 +988,11 @@ Un effetto magnifico.
 [37:50 - 37:52]
 Mi sono trovato subito a mio agio.
 
-[37:52 - 37:57]
-È stato come infilare un paio di scarpe nuove che calzano subito a pennello.
+[37:52 - 37:55]
+È stato come infilare un paio di scarpe nuove
+
+[37:55 - 37:57]
+che calzano subito a pennello.
 
 [37:57 - 37:59]
 Lo sport mi è stato molto utile.
@@ -1057,17 +1000,17 @@ Lo sport mi è stato molto utile.
 [37:59 - 38:02]
 Mi ha insegnato a non arrendermi, a migliorare.
 
-[38:03 - 38:04]
-Quanto è importante per te?
-
-[38:04 - 38:05]
-La famiglia.
+[38:03 - 38:05]
+Quanto è importante per te la famiglia?
 
 [38:06 - 38:06]
 Tanto.
 
-[38:07 - 38:12]
-Io vivo in famiglia e ho uno splendido rapporto con i miei genitori e le mie due sorelle.
+[38:07 - 38:09]
+Io vivo in famiglia e ho uno splendido rapporto
+
+[38:09 - 38:12]
+con i miei genitori e le mie due sorelle.
 
 [38:12 - 38:14]
 Sono il mio punto di riferimento.
@@ -1082,10 +1025,13 @@ Sono contenti dei miei progressi.
 Raoul, tu sei stato definito un sex symbol romantico.
 
 [38:25 - 38:27]
-Lo so e non mi dispiace.
+Lo so e non mi dispiace,
 
-[38:27 - 38:31]
-Però preferirei essere considerato un bravo attore più che un bell'attore.
+[38:27 - 38:30]
+però preferirei essere considerato un bravo attore
+
+[38:30 - 38:31]
+più che un bell'attore.
 
 [38:31 - 38:32]
 Non so se mi spiego.
