@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-ZR3S3VRMBZ"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "G-ZR3S3VRMBZ");
+		</script>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+		/>
+		<meta name="theme-color" content="#ffffff" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<title>Aural Practice</title>
+		<!-- Include Tailwind via CDN -->
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
+	<body
+		class="flex flex-col min-h-screen m-0 p-0 font-[Poppins]"
+		style="
+			background: repeating-linear-gradient(
+					90deg,
+					white,
+					white 20px,
+					transparent 20px,
+					transparent 22px
+				),
+				repeating-linear-gradient(
+					0deg,
+					white,
+					white 20px,
+					transparent 20px,
+					transparent 22px
+				),
+				rgba(0, 0, 0, 0.3);
+			padding-bottom: env(safe-area-inset-bottom);
+		"
+	>
+		<main>
+			<h2
+				class="text-center text-2xl mb-4 shadow-lg bg-white border-gray-300 border-2 rounded-b-md max-w-[600px] border-t-0 mx-auto p-5"
+			>
+				Aural examinations with ease
+			</h2>
+
+			<!-- Audio Selector Dropdown -->
+			<div class="flex justify-center mb-4 gap-4">
+				<select
+					id="languageSelector"
+					class="p-2 border border-gray-300 rounded-md shadow-md"
+				>
+					<option selected value="fr">French</option>
+					<option value="de">German</option>
+					<option disabled value="es">Spanish</option>
+					<option disabled value="it">Italian</option>
+					<option disabled value="ga">Irish</option>
+					<option disabled value="ja">Japanese</option>
+				</select>
+				<select
+					id="audioSelector"
+					class="p-2 border border-gray-300 rounded-md shadow-md"
+				>
+					<option value="2024">2024</option>
+					<option value="2023">2023</option>
+					<option value="2022">2022</option>
+					<option value="2021">2021</option>
+					<option value="2020">2020</option>
+					<option value="2019">2019</option>
+					<option value="2018">2018</option>
+					<option value="2017">2017</option>
+					<option value="2016">2016</option>
+					<option value="2015">2015</option>
+					<option value="2014">2014</option>
+					<option value="2013">2013</option>
+					<option value="2012">2012</option>
+					<option value="2011">2011</option>
+					<option value="2010">2010</option>
+					<option value="2009">2009</option>
+					<option value="2008">2008</option>
+					<option value="2007">2007</option>
+					<option value="2006">2006</option>
+					<option value="2005">2005</option>
+					<option value="2004">2004</option>
+				</select>
+			</div>
+
+			<div
+				id="customPlayer"
+				class="max-w-[600px] mx-auto p-5 shadow-lg bg-white border-gray-300 border-2 rounded-md"
+			>
+				<!-- Hidden native audio element -->
+				<audio id="audio" src="audio/2021.mp3" preload="metadata"></audio>
+
+				<div class="flex flex-row mb-6">
+					<div
+						class="flex flex-row flex-grow items-center justify-between gap-2"
+					>
+						<div
+							id="timeDisplay"
+							class="text-center mb-2 text-xl text-gray-700"
+						>
+							0:00 / 0:00
+						</div>
+						<!-- Custom controls -->
+						<div id="controls" class="justify-center items-center">
+							<button
+								id="playPauseBtn"
+								class="text-2xl text-center cursor-pointer bg-transparent border-0 mb-[2px]"
+							>
+								►
+							</button>
+						</div>
+						<div class="flex flex-row">
+							<!-- Minimalistic Black Volume Slider with Speaker Icon -->
+							<div id="volumeChanger" class="flex items-center space-x-2 mr-4">
+								<!-- Speaker Icon -->
+								<button id="muteBtn" class="text-black focus:outline-none">
+									<img
+										src="icons/volume-icon.svg"
+										alt="Volume"
+										class="h-6 w-6"
+									/>
+								</button>
+								<!-- Black Styled Slider -->
+								<input
+									type="range"
+									id="volumeSlider"
+									min="0"
+									max="1"
+									step="0.01"
+									value="1"
+									class="w-24 h-1 appearance-none m-4 rounded-lg focus:outline-none"
+								/>
+							</div>
+
+							<!-- Speed Changer -->
+							<div
+								id="speedChanger"
+								class="flex items-center justify-center space-x-2"
+							>
+								<span class="text-gray-700">Speed:</span>
+								<select
+									id="speedSelector"
+									class="p-2 border border-gray-300 rounded-md shadow-sm"
+								>
+									<option value="0.5">0.5x</option>
+									<option value="0.75">0.75x</option>
+									<option value="1" selected>1x</option>
+									<option value="1.25">1.25x</option>
+									<option value="1.5">1.5x</option>
+									<option value="2">2x</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Progress Bar with Sections -->
+				<div
+					id="progressContainer"
+					class="relative h-[12px] bg-gray-200 cursor-pointer mb-5 rounded-md"
+				>
+					<div id="labelsContainer" class="relative"></div>
+					<div
+						id="sectionsBackground"
+						class="absolute top-0 left-0 h-full w-full rounded-md overflow-hidden"
+					></div>
+					<div class="relative h-full w-full rounded-md overflow-hidden">
+						<div
+							id="progressBar"
+							class="absolute top-0 left-0 h-full bg-blue-500 rounded-md w-0"
+						></div>
+					</div>
+				</div>
+
+				<div id="sectionsContainer" class="flex flex-wrap justify-center"></div>
+			</div>
+
+			<div class="flex justify-center">
+				<p
+					class="justify-center text-center m-4 text-gray-500 p-4 mx-4 bg-white rounded-md shadow-lg border-gray-300 border-2 max-w-xs"
+				>
+					Other languages coming soon
+				</p>
+			</div>
+		</main>
+
+		<footer
+			class="mt-auto text-center text-gray-700 shadow-lg bg-white rounded-t-md max-w-[600px] mx-auto p-3 border-gray-300 border-2 border-b-0"
+			style="padding-bottom: env(safe-area-inset-bottom)"
+		>
+			<p class="sm:mx-8 mb-2 flex flex-row">
+				<!-- # github logo + link -->
+				<a
+					href=" https://github.com/firesmasher231/auralsite"
+					class="flex flex-row"
+					target="_blank"
+				>
+					<img
+						width="25px"
+						height="25px"
+						class="w-[25px] h-[25px]"
+						src="https://img.icons8.com/ios-glyphs/360/000000/github.png"
+					/>
+				</a>
+				&nbsp;&middot; built by&nbsp;
+				<a
+					href="https://github.com/firesmasher231"
+					class="font-bold"
+					target="_blank"
+				>
+					aj</a
+				>
+				&nbsp;&middot; inspired by&nbsp;
+				<a href="https://www.studystrivers.ie" class="font-bold" target="_blank"
+					>studystrivers.ie</a
+				>
+			</p>
+		</footer>
+
+		<script>
+			const audio = document.getElementById("audio");
+			const playPauseBtn = document.getElementById("playPauseBtn");
+			const progressContainer = document.getElementById("progressContainer");
+			const progressBar = document.getElementById("progressBar");
+			const sectionsContainer = document.getElementById("sectionsContainer");
+			const sectionsBackground = document.getElementById("sectionsBackground");
+			const audioSelector = document.getElementById("audioSelector");
+			const labelsContainer = document.getElementById("labelsContainer");
+			const timeDisplay = document.getElementById("timeDisplay");
+
+			// Global reference for the loadedmetadata listener
+			let currentLoadedMetadataListener = null;
+
+			// --- Main load function ---
+			function loadAudioData(fileName) {
+				// Reset audio and UI
+				audio.pause();
+				audio.currentTime = 0;
+				labelsContainer.innerHTML = "";
+				sectionsContainer.innerHTML = `<div class="text-center text-gray-700">Loading...</div>`;
+				sectionsBackground.innerHTML = "";
+				progressBar.style.width = "0%";
+				timeDisplay.textContent = "0:00 / 0:00";
+
+				// Remove previous loadedmetadata listener if it exists
+				if (currentLoadedMetadataListener) {
+					audio.removeEventListener(
+						"loadedmetadata",
+						currentLoadedMetadataListener
+					);
+					currentLoadedMetadataListener = null;
+				}
+
+				// Get language and fetch language data
+				const language = document.getElementById("languageSelector").value;
+
+				// Fetch language data
+				fetch("languages.json")
+					.then((response) => response.json())
+					.then((languages) => {
+						const langData = languages[language];
+						if (!langData || !langData.examLinks[fileName]) {
+							throw new Error("Audio not available");
+						}
+
+						// Use the direct exam link
+						audio.src = langData.examLinks[fileName];
+						audio.load();
+
+						// Load timestamps as before
+						return fetch(`timestamps/${language}/${fileName}.json`);
+					})
+					.then((response) => response.json())
+					.then((data) => {
+						currentLoadedMetadataListener = function () {
+							handleMetadataLoad(data);
+						};
+						audio.addEventListener(
+							"loadedmetadata",
+							currentLoadedMetadataListener,
+							{ once: true }
+						);
+					})
+					.catch((err) => {
+						console.error("Error loading audio data:", err);
+						sectionsContainer.innerHTML = `<div class="text-center text-gray-700">Error loading audio data</div>`;
+					});
+			}
+
+			// --- Build UI on metadata load ---
+			function handleMetadataLoad(data) {
+				const totalDuration = audio.duration;
+				const formatTime = (sec) => {
+					const minutes = Math.floor(sec / 60);
+					const seconds = Math.floor(sec % 60)
+						.toString()
+						.padStart(2, "0");
+					return `${minutes}:${seconds}`;
+				};
+				timeDisplay.textContent = `0:00 / ${formatTime(totalDuration)}`;
+
+				// Clear previous elements
+				labelsContainer.innerHTML = "";
+				sectionsContainer.innerHTML = "";
+				sectionsBackground.innerHTML = "";
+
+				let colorIndex = 0;
+				const colors = [
+					"rgba(255, 99, 132, 0.3)", // Light Red
+					"rgba(54, 162, 235, 0.3)", // Light Blue
+					"rgba(255, 206, 86, 0.3)", // Light Yellow
+					"rgba(75, 192, 192, 0.3)", // Light Teal
+					"rgba(153, 102, 255, 0.3)", // Light Purple
+				];
+
+				// Get language to determine how to handle sections
+				const language = document.getElementById("languageSelector").value;
+
+				// Handle different timestamp formats based on language
+				let sectionKeys;
+				if (language === "fr") {
+					// For French, check if we have letter-based or number-based sections
+					const hasLetterSections = Object.keys(data).some(
+						(key) => key.startsWith("go to section") && /[a-e]$/i.test(key)
+					);
+
+					if (hasLetterSections) {
+						// Use letter format
+						sectionKeys = Object.keys(data).filter((label) =>
+							label.startsWith("go to section")
+						);
+					} else {
+						// Use number format - sort numerically
+						sectionKeys = Object.keys(data)
+							.filter((key) => !isNaN(parseInt(key)))
+							.sort((a, b) => parseInt(a) - parseInt(b));
+					}
+				} else {
+					// For German and other languages using numeric sections
+					sectionKeys = Object.keys(data)
+						.filter((key) => !isNaN(parseInt(key)))
+						.sort((a, b) => parseInt(a) - parseInt(b));
+				}
+
+				sectionKeys.forEach((label, index) => {
+					const sectionTime =
+						language === "fr" && label.startsWith("go to section")
+							? data[label]
+							: data[label].seconds;
+
+					const nextSectionTime = sectionKeys[index + 1]
+						? language === "fr" &&
+						  sectionKeys[index + 1].startsWith("go to section")
+							? data[sectionKeys[index + 1]]
+							: data[sectionKeys[index + 1]].seconds
+						: totalDuration;
+
+					const sectionWidth =
+						((nextSectionTime - sectionTime) / totalDuration) * 100;
+					const sectionLeft = (sectionTime / totalDuration) * 100;
+					const sectionColor = colors[colorIndex % colors.length];
+
+					// Get section label based on format
+					let sectionLetter;
+					if (language === "fr") {
+						if (label.startsWith("go to section")) {
+							sectionLetter = label.split(" ").pop().toUpperCase();
+						} else {
+							sectionLetter = label;
+						}
+					} else {
+						sectionLetter = label;
+					}
+					colorIndex++;
+
+					// Section background rectangle
+					const sectionDiv = document.createElement("div");
+					sectionDiv.className = "absolute top-0 h-full";
+					sectionDiv.style.left = `${sectionLeft}%`;
+					sectionDiv.style.width = `${sectionWidth}%`;
+					sectionDiv.style.background = sectionColor;
+					sectionsBackground.appendChild(sectionDiv);
+
+					// Label above the progress bar
+					const labelDiv = document.createElement("div");
+					labelDiv.className = "absolute text-sm font-bold text-gray-900";
+					labelDiv.style.left = `calc(${sectionLeft}% + 8px)`;
+					labelDiv.style.top = "-18px";
+					labelDiv.style.whiteSpace = "nowrap";
+					labelDiv.style.zIndex = "10";
+					labelDiv.textContent = sectionLetter;
+					labelsContainer.appendChild(labelDiv);
+
+					// Vertical line from label
+					const lineDiv = document.createElement("div");
+					lineDiv.className = "absolute bg-gray-900";
+					lineDiv.style.width = "1px";
+					lineDiv.style.height = "10px";
+					lineDiv.style.left = `calc(${sectionLeft}% + 25px)`;
+					lineDiv.style.top = "-8px";
+					labelsContainer.appendChild(lineDiv);
+
+					// Horizontal line connecting to vertical line
+					const horizontalLineDiv = document.createElement("div");
+					horizontalLineDiv.className = "absolute bg-gray-900";
+					horizontalLineDiv.style.width = "5px";
+					horizontalLineDiv.style.height = "1px";
+					horizontalLineDiv.style.left = `calc(${sectionLeft}% + 20px)`;
+					horizontalLineDiv.style.top = "-8px";
+					labelsContainer.appendChild(horizontalLineDiv);
+
+					// Create clickable section buttons
+					const btn = document.createElement("button");
+					btn.className =
+						"m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md";
+					btn.textContent =
+						language === "fr"
+							? label.startsWith("go to section")
+								? label
+								: `Section ${label}`
+							: `Section ${label}`;
+					btn.addEventListener("click", () => {
+						const jumpTime =
+							language === "fr" && label.startsWith("go to section")
+								? data[label]
+								: data[label].seconds;
+						audio.currentTime = jumpTime + 5;
+						audio.play();
+						playPauseBtn.textContent = "❚❚";
+					});
+					sectionsContainer.appendChild(btn);
+				});
+			}
+
+			// Update language selector code - remove the querySelector lines and just keep the event listener
+			const languageSelector = document.getElementById("languageSelector");
+
+			// Add language change handler
+			languageSelector.addEventListener("change", () => {
+				const year = audioSelector.value;
+				loadAudioData(year);
+				onAudioChange();
+			});
+
+			// Update onAudioChange function
+			function onAudioChange() {
+				const language = document.getElementById("languageSelector").value;
+				const languageNames = {
+					fr: "French",
+					de: "German",
+				};
+				const displayLanguage = languageNames[language] || language;
+				document.title = `Aural Practice - ${displayLanguage} - ${audioSelector.value}`;
+			}
+
+			// --- Event Listeners ---
+			audioSelector.addEventListener("change", (event) => {
+				loadAudioData(event.target.value);
+				onAudioChange();
+			});
+			function updateVolumeSliderBackground(slider) {
+				const percentage = slider.value * 100;
+				slider.style.background = `linear-gradient(to right, #000 0%, #000 ${percentage}%, #ccc ${percentage}%, #ccc 100%)`;
+			}
+
+			const volumeSlider = document.getElementById("volumeSlider");
+			updateVolumeSliderBackground(volumeSlider);
+			volumeSlider.addEventListener("input", (e) => {
+				audio.volume = e.target.value;
+				updateVolumeSliderBackground(e.target);
+			});
+			const muteBtn = document.getElementById("muteBtn");
+			muteBtn.addEventListener("click", () => {
+				audio.muted = !audio.muted;
+			});
+
+			playPauseBtn.addEventListener("click", () => {
+				if (audio.paused) {
+					audio.play();
+					// When audio plays:
+					gtag("event", "audio_play", {
+						event_category: "engagement",
+						event_label: "Aural Practice",
+					});
+					playPauseBtn.textContent = "❚❚";
+				} else {
+					audio.pause();
+					// When audio plays:
+					gtag("event", "audio_pause", {
+						event_category: "engagement",
+						event_label: "Aural Practice",
+					});
+					playPauseBtn.textContent = "►";
+				}
+			});
+
+			// Update progress bar & time display during playback
+			audio.addEventListener("timeupdate", () => {
+				if (audio.duration) {
+					const percent = (audio.currentTime / audio.duration) * 100;
+					progressBar.style.width = percent + "%";
+					const formatTime = (sec) => {
+						const minutes = Math.floor(sec / 60);
+						const seconds = Math.floor(sec % 60)
+							.toString()
+							.padStart(2, "0");
+						return `${minutes}:${seconds}`;
+					};
+					timeDisplay.textContent = `${formatTime(
+						audio.currentTime
+					)} / ${formatTime(audio.duration)}`;
+				}
+			});
+
+			// Seek audio on progress bar click
+			progressContainer.addEventListener("click", (e) => {
+				const rect = progressContainer.getBoundingClientRect();
+				const clickX = e.clientX - rect.left;
+				if (audio.duration) {
+					const percent = clickX / rect.width;
+					audio.currentTime = percent * audio.duration;
+				}
+			});
+
+			const speedSelector = document.getElementById("speedSelector");
+			speedSelector.addEventListener("change", (e) => {
+				audio.playbackRate = parseFloat(e.target.value);
+			});
+
+			// Reset play button on audio end
+			audio.addEventListener("ended", () => {
+				playPauseBtn.textContent = "►";
+			});
+
+			// Update initial load
+			// --- Initial load ---
+			loadAudioData("2024");
+			onAudioChange();
+		</script>
+		<style>
+			input[type="range"]::-webkit-slider-runnable-track {
+				height: 4px;
+				background: #000;
+			}
+
+			input[type="range"]::-webkit-slider-thumb {
+				-webkit-appearance: none;
+				height: 16px;
+				width: 16px;
+				border-radius: 50%;
+				background: #000;
+				margin-top: -6px; /* centers the thumb */
+			}
+
+			input[type="range"]::-moz-range-track {
+				height: 4px;
+				background: #000;
+			}
+
+			input[type="range"]::-moz-range-thumb {
+				height: 16px;
+				width: 16px;
+				border-radius: 50%;
+				background: #000;
+			}
+		</style>
+	</body>
+</html>

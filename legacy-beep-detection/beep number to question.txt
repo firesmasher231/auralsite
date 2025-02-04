@@ -1,0 +1,41 @@
+1- intro
+
+2- go section a
+4- A1234
+6 - A1
+8 - A2
+10 - A3
+12 - A1234
+
+15 - go section b
+17 - B1234
+19 - B1
+21 - B2
+23 - B3
+25 - B4
+27 - B1234
+
+30 - go to section c
+32 - C123
+34 - C1
+36 - C2
+38 - C3
+40 - C123
+
+43 - go to section d 
+45 - D1234
+47 - D1
+49 - D2
+51 - D3
+53 - D4
+55 - D1234
+
+58 - go to section E
+60 - E1
+62 - E1 ( repeated ) 
+64 - E2
+66 - E2 ( repeated ) 
+68 - E3 
+70 - E3 ( repeated ) 
+
+74 - end 
