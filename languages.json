@@ -82,7 +82,7 @@
     },
     "it": {
         "name": "Italian",
-        "enabled": false,
+        "enabled": true,
         "examLinks": {
             "2004": "https://www.examinations.ie/archive/exampapers/2004/LC013CLPA08EV.MP3",
             "2005": "https://www.examinations.ie/archive/exampapers/2005/LC013CLPA00EV.MP3",
