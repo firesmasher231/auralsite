@@ -240,6 +240,7 @@
 
 			// Global reference for the loadedmetadata listener
 			let currentLoadedMetadataListener = null;
+			let currentAudioLoad = null; // Track current audio load
 
 			// Modify the language selector population to include initial load
 			fetch("languages.json")
@@ -265,6 +266,12 @@
 
 			// Modify the loadAudioData function to fix German loading
 			function loadAudioData(fileName) {
+				// Cancel any existing audio load
+				if (currentAudioLoad) {
+					currentAudioLoad.abort(); // Abort previous fetch
+					currentAudioLoad = null;
+				}
+
 				// Reset audio and UI
 				audio.pause();
 				audio.currentTime = 0;
@@ -285,8 +292,12 @@
 
 				const language = document.getElementById("languageSelector").value;
 
+				// Create AbortController for this load
+				currentAudioLoad = new AbortController();
+				const signal = currentAudioLoad.signal;
+
 				// Fetch language data
-				fetch("languages.json")
+				fetch("languages.json", { signal })
 					.then((response) => response.json())
 					.then((languages) => {
 						const langData = languages[language];
@@ -303,26 +314,31 @@
 
 						// Set audio source
 						audio.src = langData.examLinks[fileName];
-						console.log("Setting audio source to:", audio.src);
+						// console.log("Setting audio source to:", audio.src);
 						audio.load();
 
 						// Add error handling for audio loading
 						audio.onerror = () => {
-							sectionsContainer.innerHTML = `<div class="text-center text-red-500">Error loading audio file</div>`;
-							console.error("Error loading audio:", audio.error);
+							if (!signal.aborted) {
+								// Only show error if not intentionally aborted
+								sectionsContainer.innerHTML = `<div class="text-center text-red-500">Error loading audio file</div>`;
+								console.error("Error loading audio:", audio.error);
+							}
 						};
 
 						// Load timestamps
-						return fetch(`timestamps/${language}/${fileName}.json`).catch(
-							(err) => {
-								console.error("Error loading timestamps:", err);
-								sectionsContainer.innerHTML = `<div class="text-center text-gray-700">Audio loaded, but no timestamps available</div>`;
-								throw err; // Rethrow to skip the next then block
-							}
-						);
+						return fetch(`timestamps/${language}/${fileName}.json`, {
+							signal,
+						}).catch((err) => {
+							console.error("Error loading timestamps:", err);
+							sectionsContainer.innerHTML = `<div class="text-center text-gray-700">Audio loaded, but no timestamps available</div>`;
+							throw err; // Rethrow to skip the next then block
+						});
 					})
 					.then((response) => response.json())
 					.then((data) => {
+						if (signal.aborted) return; // Don't process if aborted
+
 						currentLoadedMetadataListener = function () {
 							handleMetadataLoad(data);
 						};
@@ -335,9 +351,18 @@
 						);
 					})
 					.catch((err) => {
+						if (err.name === "AbortError") {
+							console.log("Loading was cancelled"); // Expected during language/year switches
+							return;
+						}
 						console.error("Error in loadAudioData:", err);
 						if (err.message !== "Audio not available") {
 							sectionsContainer.innerHTML = `<div class="text-center text-gray-700">Error loading audio data</div>`;
+						}
+					})
+					.finally(() => {
+						if (currentAudioLoad?.signal === signal) {
+							currentAudioLoad = null;
 						}
 					});
 			}
