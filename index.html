@@ -21,6 +21,8 @@
 		/>
 		<meta name="theme-color" content="#ffffff" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<link rel="icon" type="image/svg+xml" href="icons/headphones.svg" />
+		<link rel="apple-touch-icon" href="icons/headphones.svg" />
 		<title>Aural Practice</title>
 		<!-- Include Tailwind via CDN -->
 		<script src="https://cdn.tailwindcss.com"></script>
@@ -43,7 +45,6 @@
 					transparent 22px
 				),
 				rgba(0, 0, 0, 0.3);
-			
 		"
 	>
 		<main>
@@ -65,27 +66,7 @@
 					id="audioSelector"
 					class="p-2 border border-gray-300 rounded-md shadow-md"
 				>
-					<option value="2024">2024</option>
-					<option value="2023">2023</option>
-					<option value="2022">2022</option>
-					<option value="2021">2021</option>
-					<option value="2020">2020</option>
-					<option value="2019">2019</option>
-					<option value="2018">2018</option>
-					<option value="2017">2017</option>
-					<option value="2016">2016</option>
-					<option value="2015">2015</option>
-					<option value="2014">2014</option>
-					<option value="2013">2013</option>
-					<option value="2012">2012</option>
-					<option value="2011">2011</option>
-					<option value="2010">2010</option>
-					<option value="2009">2009</option>
-					<option value="2008">2008</option>
-					<option value="2007">2007</option>
-					<option value="2006">2006</option>
-					<option value="2005">2005</option>
-					<option value="2004">2004</option>
+					<!-- Will be populated dynamically -->
 				</select>
 			</div>
 
@@ -242,25 +223,56 @@
 			let currentLoadedMetadataListener = null;
 			let currentAudioLoad = null; // Track current audio load
 
+			// Add these variables at the top with other variables
+			let isDragging = false;
+
 			// Modify the language selector population to include initial load
 			fetch("languages.json")
 				.then((response) => response.json())
 				.then((languages) => {
-					const selector = document.getElementById("languageSelector");
-					selector.innerHTML = ""; // Clear existing options
+					const languageSelector = document.getElementById("languageSelector");
+					const audioSelector = document.getElementById("audioSelector");
+					languageSelector.innerHTML = ""; // Clear existing options
 
+					// Populate language options
 					Object.entries(languages).forEach(([code, lang]) => {
 						const option = document.createElement("option");
 						option.value = code;
 						option.textContent = lang.name;
 						option.disabled = !lang.enabled;
 						if (code === "fr") option.selected = true; // Default to French
-						selector.appendChild(option);
+						languageSelector.appendChild(option);
 					});
 
-					// Initial load after populating selector
-					loadAudioData("2024");
-					onAudioChange();
+					// Function to update year options
+					function updateYearOptions(languageCode) {
+						const examLinks = languages[languageCode].examLinks;
+						audioSelector.innerHTML = ""; // Clear existing options
+
+						// Get years and sort in descending order
+						const years = Object.keys(examLinks).sort((a, b) => b - a);
+
+						years.forEach((year) => {
+							const option = document.createElement("option");
+							option.value = year;
+							option.textContent = year;
+							audioSelector.appendChild(option);
+						});
+
+						// Load the first available year
+						if (years.length > 0) {
+							loadAudioData(years[0]);
+							onAudioChange();
+						}
+					}
+
+					// Initial year population for default language
+					updateYearOptions(languageSelector.value);
+
+					// Update years when language changes
+					languageSelector.addEventListener("change", (e) => {
+						updateYearOptions(e.target.value);
+					});
 				})
 				.catch((err) => console.error("Error loading languages:", err));
 
@@ -580,15 +592,57 @@
 				}
 			});
 
-			// Seek audio on progress bar click
-			progressContainer.addEventListener("click", (e) => {
+			// Add these event listeners after the other progress bar code
+			progressContainer.addEventListener("mousedown", startDragging);
+			document.addEventListener("mousemove", drag);
+			document.addEventListener("mouseup", stopDragging);
+			progressContainer.addEventListener("touchstart", startDragging);
+			document.addEventListener("touchmove", drag);
+			document.addEventListener("touchend", stopDragging);
+
+			// Add these functions to handle dragging
+			function startDragging(e) {
+				isDragging = true;
+				progressContainer.style.cursor = "grabbing";
+				// Prevent text selection while dragging
+				document.body.style.userSelect = "none";
+				// Initial drag position
+				drag(e);
+			}
+
+			function drag(e) {
+				if (!isDragging) return;
+
+				e.preventDefault();
 				const rect = progressContainer.getBoundingClientRect();
-				const clickX = e.clientX - rect.left;
-				if (audio.duration) {
-					const percent = clickX / rect.width;
-					audio.currentTime = percent * audio.duration;
+				let clientX;
+
+				// Handle both mouse and touch events
+				if (e.type === "touchmove") {
+					clientX = e.touches[0].clientX;
+				} else {
+					clientX = e.clientX;
 				}
-			});
+
+				// Calculate position
+				let position = (clientX - rect.left) / rect.width;
+				position = Math.max(0, Math.min(1, position));
+
+				// Update progress bar visually
+				progressBar.style.width = `${position * 100}%`;
+
+				// Update audio time
+				if (audio.duration) {
+					audio.currentTime = position * audio.duration;
+				}
+			}
+
+			function stopDragging() {
+				if (!isDragging) return;
+				isDragging = false;
+				progressContainer.style.cursor = "pointer";
+				document.body.style.userSelect = "";
+			}
 
 			const speedSelector = document.getElementById("speedSelector");
 			speedSelector.addEventListener("change", (e) => {
@@ -625,6 +679,13 @@
 				width: 16px;
 				border-radius: 50%;
 				background: #000;
+			}
+
+			#progressContainer {
+				cursor: pointer;
+			}
+			#progressContainer:active {
+				cursor: grabbing;
 			}
 		</style>
 	</body>

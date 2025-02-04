@@ -55,7 +55,7 @@
     },
     "es": {
         "name": "Spanish",
-        "enabled": false,
+        "enabled": true,
         "examLinks": {
             "2004": "https://www.examinations.ie/archive/exampapers/2004/LC012CLPA08EV.MP3",
             "2005": "https://www.examinations.ie/archive/exampapers/2005/LC012CLPA00EV.MP3",
@@ -105,6 +105,15 @@
             "2022": "https://www.examinations.ie/archive/exampapers/2022/LC013ZLP017BV.mp3",
             "2023": "https://www.examinations.ie/archive/exampapers/2023/LC013ZLP017BV.mp3",
             "2024": "https://www.examinations.ie/archive/exampapers/2024/LC013ZLP017BV.mp3"
+        }
+    },
+    "zh": {
+        "name": "Mandarin Chinese",
+        "enabled": true,
+        "examLinks": {
+            "2022": "https://www.examinations.ie/archive/exampapers/2022/LC566ZLP017BV.mp3",
+            "2023": "https://www.examinations.ie/archive/exampapers/2023/LC566ZLP017BV.mp3",
+            "2024": "https://www.examinations.ie/archive/exampapers/2024/LC566ZLP017BV.mp3"
         }
     }
 }

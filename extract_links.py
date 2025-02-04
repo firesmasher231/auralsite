@@ -14,7 +14,13 @@ with open("gettingaudio/data.json", "r", encoding="utf-8") as f:
     data = json.loads(fixed_content)
 
 # Initialize language codes
-language_codes = {"fr": "French", "de": "German", "es": "Spanish", "it": "Italian"}
+language_codes = {
+    "fr": "French",
+    "de": "German",
+    "es": "Spanish",
+    "it": "Italian",
+    "zh": "Mandarin Chinese",
+}
 
 # Initialize output structure
 output = {}
@@ -23,7 +29,7 @@ output = {}
 for lang_code, lang_name in language_codes.items():
     output[lang_code] = {
         "name": lang_name,
-        "enabled": lang_code in ["fr", "de"],  # Only French and German enabled
+        "enabled": lang_code in ["fr", "de", "zh"],  # Only French and German enabled
         "examLinks": {},
     }
 

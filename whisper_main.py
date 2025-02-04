@@ -19,12 +19,12 @@ if torch.cuda.is_available():
 
 # Specify your audio file here (example: audio/2024.mp3)
 # audio_file = "audio/2024.mp3"
-audio_file = "german2024.mp3"
-if not os.path.exists(audio_file):
-    print(f"Error: File '{audio_file}' not found!")
-    exit(1)
+# audio_file = "german2024.mp3"
+# if not os.path.exists(audio_file):
+#     print(f"Error: File '{audio_file}' not found!")
+#     exit(1)
 
-print(f"\nProcessing file: {audio_file}")
+# print(f"\nProcessing file: {audio_file}")
 
 # Load the Whisper model (using GPU if available, otherwise it will fail)
 print("Loading Whisper model...")
@@ -49,18 +49,6 @@ class AudioProcessor:
         self.timestamps_dir.mkdir(parents=True, exist_ok=True)
         self.transcripts_dir.mkdir(parents=True, exist_ok=True)
 
-    def get_language_name(self, lang_code: str) -> str:
-        """Convert language code to full name as used by getter.py"""
-        language_names = {
-            "de": "german",
-            "fr": "french",
-            "es": "spanish",
-            "it": "italian",
-            "ie": "irish",
-            # Add more as needed
-        }
-        return language_names.get(lang_code, lang_code)
-
     def get_section_marker(self, text: str, timestamp: float) -> tuple[str, float]:
         """
         Find section markers based on language config.
@@ -71,17 +59,50 @@ class AudioProcessor:
         if isinstance(markers, str):
             markers = [markers]
 
-        cleaned_text = (
-            text.lower()
-            .replace(".", " ")
-            .replace(",", " ")
-            .replace("!", " ")
-            .replace("?", " ")
-        )
+        cleaned_text = text.lower().replace("!", " ").replace("?", " ")
 
+        # Special handling for Chinese sequential sections
+        if self.language == "zh" and self.config["section_format"] == "sequential":
+            # Check if the marker exists in the text
+            for marker in markers:
+                if marker in cleaned_text:
+                    # Count this marker occurrence to determine section number
+                    self.zh_section_count = getattr(self, "zh_section_count", 0) + 1
+                    section_key = str(self.zh_section_count)
+                    # Only use section numbers that exist in our config
+                    if section_key in self.config["sections"]:
+                        return section_key, timestamp
+                    return None, None
+
+        # For Spanish, look for "número X", "X.", and "uno.", "dos." patterns
+        if self.language == "es":
+            for section_key, variants in self.config["sections"].items():
+                for variant in variants:
+                    # Check for all possible patterns
+                    patterns = [
+                        f"número {variant}",  # "número uno", "número 1"
+                        f"{variant}.",  # "1.", "2."
+                    ]
+
+                    # Add word number with period if it's a word variant
+                    if not variant.isdigit():
+                        patterns.append(f"{variant}.")  # "uno.", "dos."
+
+                    for pattern in patterns:
+                        if (
+                            f" {pattern} " in f" {cleaned_text} "
+                            or cleaned_text.startswith(pattern + " ")
+                            or cleaned_text.endswith(" " + pattern)
+                        ):
+                            # Only return if this section hasn't been found yet
+                            if section_key not in self.found_sections:
+                                self.found_sections.add(section_key)
+                                return section_key, timestamp
+                            return None, None
+
+        # For other languages, use the existing logic
         for section_key, variants in self.config["sections"].items():
             for variant in variants:
-                # Try each marker
                 for marker in markers:
                     exact_marker = f"{marker} {variant}"
                     if (
@@ -94,6 +115,13 @@ class AudioProcessor:
 
     def process_file(self, filename: str, model: WhisperModel):
         """Process a single audio file using provided model instance"""
+        # Reset section tracking
+        self.found_sections = set()
+
+        # Reset Chinese section counter at the start of each file
+        if self.language == "zh":
+            self.zh_section_count = 0
+
         audio_path = self.audio_dir / filename
         if not audio_path.exists():
             raise FileNotFoundError(f"Audio file not found: {audio_path}")
@@ -101,7 +129,7 @@ class AudioProcessor:
         # Transcribe using whisper with optimized settings
         segments_gen, info = model.transcribe(
             str(audio_path),
-            beam_size=5,
+            beam_size=10,
             language=self.language,
             task="transcribe",
             vad_filter=True,
@@ -110,8 +138,8 @@ class AudioProcessor:
                 speech_pad_ms=200,
             ),
             word_timestamps=True,
-            best_of=2,  # Reduced from default to save VRAM
-            patience=1,  # Reduced from default to save VRAM
+            # best_of=2,  # Reduced from default to save VRAM
+            # patience=1,  # Reduced from default to save VRAM
             compression_ratio_threshold=2.4,
             no_speech_threshold=0.6,
             condition_on_previous_text=True,
@@ -189,7 +217,7 @@ class AudioProcessor:
 
 def main():
     # Process one language at a time
-    language = "ch"  # Change this to the language you want to process
+    language = "it"  # Change this to the language you want to process
     audio_dir = Path(f"audio/{language}")
     if not audio_dir.exists():
         print(f"Directory {audio_dir} does not exist")
@@ -206,7 +234,7 @@ def main():
 
     # Load model with optimized settings
     model = WhisperModel(
-        "base",
+        "large",
         device="cuda" if torch.cuda.is_available() else "cpu",
         compute_type="float16",
         cpu_threads=2,

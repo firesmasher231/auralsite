@@ -25,10 +25,7 @@ LANGUAGE_CONFIGS = {
     },
     "es": {
         "name": "Spanish",
-        "section_marker": [
-            "sección",
-            "seccion",
-        ],  # Both accented and non-accented versions
+        "section_marker": "número",
         "section_format": "number",
         "sections": {
             "1": ["uno", "1", "primera"],
@@ -36,19 +33,45 @@ LANGUAGE_CONFIGS = {
             "3": ["tres", "3", "tercera"],
             "4": ["cuatro", "4", "cuarta"],
             "5": ["cinco", "5", "quinta"],
+            "6": ["seis", "6", "sexta"],
+            "7": ["siete", "7", "séptima"],
         },
     },
-    "ch": {
+    "zh": {
         "name": "Chinese",
-        "section_marker": "第",
+        "section_marker": "请看问题",
+        "section_format": "sequential",
+        "sections": {
+            "1": ["A", "a", "一"],
+            "2": ["B", "b", "二"],
+            "3": ["C", "c", "三"],
+            "4": ["D", "d", "四"],
+            "5": ["E", "e", "五"],
+            "6": ["F", "f", "六"],
+        },
+    },
+    "ga": {
+        "name": "Irish",
+        "section_marker": "cuid",
         "section_format": "number",
         "sections": {
-            "1": ["一", "1"],
-            "2": ["二", "2"],
-            "3": ["三", "3"],
-            "4": ["四", "4"],
-            "5": ["五", "5"],
-            "6": ["六", "6"],
+            "1": ["aon", "1", "a"],
+            "2": ["dó", "2", "b"],
+            "3": ["trí", "3", "c"],
+            "4": ["ceathair", "4", "d"],
+            "5": ["cúig", "5", "e"],
+        },
+    },
+    "it": {
+        "name": "Italian",
+        "section_marker": "sezione",
+        "section_format": "both",
+        "sections": {
+            "1": ["uno", "1", "a"],
+            "2": ["due", "2", "b"],
+            "3": ["tre", "3", "c"],
+            "4": ["quattro", "4", "d"],
+            "5": ["cinque", "5", "e"],
         },
     },
 }
