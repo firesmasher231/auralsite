@@ -59,12 +59,7 @@
 					id="languageSelector"
 					class="p-2 border border-gray-300 rounded-md shadow-md"
 				>
-					<option selected value="fr">French</option>
-					<option value="de">German</option>
-					<option disabled value="es">Spanish</option>
-					<option disabled value="it">Italian</option>
-					<option disabled value="ga">Irish</option>
-					<option disabled value="ja">Japanese</option>
+					<!-- Will be populated dynamically -->
 				</select>
 				<select
 					id="audioSelector"
@@ -242,7 +237,25 @@
 			// Global reference for the loadedmetadata listener
 			let currentLoadedMetadataListener = null;
 
-			// --- Main load function ---
+			// Populate language selector from languages.json
+			fetch("languages.json")
+				.then((response) => response.json())
+				.then((languages) => {
+					const selector = document.getElementById("languageSelector");
+					selector.innerHTML = ""; // Clear existing options
+
+					Object.entries(languages).forEach(([code, lang]) => {
+						const option = document.createElement("option");
+						option.value = code;
+						option.textContent = lang.name;
+						option.disabled = !lang.enabled;
+						if (code === "fr") option.selected = true; // Default to French
+						selector.appendChild(option);
+					});
+				})
+				.catch((err) => console.error("Error loading languages:", err));
+
+			// Modify the loadAudioData function to fix German loading
 			function loadAudioData(fileName) {
 				// Reset audio and UI
 				audio.pause();
@@ -262,7 +275,6 @@
 					currentLoadedMetadataListener = null;
 				}
 
-				// Get language and fetch language data
 				const language = document.getElementById("languageSelector").value;
 
 				// Fetch language data
@@ -274,12 +286,24 @@
 							throw new Error("Audio not available");
 						}
 
-						// Use the direct exam link
+						// Set audio source
 						audio.src = langData.examLinks[fileName];
 						audio.load();
 
-						// Load timestamps as before
-						return fetch(`timestamps/${language}/${fileName}.json`);
+						// Add error handling for audio loading
+						audio.onerror = () => {
+							sectionsContainer.innerHTML = `<div class="text-center text-red-500">Error loading audio file</div>`;
+							console.error("Error loading audio:", audio.error);
+						};
+
+						// Load timestamps
+						return fetch(`timestamps/${language}/${fileName}.json`).catch(
+							(err) => {
+								console.error("Error loading timestamps:", err);
+								sectionsContainer.innerHTML = `<div class="text-center text-gray-700">Audio loaded, but no timestamps available</div>`;
+								throw err; // Rethrow to skip the next then block
+							}
+						);
 					})
 					.then((response) => response.json())
 					.then((data) => {
@@ -289,12 +313,16 @@
 						audio.addEventListener(
 							"loadedmetadata",
 							currentLoadedMetadataListener,
-							{ once: true }
+							{
+								once: true,
+							}
 						);
 					})
 					.catch((err) => {
-						console.error("Error loading audio data:", err);
-						sectionsContainer.innerHTML = `<div class="text-center text-gray-700">Error loading audio data</div>`;
+						console.error("Error in loadAudioData:", err);
+						if (err.message !== "Audio not available") {
+							sectionsContainer.innerHTML = `<div class="text-center text-gray-700">Error loading audio data</div>`;
+						}
 					});
 			}
 
