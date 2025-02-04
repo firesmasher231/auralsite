@@ -55,7 +55,7 @@
     },
     "es": {
         "name": "Spanish",
-        "enabled": true,
+        "enabled": false,
         "examLinks": {
             "2004": "https://www.examinations.ie/archive/exampapers/2004/LC012CLPA08EV.MP3",
             "2005": "https://www.examinations.ie/archive/exampapers/2005/LC012CLPA00EV.MP3",

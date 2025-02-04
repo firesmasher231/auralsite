@@ -1,20 +1,23 @@
 {
     "1": {
-        "seconds": 72.97
+        "seconds": 70.42
     },
     "2": {
-        "seconds": 301.37
-    },
-    "4": {
-        "seconds": 412.47
+        "seconds": 297.97
     },
     "3": {
-        "seconds": 587.68
+        "seconds": 607.72
+    },
+    "4": {
+        "seconds": 919.48
     },
     "5": {
-        "seconds": 1255.27
+        "seconds": 957.38
+    },
+    "6": {
+        "seconds": 1602.35
     },
     "7": {
-        "seconds": 2055.36
+        "seconds": 1791.72
     }
 }

@@ -31,13 +31,13 @@ Nuestra agencia de viajes organiza trayectos de los últimos 100 kilómetros del
 [01:17 - 01:26]
 El viaje comienza en Sarria, en el noroeste de España, y se hace una media de 22 kilómetros al día.
 
-[01:27 - 01:29]
-El paisaje es deslumbrante.
+[01:27 - 01:33]
+El paisaje es deslumbrante, ofreciendo al viajero una sorpresa encantadora.
 
-[01:30 - 01:33]
-Ofreciendo al viajero una sorpresa encajada.
+[01:33 - 01:34]
+Cada curva.
 
-[01:33 - 01:43]
+[01:34 - 01:43]
 Para participar, es aconsejable hacer un entrenamiento progresivo en duración e intensidad.
 
 [01:43 - 01:57]
@@ -46,56 +46,44 @@ Los días laborales debes ir andando al trabajo, y los fines de semana es import
 [01:57 - 02:04]
 Todo el esfuerzo valdrá la pena cuando al fin recibas la Compostelana, que es...
 
-[02:04 - 02:07]
-...el certificado de la conclusión del camino.
-
-[02:16 - 02:18]
-1. Anuncio.
-
-[02:18 - 02:20]
+[02:04 - 02:20]
 El Camino de Santiago.
 
-[02:20 - 02:30]
+[02:20 - 02:23]
+El Camino de Santiago.
+
+[02:23 - 02:30]
 El Camino de Santiago es una ruta que recorren peregrinos y viajeros para llegar a la ciudad de Santiago de Compostela.
 
 [02:31 - 02:37]
 Nuestra agencia de viajes organiza trayectos de los últimos 100 kilómetros del camino.
 
-[02:37 - 02:43]
-El viaje comienza en Sarria, en el noroeste de España, y se hace...
+[02:37 - 02:44]
+El viaje comienza en Sarria, en el noroeste de España, y se hace una media de 22 kilómetros al día.
 
-[02:43 - 02:47]
-...una media de 22 kilómetros al día.
-
-[02:47 - 02:54]
+[02:44 - 02:54]
 El paisaje es deslumbrante, ofreciendo al viajero una sorpresa en cada curva.
 
-[02:55 - 03:03]
+[02:54 - 03:03]
 Para participar, es aconsejable hacer un entrenamiento progresivo en duración e intensidad.
 
-[03:03 - 03:14]
-Los días laborales debes ir andando al trabajo, y los fines de semana es importante hacer senderismo con el calzado...
+[03:03 - 03:15]
+Los días laborales debes ir andando al trabajo, y los fines de semana es importante hacer senderismo con el calzado y la mochila que vayas a llevar al camino.
 
-[03:14 - 03:14]
-...y la mochila que vayas a llevar al camino.
-
-[03:14 - 03:27]
+[03:15 - 03:27]
 Todo el esfuerzo valdrá la pena cuando al fin recibas la Compostelana, que es el certificado de la conclusión del camino.
 
-[03:28 - 04:04]
-1. Anuncio.
-
-[04:04 - 04:06]
-El Camino de Santiago.
+[03:28 - 04:06]
+1. Anuncio. El Camino de Santiago.
 
 [04:06 - 04:16]
 El Camino de Santiago es una ruta que recorren peregrinos y viajeros para llegar a la ciudad de Santiago de Compostela.
 
-[04:17 - 04:19]
-Nuestra agencia de viajes organiza...
+[04:17 - 04:20]
+Nuestra agencia de viajes organiza trayectos...
 
-[04:19 - 04:23]
-...trayectos de los últimos 100 kilómetros del camino.
+[04:20 - 04:23]
+...de los últimos 100 kilómetros del camino.
 
 [04:23 - 04:32]
 El viaje comienza en Sarria, en el noroeste de España, y se hace una media de 22 kilómetros al día.
@@ -106,22 +94,19 @@ El paisaje es deslumbrante, ofreciendo al viajero una sorpresa en cada curva.
 [04:41 - 04:49]
 Para participar, es aconsejable hacer un entrenamiento progresivo en duración e intensidad.
 
-[04:49 - 04:50]
-2. Intensidad.
+[04:49 - 04:51]
+Los días laborales...
 
 [04:51 - 05:03]
-Debes ir andando al trabajo, y los fines de semana es importante hacer senderismo con el calzado y la mochila que vayas a llevar al camino.
+...debes ir andando al trabajo, y los fines de semana es importante hacer senderismo con el calzado y la mochila que vayas a llevar al camino.
 
 [05:03 - 05:13]
 Todo el esfuerzo valdrá la pena cuando al fin recibas la Compostelana, que es el certificado de la conclusión del camino.
 
-[05:23 - 05:25]
-2. Diálogo.
+[05:23 - 05:30]
+2. Diálogo. Jornadas de orientación en la Universidad de Navarra.
 
-[05:26 - 05:30]
-Jornadas de orientación en la Universidad de Navarra.
-
-[05:31 - 05:34]
+[05:30 - 05:34]
 ¿Puede decirme algo sobre la universidad?
 
 [05:34 - 05:38]
@@ -137,7 +122,7 @@ Navarra está situada en el norte de la península ibérica y limita con Francia
 Muchos alumnos saben lo que les gustaría estudiar en la universidad,
 
 [05:58 - 06:02]
-pero parece que no saben tanto sobre lo que les convencería.
+pero parece que no saben tanto sobre lo que les gustaría estudiar.
 
 [06:02 - 06:13]
 Por eso, la universidad ha desarrollado un programa dirigido a los alumnos de los dos últimos cursos de secundaria
@@ -151,20 +136,26 @@ para que hagan una buena elección de su carrera universitaria.
 [06:23 - 06:29]
 El equipo de orientación da unas sesiones teóricas y prácticas para los estudiantes
 
-[06:29 - 06:34]
-y realiza unas pruebas sobre sus aptitudes y propiedades.
+[06:29 - 06:33]
+y realiza unas pruebas sobre sus aptitudes.
+
+[06:35 - 06:41]
+Todavía es muy alto el porcentaje de alumnos que en primer año de carrera
+
+[06:41 - 06:44]
+admiten haberse equivocado en la elección.
 
 [06:59 - 07:03]
 ¿Puede decirme algo sobre la universidad?
 
-[07:03 - 07:08]
+[07:04 - 07:08]
 La universidad se encuentra en Pamplona, la capital de Navarra.
 
-[07:08 - 07:15]
-Navarra está situada en el norte de la península ibérica y limita con Francia,
+[07:08 - 07:14]
+Navarra está situada en el norte de la península ibérica y limita con Francia, Aragón y el País Vasco.
 
-[07:15 - 07:16]
-Aragón y el País Vasco.
+[07:14 - 07:16]
+Navarra está situada en el norte de la península ibérica y limita con Francia, Aragón y el País Vasco.
 
 [07:17 - 07:22]
 ¿Son importantes las jornadas de orientación universitaria?
@@ -178,10 +169,13 @@ pero parece que no saben tanto sobre lo que les convendría.
 [07:32 - 07:40]
 Por eso, la universidad ha desarrollado un programa dirigido a los alumnos
 
-[07:40 - 07:46]
-de los dos últimos cursos de secundaria para que hagan una buena elección de su carrera universitaria.
+[07:40 - 07:45]
+de los dos últimos cursos de secundaria para que hagan una buena elección
 
-[07:46 - 08:25]
+[07:45 - 07:47]
+de su carrera universitaria.
+
+[08:21 - 08:25]
 ¿Es aconsejable hacer un curso de este tipo?
 
 [08:26 - 08:32]
@@ -199,20 +193,17 @@ admiten haberse equivocado en la elección.
 [09:21 - 09:23]
 2. Diálogo.
 
-[09:24 - 09:26]
-Jornadas de orientación.
+[09:25 - 09:28]
+Las jornadas de orientación en la Universidad de Navarra.
 
-[09:27 - 09:32]
+[09:28 - 09:32]
 ¿Puede decirme algo sobre la universidad?
 
 [09:32 - 09:36]
 La universidad se encuentra en Pamplona, la capital de Navarra.
 
-[09:37 - 09:41]
-Navarra está situada en el norte de la península ibérica
-
-[09:41 - 09:45]
-y limita con Francia, Aragón y el País Vasco.
+[09:37 - 09:45]
+Navarra está situada en el norte de la península ibérica y limita con Francia, Aragón y el País Vasco.
 
 [09:46 - 09:51]
 ¿Son importantes las jornadas de orientación universitaria?
@@ -220,17 +211,14 @@ y limita con Francia, Aragón y el País Vasco.
 [09:51 - 09:56]
 Muchos alumnos saben lo que les gustaría estudiar en la universidad,
 
-[09:56 - 10:00]
+[09:57 - 10:00]
 pero parece que no saben tanto sobre lo que les convendría.
 
-[10:01 - 10:06]
-Por eso, la universidad ha desarrollado un programa
+[10:01 - 10:08]
+Por eso, la universidad ha desarrollado un programa dirigido a los alumnos
 
-[10:06 - 10:11]
-dirigido a los alumnos de los dos últimos cursos de secundaria
-
-[10:11 - 10:16]
-para que hagan una buena elección de su carrera universitaria.
+[10:08 - 10:16]
+de los dos últimos cursos de secundaria para que hagan una buena elección de su carrera universitaria.
 
 [10:17 - 10:21]
 ¿Es aconsejable hacer un curso de este tipo?
@@ -238,14 +226,11 @@ para que hagan una buena elección de su carrera universitaria.
 [10:21 - 10:28]
 El equipo de orientación da unas sesiones teóricas y prácticas para los estudiantes.
 
-[10:28 - 10:33]
-Y realiza unas pruebas sobre sus aptitudes y preferencias.
+[10:29 - 10:33]
+Realiza unas pruebas sobre sus aptitudes y preferencias.
 
-[10:33 - 10:39]
-Todavía es muy alto el porcentaje de alumnos que en primer año de carrera
-
-[10:39 - 10:42]
-admiten haberse equivocado en la elección.
+[10:33 - 10:42]
+Todavía es muy alto el porcentaje de alumnos que en primer año de carrera admiten haberse equivocado en la elección.
 
 [10:52 - 10:54]
 3. Diálogo.
@@ -256,20 +241,17 @@ Entrevista con Elena Rosel, corredora de motociclismo.
 [10:59 - 11:02]
 ¿Qué nos puede decir sobre sí misma?
 
-[11:03 - 11:05]
-Soy de Valencia.
+[11:03 - 11:09]
+Soy de Valencia, tengo 25 años y llevo montando en moto...
 
-[11:05 - 11:07]
-Tengo 25 años.
-
-[11:07 - 11:11]
-Y llevo montando en moto desde que tenía 6.
+[11:10 - 11:11]
+...desde que tenía 6.
 
 [11:12 - 11:16]
-Ahora estoy nerviosa, contenta e ilusionada.
+Ahora estoy nerviosa, contenta e ilusionada,
 
-[11:16 - 11:22]
-Porque tengo la oportunidad de representar a España en el mundial de motociclismo.
+[11:16 - 11:23]
+porque tengo la oportunidad de representar a España en el Mundial de Motociclismo.
 
 [11:23 - 11:30]
 Soy consciente de que represento un poco a todas las chicas y deportistas españolas.
@@ -277,74 +259,68 @@ Soy consciente de que represento un poco a todas las chicas y deportistas españ
 [11:30 - 11:34]
 ¿Le afecta el interés de los medios de comunicación?
 
-[11:35 - 11:38]
-¿Ser la primera española en el mundial?
-
-[11:38 - 11:41]
-La primera española en el mundial ha despertado el interés de los medios.
+[11:35 - 11:41]
+Ser la primera española en el Mundial ha despertado el interés de los medios,
 
 [11:41 - 11:44]
-Es algo que me ayuda y lo agradezco.
+es algo que me ayuda y lo agradezco.
 
-[11:44 - 11:52]
+[11:45 - 11:52]
 Me gustaría que fuera algo más normal conseguir la participación de más chicas en este deporte.
 
 [11:52 - 11:56]
 Competir con hombres no es nada nuevo para mí.
 
-[11:56 - 12:06]
+[11:57 - 12:06]
 En mi opinión, el motociclismo es un deporte en que las mujeres pueden competir en igualdad de condiciones.
 
-[12:07 - 12:16]
-3. Derecho.
+[12:07 - 12:17]
+3. Diálogo.
 
-[12:16 - 12:17]
-4. Diálogo.
+[12:17 - 12:19]
+Entrevista con Elena Rosel.
 
-[12:17 - 12:22]
-5. Entrevista con Elena Rosel, corredora de motociclismo.
+[12:19 - 12:21]
+Corredora de motociclismo.
 
 [12:22 - 12:26]
 ¿Qué nos puede decir sobre sí misma?
 
-[12:26 - 12:28]
-Soy de Valencia.
-
-[12:28 - 12:30]
-Tengo 25 años.
-
-[12:30 - 12:34]
-Y llevo montando en moto desde que tenía 6.
+[12:26 - 12:34]
+Soy de Valencia, tengo 25 años y llevo montando en moto desde que tenía 6.
 
 [12:35 - 12:39]
-Ahora estoy nerviosa, contenta e ilusionada.
+Ahora estoy nerviosa, contenta e ilusionada,
 
 [12:39 - 12:46]
-Porque tengo la oportunidad de representar a España en el mundial de motociclismo.
+porque tengo la oportunidad de representar a España en el Mundial de Motociclismo.
 
-[12:46 - 12:53]
+[12:46 - 12:51]
 Soy consciente de que represento un poco a todas las chicas y deportistas españolas.
 
 [12:53 - 13:31]
 ¿Le afecta el interés de los medios de comunicación?
 
-[13:32 - 13:38]
-Ser la primera española en el mundial ha despertado el interés de los medios.
+[13:31 - 13:38]
+Ser la primera española en el Mundial ha despertado el interés de los medios,
 
 [13:38 - 13:41]
-Es algo que me ayuda y lo agradezco.
+es algo que me ayuda y lo agradezco.
 
 [13:41 - 13:49]
 Me gustaría que fuera algo más normal conseguir la participación de más chicas en este deporte.
 
-[13:49 - 13:51]
+[13:49 - 13:53]
 Competir con hombres no es nada nuevo para mí.
 
-[13:52 - 14:03]
+[13:53 - 13:56]
 En mi opinión, el motociclismo es un deporte en que las mujeres pueden competir en igualdad de condiciones.
 
+[13:56 - 14:03]
+El motociclismo es un deporte en que las mujeres pueden competir en igualdad de condiciones.
+
 [14:04 - 14:40]
-3. Diálogo.
+3. DIÁLOGO.
 
 [14:40 - 14:45]
 Entrevista con Elena Rosel, corredora de motociclismo.
@@ -352,17 +328,14 @@ Entrevista con Elena Rosel, corredora de motociclismo.
 [14:45 - 14:48]
 ¿Qué nos puede decir sobre sí misma?
 
-[14:49 - 14:51]
-Soy de Valencia.
+[14:49 - 14:57]
+Soy de Valencia, tengo 25 años y llevo montando en moto desde que tenía 6.
 
-[14:51 - 14:53]
-Tengo 25 años.
+[14:58 - 15:02]
+Ahora estoy nerviosa, contenta e ilusionada,
 
-[14:53 - 14:56]
-Y llevo montando en moto desde que tenía 6.
-
-[14:56 - 15:09]
-Ahora estoy nerviosa, contenta e ilusionada porque tengo la oportunidad de representar a España en el mundial de motociclismo.
+[15:02 - 15:09]
+porque tengo la oportunidad de representar a España en el Mundial de motociclismo.
 
 [15:09 - 15:16]
 Soy consciente de que represento un poco a todas las chicas y deportistas españolas.
@@ -371,10 +344,10 @@ Soy consciente de que represento un poco a todas las chicas y deportistas españ
 ¿Le afecta el interés de los medios de comunicación?
 
 [15:21 - 15:27]
-Ser la primera española en el mundial ha despertado el interés de los medios.
+Ser la primera española en el Mundial ha despertado el interés de los medios,
 
 [15:27 - 15:30]
-Es algo que me ayuda y lo agradezco.
+es algo que me ayuda y lo agradezco.
 
 [15:30 - 15:38]
 Me gustaría que fuera algo más normal conseguir la participación de más chicas en este deporte.
@@ -386,37 +359,49 @@ Competir con hombres no es nada nuevo para mí.
 En mi opinión, el motociclismo es un deporte en que las mujeres pueden competir en igualdad de condiciones.
 
 [16:02 - 16:04]
-4. Descriptivo.
+4. DESCRIPTIVO.
 
 [16:04 - 16:07]
-Las vacaciones y las mascotas.
+LAS VACACIONES Y LAS MASCOTAS.
 
-[16:07 - 16:14]
-El verano no tiene por qué ser un inconveniente para los propietarios de animales de compañía.
+[16:07 - 16:10]
+El verano no tiene por qué ser un descanso.
+
+[16:10 - 16:14]
+Es un inconveniente para los propietarios de animales de compañía.
 
 [16:14 - 16:21]
 En España hay miles de hoteles y campings en los que se permite la entrada de mascotas.
 
-[16:22 - 16:32]
-Antes de salir de vacaciones, un propietario responsable debe pensar en todas las posibilidades que existen
+[16:22 - 16:31]
+Antes de salir de vacaciones, un propietario responsable debe pensar en todas las posibilidades
 
-[16:32 - 16:38]
-para que su mascota siga bien atendida durante ese tiempo.
+[16:31 - 16:38]
+que existen para que su mascota siga bien atendida durante ese tiempo.
 
-[16:38 - 16:40]
+[16:39 - 16:40]
 Hay tres opciones.
 
-[16:40 - 16:51]
-Que el propio dueño se la lleve consigo, que la deje al cuidado de otra persona o bien que la lleve a una residencia de animales.
+[16:41 - 16:43]
+Que el propio dueño se la lleve consigo,
+
+[16:44 - 16:47]
+que la deje al cuidado de otra persona,
+
+[16:47 - 16:51]
+o bien que la lleve a una residencia de animales.
 
 [16:52 - 17:00]
 Otra posibilidad es la figura del cuidador profesional que se ha originado en Estados Unidos.
 
-[17:01 - 17:09]
-Su trabajo consiste en acudir a la casa del propietario varias veces al día para dar de comer.
+[17:01 - 17:08]
+Su trabajo consiste en acudir a la casa del propietario varias veces al día
 
-[17:09 - 17:13]
-Sacar a pasear o jugar con la mascota.
+[17:08 - 17:11]
+para dar de comer, sacar a pasear,
+
+[17:11 - 17:13]
+o jugar con la mascota.
 
 [17:14 - 17:21]
 También hay residencias para mascotas especialmente preparadas para atenderlas.
@@ -428,37 +413,43 @@ Pero hay desventajas.
 Son caras y a veces no se encuentran en la propia ciudad.
 
 [17:38 - 17:40]
-4. Descriptivo.
+CUATRO DESCRIPTIVO.
 
 [17:40 - 17:42]
-Las vacaciones y las mascotas.
+LAS VACACIONES Y LAS MASCOTAS.
 
-[17:43 - 17:49]
+[17:43 - 17:50]
 El verano no tiene por qué ser un inconveniente para los propietarios de animales de compañía.
 
-[17:49 - 17:57]
+[17:50 - 17:57]
 En España hay miles de hoteles y campings en los que se permite la entrada de mascotas.
 
-[17:57 - 18:14]
-Antes de salir de vacaciones, un propietario responsable debe pensar en todas las posibilidades que existen para que su mascota siga bien atendida durante ese tiempo.
+[17:57 - 18:06]
+Antes de salir de vacaciones, un propietario responsable debe pensar en todas las posibilidades
+
+[18:06 - 18:14]
+que existen para que su mascota siga bien atendida durante ese tiempo.
 
 [18:14 - 18:16]
 Hay tres opciones.
 
 [18:16 - 18:19]
-Que el propio dueño se la lleve consigo.
+Que el propio dueño se la lleve consigo,
 
 [18:19 - 18:22]
-Que la deje al cuidado de otra persona.
+que la deje al cuidado de otra persona,
 
 [18:22 - 18:27]
-O bien que la lleve a una residencia de animales.
+o bien que la lleve a una residencia de animales.
 
 [19:01 - 19:09]
 Otra posibilidad es la figura del cuidador profesional que se ha originado en Estados Unidos.
 
-[19:09 - 19:23]
-Su trabajo consiste en acudir a la casa del propietario varias veces al día para dar de comer, sacar a pasear o jugar con la mascota.
+[19:09 - 19:17]
+Su trabajo consiste en acudir a la casa del propietario varias veces al día
+
+[19:17 - 19:23]
+para dar de comer, sacar a pasear, o jugar con la mascota.
 
 [19:23 - 19:31]
 También hay residencias para mascotas especialmente preparadas para atenderlas.
@@ -470,10 +461,10 @@ Pero hay desventajas.
 Son caras y a veces no se encuentran en la propia ciudad.
 
 [20:13 - 20:14]
-4. Descriptivo.
+CUATRO DESCRIPTIVO.
 
 [20:15 - 20:17]
-Las vacaciones y las mascotas.
+LAS VACACIONES Y LAS MASCOTAS.
 
 [20:17 - 20:25]
 El verano no tiene por qué ser un inconveniente para los propietarios de animales de compañía.
@@ -481,50 +472,56 @@ El verano no tiene por qué ser un inconveniente para los propietarios de animal
 [20:25 - 20:28]
 En España hay miles de hoteles y campings en los que se permite la entrada de mascotas.
 
-[20:28 - 20:49]
-Antes de salir de vacaciones, un propietario responsable debe pensar en todas las posibilidades que existen para que su mascota siga bien atendida durante ese tiempo.
+[20:28 - 20:32]
+En España hay miles de hoteles y campings en los que se permite la entrada de mascotas.
+
+[20:32 - 20:41]
+Antes de salir de vacaciones, un propietario responsable debe pensar en todas las posibilidades
+
+[20:41 - 20:49]
+que existen para que su mascota siga bien atendida durante ese tiempo.
 
 [20:49 - 20:51]
 Hay tres opciones.
 
 [20:51 - 20:54]
-Que el propio dueño se la lleve consigo.
+Que el propio dueño se la lleve consigo,
 
 [20:54 - 20:57]
-Que la deje al cuidado de otra persona.
+que la deje al cuidado de otra persona,
 
 [20:57 - 21:02]
-O bien, que la lleve a una residencia de animales.
+o bien que la lleve a una residencia de animales.
 
 [21:02 - 21:10]
-Otra posibilidad es la figura del cuidador profesional, que se ha originado en Estados Unidos.
+Otra posibilidad es la figura del cuidador profesional que se ha originado en Estados Unidos.
 
-[21:11 - 21:24]
-Su trabajo consiste en acudir a la casa del propietario varias veces al día para dar de comer, sacar a pasear o jugar con la mascota.
+[21:11 - 21:18]
+Su trabajo consiste en acudir a la casa del propietario varias veces al día
+
+[21:18 - 21:24]
+para dar de comer, sacar a pasear o jugar con la mascota.
 
 [21:24 - 21:29]
-También hay residencias para mascotas específicas.
+También hay residencias para mascotas especiales.
 
 [21:29 - 21:32]
-Las casas están especialmente preparadas para atenderlas.
+También hay residencias que son especialmente preparadas para atenderlas,
 
 [21:32 - 21:34]
-Pero hay desventajas.
+pero hay desventajas.
 
 [21:34 - 21:39]
 Son caras y a veces no se encuentran en la propia ciudad.
 
-[21:49 - 21:51]
-5. Descriptivo.
-
-[21:51 - 21:54]
-Los productos falsificados.
+[21:49 - 21:54]
+5. Descriptivo. Los productos falsificados
 
 [21:54 - 22:00]
 Cada año gastamos más en productos falsificados sin saberlo.
 
 [22:01 - 22:07]
-Sólo un 18% de los consumidores compra en el mercado negro.
+Solo un 18% de los consumidores compra en el mercado negro,
 
 [22:07 - 22:14]
 Nos gastamos casi 39 euros de media en productos falsificados.
@@ -535,23 +532,26 @@ En algunas familias son los hijos los que más falsificaciones compran.
 [22:21 - 22:25]
 La ropa es lo que más se compra en el mercado negro.
 
-[22:25 - 22:38]
-Según la Confederación de Comercio, los productos falsificados pueden ocasionar el cierre de más de 100.000 comercios en los próximos años.
+[22:26 - 22:33]
+Según la Confederación de Comercio, los productos falsificados pueden ocasionar
 
-[22:38 - 22:51]
-Otros productos que también se falsifican son los artículos de oficina, los cosméticos, los perfumes y el calzado deportivo.
+[22:33 - 22:38]
+el cierre de más de 100.000 comercios en los próximos años.
 
-[23:00 - 23:01]
-5. Descriptivo.
+[22:39 - 22:46]
+Otros productos que también se falsifican son los artículos de oficina,
 
-[23:02 - 23:04]
-Los productos falsificados.
+[22:46 - 22:51]
+los cosméticos, los perfumes y el calzado deportivo.
 
-[23:04 - 23:11]
+[23:00 - 23:04]
+5. Descriptivo. Los productos falsificados.
+
+[23:05 - 23:11]
 Cada año gastamos más en productos falsificados sin saberlo.
 
 [23:11 - 23:18]
-Sólo un 18% de los consumidores compra en el mercado negro.
+Solo un 18% de los consumidores compra en el mercado negro.
 
 [23:18 - 23:24]
 Nos gastamos casi 39 euros de media en productos falsificados.
@@ -559,125 +559,149 @@ Nos gastamos casi 39 euros de media en productos falsificados.
 [23:24 - 23:31]
 En algunas familias son los hijos los que más falsificaciones compran.
 
-[23:31 - 24:09]
+[24:05 - 24:09]
 La ropa es lo que más se compra en el mercado negro.
 
-[24:09 - 24:23]
-Según la Confederación de Comercio, los productos falsificados pueden ocasionar el cierre de más de 100.000 comercios en los próximos años.
+[24:09 - 24:14]
+Según la Confederación de Comercio, los productos falsificados
 
-[24:23 - 24:23]
-Otros productos falsificados.
+[24:16 - 24:23]
+pueden ocasionar el cierre de más de 100.000 comercios en los próximos años.
 
-[24:23 - 24:35]
-Otros productos que también se falsifican son los artículos de oficina, los cosméticos, los perfumes y el calzado deportivo.
+[24:23 - 24:30]
+Otros productos que también se falsifican son los artículos de oficina,
 
-[25:09 - 25:12]
-5. Descriptivo.
+[24:30 - 24:35]
+los cosméticos, los perfumes y el calzado deportivo.
 
-[25:12 - 25:14]
-Los productos falsificados.
+[25:09 - 25:14]
+5. Descriptivo. Los productos falsificados.
 
-[25:14 - 25:20]
+[25:14 - 25:21]
 Cada año gastamos más en productos falsificados sin saberlo.
 
-[25:21 - 25:28]
-Sólo un 18% de los consumidores compra en el mercado negro.
+[25:22 - 25:27]
+Solo un 18% de los consumidores compra en el mercado negro.
 
 [25:28 - 25:34]
 Nos gastamos casi 39 euros de media en productos falsificados.
 
-[25:34 - 25:41]
+[25:35 - 25:41]
 En algunas familias son los hijos los que más falsificaciones compran.
 
 [25:41 - 25:45]
 La ropa es lo que más se compra en el mercado negro.
 
-[25:46 - 25:59]
-Según la Confederación de Comercio, los productos falsificados pueden ocasionar el cierre de más de 100.000 comercios en los próximos años.
+[25:46 - 25:53]
+Según la Confederación de Comercio, los productos falsificados pueden ocasionar
 
-[25:59 - 26:11]
-Otros productos que también se falsifican son los artículos de oficina, los cosméticos, los perfumes y el calzado deportivo.
+[25:53 - 25:59]
+el cierre de más de 100.000 comercios en los próximos años.
+
+[26:00 - 26:06]
+Otros productos que también se falsifican son los artículos de oficina,
+
+[26:06 - 26:11]
+los cosméticos, los perfumes y el calzado deportivo.
 
 [26:21 - 26:23]
 6. El tiempo.
 
-[26:23 - 26:35]
-La previsión meteorológica para hoy martes es de nubosidad en el norte con posibilidad de lluvias débiles.
+[26:23 - 26:31]
+La previsión meteorológica para hoy, martes, es de nubosidad en el norte,
+
+[26:31 - 26:33]
+con posibilidad...
+
+[26:33 - 26:35]
+...de lluvias débiles.
 
 [26:35 - 26:45]
 En altitudes superiores a 1.200 metros habrá vientos leves con heladas de madrugada.
 
-[26:45 - 26:57]
-Poco nuboso hasta mediodía en el este del país con riesgo de tormentas a lo largo del valle del río Ebro.
+[26:45 - 26:50]
+Poco nuboso hasta mediodía en el este del país,
+
+[26:50 - 26:57]
+con riesgo de tormentas a lo largo del Valle del Río Ebro.
 
 [26:57 - 27:03]
-En Andalucía habrá un ambiente soleado y agradable por la mañana
+En Andalucía habrá un ambiente soleado y agradable por la mañana,
 
-[27:03 - 27:07]
-con un ligero descenso de las temperaturas.
+[27:03 - 27:05]
+con un ligero descenso.
 
-[27:07 - 27:14]
-Con máximas de 15 grados y mínimas de 7 grados.
+[27:05 - 27:14]
+De las temperaturas con máximas de 15 grados y mínimas de 7 grados.
 
 [27:14 - 27:21]
-En las Islas Baleares y en las Canarias continuará el buen tiempo
+En las Islas Baleares y en las Canarias continuará el buen tiempo,
 
 [27:21 - 27:30]
 con cielos despejados y temperaturas casi veraniegas para esta época del año.
 
-[27:39 - 27:40]
+[27:39 - 27:41]
 6. El tiempo.
 
-[27:41 - 27:46]
-La previsión meteorológica para hoy martes es de nubosidad en el norte con posibilidad de lluvias débiles.
+[27:41 - 27:45]
+La previsión meteorológica para hoy, martes,
 
-[27:46 - 28:02]
+[27:45 - 27:52]
+es de nubosidad en el norte, con posibilidad de lluvias débiles.
+
+[27:53 - 28:02]
 En altitudes superiores a 1.200 metros habrá vientos leves con heladas de madrugada.
 
-[28:03 - 28:15]
-Poco nuboso hasta mediodía en el este del país con riesgo de tormentas a lo largo del valle del río Ebro.
+[28:03 - 28:08]
+Poco nuboso hasta mediodía en el este del país,
 
-[28:15 - 28:21]
-En Andalucía habrá un ambiente soleado y agradable por la mañana
+[28:08 - 28:15]
+con riesgo de tormentas a lo largo del Valle del Río Ebro.
 
-[28:21 - 28:25]
-con un ligero descenso de las temperaturas.
+[28:15 - 28:16]
+En Andalucía...
 
-[28:25 - 28:32]
-Con máximas de 15 grados y mínimas de 7 grados.
+[28:17 - 28:23]
+Habrá un ambiente soleado y agradable por la mañana, con un ligero descenso.
 
-[28:32 - 28:39]
-En las Islas Baleares y en las Canarias continuará el buen tiempo
+[28:23 - 28:32]
+De las temperaturas con máximas de 15 grados y mínimas de 7 grados.
 
-[28:39 - 28:46]
-con cielos despejados y temperaturas casi veraniegas para esta época del año.
+[28:32 - 28:44]
+En las Islas Baleares y en las Canarias continuará el buen tiempo, con cielos despejados y temperaturas
 
-[28:46 - 29:24]
+[28:44 - 28:48]
+casi veraniegas para esta época del año.
+
+[28:48 - 29:24]
 6. El tiempo.
 
-[29:24 - 29:36]
-La previsión meteorológica para hoy martes es de nubosidad en el norte con posibilidad de lluvias débiles.
+[29:24 - 29:34]
+La previsión meteorológica para hoy, martes, es de nubosidad en el norte, con posibilidad
+
+[29:34 - 29:36]
+de lluvias débiles.
 
 [29:36 - 29:46]
 En altitudes superiores a 1.200 metros habrá vientos leves con heladas de madrugada.
 
-[29:46 - 29:52]
-Poco nuboso hasta mediodía en el este del país con riesgo de tormentas a lo largo del valle del río Ebro.
+[29:46 - 29:54]
+Poco nuboso hasta mediodía en el este del país, con riesgo de tormentas a lo largo del Valle del Río Ebro.
 
-[29:52 - 29:58]
-Con riesgo de tormentas a lo largo del valle del río Ebro.
+[29:57 - 30:00]
+En Andalucía...
 
-[29:58 - 30:04]
-En Andalucía habrá un ambiente soleado y agradable por la mañana
+[30:00 - 30:07]
+Habrá un ambiente soleado y agradable por la mañana, con un ligero descenso.
 
-[30:04 - 30:15]
-con un ligero descenso de las temperaturas con máximas de 15 grados y mínimas de 7 grados.
+[30:07 - 30:15]
+De las temperaturas con máximas de 15 grados y mínimas de 7 grados.
 
-[30:15 - 30:23]
-En las Islas Baleares y en las Canarias continuará el buen tiempo
+[30:15 - 30:25]
+En las Islas Baleares y en las Canarias continuará el buen tiempo, con cielos despejados y temperaturas
 
-[30:23 - 30:31]
-con cielos despejados y temperaturas casi veraniegas para esta época del año.
+[30:25 - 30:31]
+y temperaturas casi veraniegas para esta época del año.
 
 [30:41 - 30:45]
 7. Una noticia. Robos en casas de Madrid.
@@ -688,13 +712,10 @@ La Guardia Civil ha desarticulado una organización criminal
 [30:51 - 30:57]
 especializada en el robo con violencia en la zona norte de Madrid.
 
-[30:58 - 31:03]
-Según fuentes policiales esto ha sido el resultado
+[30:58 - 31:05]
+Según fuentes policiales, esto ha sido el resultado de una investigación difícil.
 
-[31:03 - 31:05]
-de una investigación difícil.
-
-[31:06 - 31:13]
+[31:05 - 31:13]
 Las 12 personas detenidas tenían con pinches entre jardineros y albañiles
 
 [31:13 - 31:23]
@@ -706,43 +727,28 @@ Los ladrones tenían entre 22 y 29 años de edad.
 [31:31 - 31:37]
 Buscaban casas aisladas y esperaban escondidos cerca de la puerta
 
-[31:37 - 31:41]
-a que alguien entrase o saliese de la vivienda.
+[31:37 - 31:39]
+a que alguien entrase.
 
-[31:42 - 31:47]
-Vigilaban a sus víctimas y conocían sus horarios
-
-[31:47 - 31:52]
-para perpetrar los robos de una forma más segura.
-
-[31:53 - 31:57]
-Les ataban las manos y golpeaban a sus habitantes
-
-[31:57 - 32:04]
-para robar la caja fuerte, joyas, dinero y electrodomésticos.
-
-[32:13 - 32:18]
+[31:46 - 32:18]
 7. Una noticia. Robos en casas de Madrid.
 
-[32:19 - 32:23]
+[32:18 - 32:21]
 La Guardia Civil ha desarticulado una organización criminal
 
 [32:24 - 32:30]
 especializada en el robo con violencia en la zona norte de Madrid.
 
 [32:30 - 32:38]
-Según fuentes policiales esto ha sido el resultado de una investigación difícil.
+Según fuentes policiales, esto ha sido el resultado de una investigación difícil.
 
-[32:38 - 32:45]
+[32:39 - 32:45]
 Las 12 personas detenidas tenían con pinches entre jardineros y albañiles
 
-[32:45 - 32:50]
-para ayudarles a evitar los sistemas de alarma
+[32:45 - 32:54]
+para ayudarles a evitar los sistemas de alarma y han sido responsables de unos 15 robos.
 
-[32:50 - 32:55]
-y han sido responsables de unos 15 robos.
-
-[32:55 - 33:35]
+[32:54 - 33:35]
 Los ladrones tenían entre 22 y 29 años de edad.
 
 [33:36 - 33:42]
@@ -754,13 +760,13 @@ a que alguien entrase o saliese de la vivienda.
 [33:48 - 33:52]
 Vigilaban a sus víctimas y conocían sus horarios
 
-[33:52 - 33:57]
+[33:52 - 33:58]
 para perpetrar los robos de una forma más segura.
 
-[33:57 - 34:03]
-Les ataban las manos y golpeaban a sus habitantes
+[33:58 - 34:01]
+8. Las 12 personas detenidas tenían con pinches entre jardineros y albañiles
 
-[34:03 - 34:10]
+[34:01 - 34:10]
 para robar la caja fuerte, joyas, dinero y electrodomésticos.
 
 [34:44 - 34:49]
@@ -772,36 +778,33 @@ La Guardia Civil ha desarticulado una organización criminal
 [34:55 - 35:01]
 especializada en el robo con violencia en la zona norte de Madrid.
 
-[35:02 - 35:05]
-Según fuentes policiales esto ha sido el resultado de una investigación difícil.
+[35:02 - 35:08]
+Según fuentes policiales, esto ha sido el resultado de una investigación
 
-[35:05 - 35:17]
-Las 12 personas detenidas tenían con pinches entre jardineros y albañiles
+[35:08 - 35:10]
+difícil ante el gobierno de�otero.
 
-[35:17 - 35:21]
-para ayudarles a evitar los sistemas de alarma
+[35:10 - 35:26]
+Hace unos 22 días, dos multiplicados
 
-[35:21 - 35:26]
-y han sido responsables de unos 15 robos.
+[35:26 - 35:26]
+en favor Paola Martínez María García Vargas Rames.
 
 [35:26 - 35:33]
 Los ladrones tenían entre 22 y 29 años de edad.
 
-[35:34 - 35:39]
+[35:34 - 35:40]
 Buscaban casas aisladas y esperaban escondidos cerca de la puerta
 
-[35:39 - 35:45]
+[35:40 - 35:42]
 a que alguien entrase o saliese de la vivienda.
 
-[35:46 - 35:50]
-Vigilaban a sus víctimas y conocían sus horarios
+[35:42 - 35:51]
+entrase o saliese de la vivienda. Vigilaban a sus víctimas y conocían sus horarios para
 
-[35:50 - 35:56]
-para perpetrar los robos de una forma más segura.
+[35:51 - 36:01]
+perpetrar los robos de una forma más segura. Les ataban las manos y golpeaban a sus habitantes
 
-[35:56 - 36:00]
-Les ataban las manos y golpeaban a sus habitantes
-
-[36:00 - 36:08]
+[36:01 - 36:08]
 para robar la caja fuerte, joyas, dinero y electrodomésticos.
 
