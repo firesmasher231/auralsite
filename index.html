@@ -94,7 +94,11 @@
 				class="max-w-[600px] mx-auto p-5 shadow-lg bg-white border-gray-300 border-2 rounded-md"
 			>
 				<!-- Hidden native audio element -->
-				<audio id="audio" src="audio/2021.mp3" preload="metadata"></audio>
+				<audio
+					id="audio"
+					src="https://www.examinations.ie/archive/exampapers/2024/LC010CLP017EV.mp3"
+					preload="metadata"
+				></audio>
 
 				<div class="flex flex-row mb-6">
 					<div
@@ -237,7 +241,7 @@
 			// Global reference for the loadedmetadata listener
 			let currentLoadedMetadataListener = null;
 
-			// Populate language selector from languages.json
+			// Modify the language selector population to include initial load
 			fetch("languages.json")
 				.then((response) => response.json())
 				.then((languages) => {
@@ -252,6 +256,10 @@
 						if (code === "fr") option.selected = true; // Default to French
 						selector.appendChild(option);
 					});
+
+					// Initial load after populating selector
+					loadAudioData("2024");
+					onAudioChange();
 				})
 				.catch((err) => console.error("Error loading languages:", err));
 
@@ -282,12 +290,20 @@
 					.then((response) => response.json())
 					.then((languages) => {
 						const langData = languages[language];
+						// console.log("Language:", language);
+						// console.log("Language data:", langData);
+						// console.log("File name:", fileName);
+						// console.log("Available links:", langData?.examLinks);
+
 						if (!langData || !langData.examLinks[fileName]) {
-							throw new Error("Audio not available");
+							throw new Error(
+								`Audio not available for ${language}/${fileName}`
+							);
 						}
 
 						// Set audio source
 						audio.src = langData.examLinks[fileName];
+						console.log("Setting audio source to:", audio.src);
 						audio.load();
 
 						// Add error handling for audio loading
@@ -570,11 +586,6 @@
 			audio.addEventListener("ended", () => {
 				playPauseBtn.textContent = "►";
 			});
-
-			// Update initial load
-			// --- Initial load ---
-			loadAudioData("2024");
-			onAudioChange();
 		</script>
 		<style>
 			input[type="range"]::-webkit-slider-runnable-track {
