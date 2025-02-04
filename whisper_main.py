@@ -189,7 +189,7 @@ class AudioProcessor:
 
 def main():
     # Process one language at a time
-    language = "es"  # Change this to the language you want to process
+    language = "ch"  # Change this to the language you want to process
     audio_dir = Path(f"audio/{language}")
     if not audio_dir.exists():
         print(f"Directory {audio_dir} does not exist")

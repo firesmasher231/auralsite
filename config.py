@@ -38,4 +38,17 @@ LANGUAGE_CONFIGS = {
             "5": ["cinco", "5", "quinta"],
         },
     },
+    "ch": {
+        "name": "Chinese",
+        "section_marker": "第",
+        "section_format": "number",
+        "sections": {
+            "1": ["一", "1"],
+            "2": ["二", "2"],
+            "3": ["三", "3"],
+            "4": ["四", "4"],
+            "5": ["五", "5"],
+            "6": ["六", "6"],
+        },
+    },
 }
