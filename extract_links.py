@@ -56,10 +56,8 @@ for lang_code, lang_name in language_codes.items():
                     )
                     break
 
-        # Now, try to get the marking scheme.
-        # Use marking schemes from the English branch if it exists,
-        # otherwise use the current language branch.
-        marking_source = data["lc"].get("English") or data["lc"].get(lang_name, {})
+        # Now, try to get the marking scheme from the current language branch.
+        marking_source = data["lc"].get(lang_name, {})
         if year_str in marking_source:
             marking_schemes = {}
             for item in marking_source[year_str]:
@@ -70,6 +68,9 @@ for lang_code, lang_name in language_codes.items():
                         if item["url"].startswith("http")
                         else f"{MARKING_BASE_URL}/{year}/{item['url']}"
                     )
+                    # Only include marking schemes with EV.pdf in the URL.
+                    if not file_url.endswith("EV.pdf"):
+                        continue
                     if "higher" in detail:
                         marking_schemes["higherLevel"] = file_url
                     elif "ordinary" in detail:
