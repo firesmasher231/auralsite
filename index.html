@@ -364,7 +364,7 @@
 										btnOrdinary.textContent = "Ordinary Level Marking Scheme";
 										btnOrdinary.href = markingScheme.ordinaryLevel;
 										btnOrdinary.className =
-											"m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-green-300";
+											"text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-green-300";
 										// "px-4 py-2 bg-green-300 text-gray-800 rounded hover:bg-green-400";
 										btnOrdinary.target = "_blank";
 										markingSchemeContainer.appendChild(btnOrdinary);
@@ -376,7 +376,7 @@
 										btnHigher.href = markingScheme.higherLevel;
 										btnHigher.className =
 											// "px-4 py-2 bg-red-300 text-gray-800 rounded hover:bg-red-400";
-											"m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-red-300";
+											"text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-red-300";
 										btnHigher.target = "_blank";
 										markingSchemeContainer.appendChild(btnHigher);
 									}
@@ -756,6 +756,12 @@
 			/* When hovering on any range input (e.g. volume slider), show pointer cursor */
 			input[type="range"]:hover {
 				cursor: pointer;
+			}
+
+			/* Disable tap highlight for marking scheme buttons on mobile */
+			body {
+				-webkit-tap-highlight-color: transparent;
+				/* outline: none; optional, remove active outline */
 			}
 		</style>
 	</body>
