@@ -714,6 +714,77 @@
 			audio.addEventListener("ended", () => {
 				playPauseBtn.textContent = "►";
 			});
+
+			// Cookie utility functions
+			function setCookie(cname, cvalue, exdays) {
+				const d = new Date();
+				d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+				const expires = "expires=" + d.toUTCString();
+				document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+			}
+
+			function getCookie(cname) {
+				const name = cname + "=";
+				const ca = document.cookie.split(";");
+				for (let i = 0; i < ca.length; i++) {
+					let c = ca[i].trim();
+					if (c.indexOf(name) === 0) return c.substring(name.length, c.length);
+				}
+				return "";
+			}
+
+			function saveState() {
+				const state = {
+					language: languageSelector.value,
+					file: audioSelector.value,
+					progress: audio.currentTime,
+				};
+				setCookie("auralsState", encodeURIComponent(JSON.stringify(state)), 7);
+			}
+
+			// Restore state from cookie when DOM is ready.
+			// Wait until the language and audio selectors have been populated.
+			function restoreState() {
+				const stateCookie = getCookie("auralsState");
+				if (stateCookie) {
+					try {
+						const state = JSON.parse(decodeURIComponent(stateCookie));
+						const languageSelector =
+							document.getElementById("languageSelector");
+						const audioSelector = document.getElementById("audioSelector");
+						// If the selectors are not yet populated, try again shortly.
+						if (
+							!languageSelector.options.length ||
+							!audioSelector.options.length
+						) {
+							setTimeout(restoreState, 100);
+							return;
+						}
+						if (state.language) {
+							languageSelector.value = state.language;
+						}
+						if (state.file) {
+							audioSelector.value = state.file;
+						}
+						// After audio metadata loads, set the audio progress.
+						audio.addEventListener(
+							"loadedmetadata",
+							() => {
+								if (state.progress) {
+									audio.currentTime = state.progress;
+								}
+							},
+							{ once: true }
+						);
+					} catch (err) {
+						console.error("Error parsing auralsState cookie:", err);
+					}
+				}
+			}
+			window.addEventListener("DOMContentLoaded", restoreState);
+
+			// Save state before leaving the page
+			window.addEventListener("beforeunload", saveState);
 		</script>
 		<style>
 			input[type="range"]::-webkit-slider-runnable-track {
