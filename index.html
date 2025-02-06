@@ -765,6 +765,13 @@
 						}
 						if (state.file) {
 							audioSelector.value = state.file;
+							// Now load the audio data from the restored file (year) selection
+							loadAudioData(state.file);
+							onAudioChange();
+						} else {
+							// If no file state is saved, load the default selection
+							loadAudioData(audioSelector.value);
+							onAudioChange();
 						}
 						// After audio metadata loads, set the audio progress.
 						audio.addEventListener(
