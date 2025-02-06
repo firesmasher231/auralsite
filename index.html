@@ -169,6 +169,10 @@
 				</div>
 
 				<div id="sectionsContainer" class="flex flex-wrap justify-center"></div>
+				<div
+					id="markingSchemeContainer"
+					class="flex justify-center mt-4 gap-4"
+				></div>
 			</div>
 
 			<div class="flex justify-center">
@@ -336,17 +340,49 @@
 									);
 								}
 
-								// Set audio source
-								audio.src = langData.examLinks[fileName];
+								// Get the exam data object (which now contains both examAudio & markingScheme)
+								const examData = langData.examLinks[fileName];
+								if (!examData || !examData.examAudio) {
+									throw new Error(
+										`Audio not available for ${language}/${fileName}`
+									);
+								}
+								// Set the audio element's source to the examAudio property
+								audio.src = examData.examAudio;
 								audio.load();
 
-								// Add error handling for audio loading
-								audio.onerror = () => {
-									if (!signal.aborted) {
-										sectionsContainer.innerHTML = `<div class="text-center text-red-500">Error loading audio file</div>`;
-										console.error("Error loading audio:", audio.error);
+								// Update marking scheme buttons
+								const markingSchemeContainer = document.getElementById(
+									"markingSchemeContainer"
+								);
+								if (examData.markingScheme) {
+									const markingScheme = examData.markingScheme;
+									markingSchemeContainer.innerHTML = ""; // Clear any previous buttons
+
+									if (markingScheme.ordinaryLevel) {
+										const btnOrdinary = document.createElement("a");
+										btnOrdinary.textContent = "Ordinary Level Marking Scheme";
+										btnOrdinary.href = markingScheme.ordinaryLevel;
+										btnOrdinary.className =
+											"m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-green-300";
+										// "px-4 py-2 bg-green-300 text-gray-800 rounded hover:bg-green-400";
+										btnOrdinary.target = "_blank";
+										markingSchemeContainer.appendChild(btnOrdinary);
 									}
-								};
+
+									if (markingScheme.higherLevel) {
+										const btnHigher = document.createElement("a");
+										btnHigher.textContent = "Higher Level Marking Scheme";
+										btnHigher.href = markingScheme.higherLevel;
+										btnHigher.className =
+											// "px-4 py-2 bg-red-300 text-gray-800 rounded hover:bg-red-400";
+											"m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-red-300";
+										btnHigher.target = "_blank";
+										markingSchemeContainer.appendChild(btnHigher);
+									}
+								} else {
+									markingSchemeContainer.innerHTML = "";
+								}
 
 								// Set up metadata listener before loading audio
 								currentLoadedMetadataListener = () =>
