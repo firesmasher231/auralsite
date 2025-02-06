@@ -715,40 +715,25 @@
 				playPauseBtn.textContent = "►";
 			});
 
-			// Cookie utility functions
-			function setCookie(cname, cvalue, exdays) {
-				const d = new Date();
-				d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
-				const expires = "expires=" + d.toUTCString();
-				document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-			}
-
-			function getCookie(cname) {
-				const name = cname + "=";
-				const ca = document.cookie.split(";");
-				for (let i = 0; i < ca.length; i++) {
-					let c = ca[i].trim();
-					if (c.indexOf(name) === 0) return c.substring(name.length, c.length);
-				}
-				return "";
-			}
-
+			// Using localStorage for state persistence.
 			function saveState() {
 				const state = {
 					language: languageSelector.value,
 					file: audioSelector.value,
 					progress: audio.currentTime,
+					volume: volumeSlider.value,
+					speed: speedSelector.value,
 				};
-				setCookie("auralsState", encodeURIComponent(JSON.stringify(state)), 7);
+				localStorage.setItem("auralsState", JSON.stringify(state));
 			}
 
-			// Restore state from cookie when DOM is ready.
+			// Restore state from localStorage.
 			// Wait until the language and audio selectors have been populated.
 			function restoreState() {
-				const stateCookie = getCookie("auralsState");
-				if (stateCookie) {
+				const stateJson = localStorage.getItem("auralsState");
+				if (stateJson) {
 					try {
-						const state = JSON.parse(decodeURIComponent(stateCookie));
+						const state = JSON.parse(stateJson);
 						const languageSelector =
 							document.getElementById("languageSelector");
 						const audioSelector = document.getElementById("audioSelector");
@@ -765,32 +750,49 @@
 						}
 						if (state.file) {
 							audioSelector.value = state.file;
-							// Now load the audio data from the restored file (year) selection
+							// Load the audio data from the restored file (year) selection.
 							loadAudioData(state.file);
 							onAudioChange();
 						} else {
-							// If no file state is saved, load the default selection
+							// If no file state is saved, load the default selection.
 							loadAudioData(audioSelector.value);
 							onAudioChange();
 						}
-						// After audio metadata loads, set the audio progress.
+						// After audio metadata loads, restore progress, volume, and playback speed.
 						audio.addEventListener(
 							"loadedmetadata",
 							() => {
 								if (state.progress) {
 									audio.currentTime = state.progress;
 								}
+
+								// Restore volume.
+								if (typeof state.volume !== "undefined") {
+									volumeSlider.value = state.volume;
+									audio.volume = state.volume;
+									updateVolumeSliderBackground(volumeSlider);
+								}
+
+								// Restore playback speed.
+								if (typeof state.speed !== "undefined") {
+									let speedVal = parseFloat(state.speed);
+									if (!isNaN(speedVal) && isFinite(speedVal)) {
+										speedSelector.value = state.speed;
+										audio.playbackRate = speedVal;
+									} else {
+										console.warn("Restored speed is invalid:", state.speed);
+									}
+								}
 							},
 							{ once: true }
 						);
 					} catch (err) {
-						console.error("Error parsing auralsState cookie:", err);
+						console.error("Error parsing local state:", err);
 					}
 				}
 			}
 			window.addEventListener("DOMContentLoaded", restoreState);
-
-			// Save state before leaving the page
+			// Save state before leaving the page.
 			window.addEventListener("beforeunload", saveState);
 		</script>
 		<style>
