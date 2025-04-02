@@ -170,6 +170,10 @@
 
 				<div id="sectionsContainer" class="flex flex-wrap justify-center"></div>
 				<div
+					id="auralPaperContainer"
+					class="flex justify-center mt-4 gap-4"
+				></div>
+				<div
 					id="markingSchemeContainer"
 					class="flex justify-center mt-4 gap-4"
 				></div>
@@ -364,7 +368,7 @@
 										btnOrdinary.textContent = "Ordinary Level Marking Scheme";
 										btnOrdinary.href = markingScheme.ordinaryLevel;
 										btnOrdinary.className =
-											"text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-green-300";
+											" text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-green-300";
 										// "px-4 py-2 bg-green-300 text-gray-800 rounded hover:bg-green-400";
 										btnOrdinary.target = "_blank";
 										markingSchemeContainer.appendChild(btnOrdinary);
@@ -382,6 +386,36 @@
 									}
 								} else {
 									markingSchemeContainer.innerHTML = "";
+								}
+
+								// Update aural paper buttons
+								const auralPaperContainer = document.getElementById(
+									"auralPaperContainer"
+								);
+								auralPaperContainer.innerHTML = ""; // Clear any previous buttons
+
+								if (examData.auralPaper) {
+									const auralPaper = examData.auralPaper;
+									if (auralPaper.ordinaryLevel) {
+										const btnOrdinary = document.createElement("a");
+										btnOrdinary.textContent = "📝 Ordinary Level Aural Paper";
+										btnOrdinary.href = auralPaper.ordinaryLevel;
+										btnOrdinary.className =
+											"text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-green-300";
+										btnOrdinary.target = "_blank";
+										auralPaperContainer.appendChild(btnOrdinary);
+									}
+									if (auralPaper.higherLevel) {
+										const btnHigher = document.createElement("a");
+										btnHigher.textContent = "📝 Higher Level Aural Paper";
+										btnHigher.href = auralPaper.higherLevel;
+										btnHigher.className =
+											"text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-red-300";
+										btnHigher.target = "_blank";
+										auralPaperContainer.appendChild(btnHigher);
+									}
+								} else {
+									auralPaperContainer.innerHTML = "";
 								}
 
 								// Set up metadata listener before loading audio
@@ -574,7 +608,7 @@
 					de: "German",
 					zh: "Chinese",
 					it: "Italian",
-					es: "Spanish"
+					es: "Spanish",
 				};
 				const displayLanguage = languageNames[language] || language;
 				document.title = `Aural Practice - ${displayLanguage} - ${audioSelector.value}`;

@@ -44,6 +44,7 @@ for lang_code, lang_name in language_codes.items():
         year_str = str(year)
         exam_audio_link = None  # from the language branch
         marking_scheme_link = None  # marking scheme link to be retrieved
+        aural_paper_link = None  # aural paper link to be retrieved
 
         # Try to get the exam audio file from the target language data if available
         if year_str in data["lc"].get(lang_name, {}):
@@ -60,31 +61,47 @@ for lang_code, lang_name in language_codes.items():
         marking_source = data["lc"].get(lang_name, {})
         if year_str in marking_source:
             marking_schemes = {}
+            aural_papers = {}
             for item in marking_source[year_str]:
+                detail = item.get("details", "").lower()
                 if item.get("type", "").lower() == "marking scheme":
-                    detail = item.get("details", "").lower()
-                    file_url = (
+                    marking_scheme_file_url = (
                         item["url"]
                         if item["url"].startswith("http")
                         else f"{MARKING_BASE_URL}/{year}/{item['url']}"
                     )
                     # Only include marking schemes with EV.pdf in the URL.
-                    if not file_url.endswith("EV.pdf"):
+                    if not marking_scheme_file_url.endswith("EV.pdf"):
                         continue
                     if "higher" in detail:
-                        marking_schemes["higherLevel"] = file_url
+                        marking_schemes["higherLevel"] = marking_scheme_file_url
                     elif "ordinary" in detail:
-                        marking_schemes["ordinaryLevel"] = file_url
+                        marking_schemes["ordinaryLevel"] = marking_scheme_file_url
                     elif "common" in detail:
-                        marking_schemes["commonLevel"] = file_url
+                        marking_schemes["commonLevel"] = marking_scheme_file_url
+
+                elif "aural paper" in detail:
+                    aural_paper_file_url = (
+                        item["url"]
+                        if item["url"].startswith("http")
+                        else f"{BASE_URL}/{year}/{item['url']}"
+                    )
+                    if "iv" not in detail:
+                        if "higher" in detail:
+                            aural_papers["higherLevel"] = aural_paper_file_url
+                        elif "ordinary" in detail:
+                            aural_papers["ordinaryLevel"] = aural_paper_file_url
             if marking_schemes:
                 marking_scheme_link = marking_schemes
+            if aural_papers:
+                aural_paper_link = aural_papers
 
         # Only add the year if we have at least one link
         if exam_audio_link or marking_scheme_link:
             output[lang_code]["examLinks"][year_str] = {
                 "examAudio": exam_audio_link,
                 "markingScheme": marking_scheme_link,
+                "auralPaper": aural_paper_link,
             }
 
 # Save the output
