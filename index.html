@@ -350,7 +350,11 @@
 								}
 								// Set the audio element's source to the examAudio property
 								audio.src = examData.examAudio;
-								audio.load();
+								try {
+									audio.load();
+								} catch (err) {
+									sectionsContainer.innerHTML = `<div class="text-center text-gray-700">Error loading audio data, Are you outside of Ireland? Due to SEC restrictions this site only works in Ireland. Sorry!</div>`;
+								}
 
 								// Update marking scheme buttons
 								const markingSchemeContainer = document.getElementById(
@@ -433,7 +437,7 @@
 							return;
 						}
 						console.error("Error in loadAudioData:", err);
-						sectionsContainer.innerHTML = `<div class="text-center text-gray-700">Error loading audio data</div>`;
+						sectionsContainer.innerHTML = `<div class="text-center text-gray-700">⚠️ Error loading audio data, Are you outside of Ireland? Due to SEC restrictions this site only works in Ireland. Sorry!</div>`;
 					})
 					.finally(() => {
 						if (currentAudioLoad?.signal === signal) {

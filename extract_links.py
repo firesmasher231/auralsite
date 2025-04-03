@@ -41,6 +41,8 @@ for lang_code, lang_name in language_codes.items():
             "de",
             "zh",
             "ga",
+            "it",
+            "es",
         ],  # Only French, German, Mandarin Chinese, and Irish enabled
         "examLinks": {},
     }
@@ -101,27 +103,51 @@ for lang_code, lang_name in language_codes.items():
                         if item["url"].startswith("http")
                         else f"{BASE_URL}/{year}/{item['url']}"
                     )
-                    if "iv" in detail:
-                        if lang_name == "Irish":
-                            if "higher" in detail:
-                                print(
-                                    f"Added {lang_name} {year} {detail} aural paper to higher level"
-                                )
-                                aural_papers["higherLevel"] = aural_paper_file_url
-                            elif "ordinary" in detail:
-                                print(
-                                    f"Added {lang_name} {year} {detail} aural paper to ordinary level"
-                                )
-                                aural_papers["ordinaryLevel"] = aural_paper_file_url
-                            else:
-                                print(
-                                    f"Skipping {lang_name} {year} {detail} aural paper because it doesn't contain iv"
-                                )
-                                continue
-                        elif "higher" in detail:
+
+                    # Get the filename from the URL for pattern matching
+                    filename = item["url"].split("/")[-1].upper()
+
+                    # Different handling for Irish vs other languages
+                    if lang_name == "Irish":
+                        # For Irish, look for aural papers with specific filename patterns
+                        if "ALPA" in filename and "IV" in filename:
+                            print(
+                                f"Added {lang_name} {year} aural paper to higher level: {filename}"
+                            )
                             aural_papers["higherLevel"] = aural_paper_file_url
-                        elif "ordinary" in detail:
+                        elif "GLPA" in filename and "IV" in filename:
+                            print(
+                                f"Added {lang_name} {year} aural paper to ordinary level: {filename}"
+                            )
                             aural_papers["ordinaryLevel"] = aural_paper_file_url
+                    else:
+                        # For other languages
+                        if "higher" in detail or "ALPA" in filename:
+                            aural_papers["higherLevel"] = aural_paper_file_url
+                        elif "ordinary" in detail or "GLPA" in filename:
+                            aural_papers["ordinaryLevel"] = aural_paper_file_url
+
+                # Special case for Irish: Paper One contains the aural content
+                elif lang_name == "Irish" and "paper one" in detail.lower():
+                    paper_one_file_url = (
+                        item["url"]
+                        if item["url"].startswith("http")
+                        else f"{BASE_URL}/{year}/{item['url']}"
+                    )
+
+                    # Get the filename from the URL for pattern matching
+                    filename = item["url"].split("/")[-1].upper()
+
+                    if "ALP100IV" in filename:
+                        print(
+                            f"Added {lang_name} {year} Paper One (aural) to higher level: {filename}"
+                        )
+                        aural_papers["higherLevel"] = paper_one_file_url
+                    elif "GLP100IV" in filename:
+                        print(
+                            f"Added {lang_name} {year} Paper One (aural) to ordinary level: {filename}"
+                        )
+                        aural_papers["ordinaryLevel"] = paper_one_file_url
 
             if marking_schemes:
                 marking_scheme_link = marking_schemes
