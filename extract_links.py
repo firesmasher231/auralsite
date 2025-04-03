@@ -25,6 +25,7 @@ language_codes = {
     "es": "Spanish",
     "it": "Italian",
     "zh": "Mandarin Chinese",
+    "ga": "Irish",
 }
 
 # Initialize output structure
@@ -35,7 +36,12 @@ for lang_code, lang_name in language_codes.items():
     output[lang_code] = {
         "name": lang_name,
         "enabled": lang_code
-        in ["fr", "de", "zh"],  # Only French, German, and Mandarin Chinese enabled
+        in [
+            "fr",
+            "de",
+            "zh",
+            "ga",
+        ],  # Only French, German, Mandarin Chinese, and Irish enabled
         "examLinks": {},
     }
 
@@ -72,6 +78,15 @@ for lang_code, lang_name in language_codes.items():
                     )
                     # Only include marking schemes with EV.pdf in the URL.
                     if not marking_scheme_file_url.endswith("EV.pdf"):
+                        if lang_name == "Irish":
+                            if "higher" in detail:
+                                marking_schemes["higherLevel"] = marking_scheme_file_url
+                            elif "ordinary" in detail:
+                                marking_schemes["ordinaryLevel"] = (
+                                    marking_scheme_file_url
+                                )
+                            elif "common" in detail:
+                                marking_schemes["commonLevel"] = marking_scheme_file_url
                         continue
                     if "higher" in detail:
                         marking_schemes["higherLevel"] = marking_scheme_file_url
@@ -86,11 +101,28 @@ for lang_code, lang_name in language_codes.items():
                         if item["url"].startswith("http")
                         else f"{BASE_URL}/{year}/{item['url']}"
                     )
-                    if "iv" not in detail:
-                        if "higher" in detail:
+                    if "iv" in detail:
+                        if lang_name == "Irish":
+                            if "higher" in detail:
+                                print(
+                                    f"Added {lang_name} {year} {detail} aural paper to higher level"
+                                )
+                                aural_papers["higherLevel"] = aural_paper_file_url
+                            elif "ordinary" in detail:
+                                print(
+                                    f"Added {lang_name} {year} {detail} aural paper to ordinary level"
+                                )
+                                aural_papers["ordinaryLevel"] = aural_paper_file_url
+                            else:
+                                print(
+                                    f"Skipping {lang_name} {year} {detail} aural paper because it doesn't contain iv"
+                                )
+                                continue
+                        elif "higher" in detail:
                             aural_papers["higherLevel"] = aural_paper_file_url
                         elif "ordinary" in detail:
                             aural_papers["ordinaryLevel"] = aural_paper_file_url
+
             if marking_schemes:
                 marking_scheme_link = marking_schemes
             if aural_papers:
