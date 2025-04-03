@@ -1,0 +1,42 @@
+[
+  {
+    "start_seconds": 0,
+    "label": "Intro",
+    "description": "Exam introduction and instructions"
+  },
+  {
+    "start_seconds": 63,
+    "label": "1. Anuncio",
+    "description": "F\u00fatbol ga\u00e9lico en Madrid"
+  },
+  {
+    "start_seconds": 323,
+    "label": "2. Entrevista",
+    "description": "Entrevista con el escritor Ian Gibson"
+  },
+  {
+    "start_seconds": 745,
+    "label": "3. Entrevista",
+    "description": "Hablando con el actor chileno Pedro Pascal"
+  },
+  {
+    "start_seconds": 1159,
+    "label": "4. Descriptivo",
+    "description": "Estudiantes Erasmus en Espa\u00f1a"
+  },
+  {
+    "start_seconds": 1501,
+    "label": "5. Descriptivo",
+    "description": "El Pe\u00f1\u00f3n de Gibraltar"
+  },
+  {
+    "start_seconds": 1856,
+    "label": "6. El tiempo",
+    "description": "Pron\u00f3stico para la isla de Cuba"
+  },
+  {
+    "start_seconds": 2083,
+    "label": "7. Noticia",
+    "description": "Se buscan actores para Juego de Tronos en Espa\u00f1a"
+  }
+]

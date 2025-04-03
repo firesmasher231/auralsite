@@ -472,7 +472,7 @@
         }
     },
     "es": {
-        "name": "Spanish - might be buggy",
+        "name": "Spanish ",
         "enabled": true,
         "examLinks": {
             "2004": {
@@ -703,7 +703,7 @@
         }
     },
     "it": {
-        "name": "Italian - might be buggy",
+        "name": "Italian",
         "enabled": true,
         "examLinks": {
             "2004": {
