@@ -1,11 +1,11 @@
-const CACHE_NAME = "aurals-lc-v2";
+const CACHE_NAME = "aurals-lc-v3";
 const ASSETS_TO_CACHE = [
-	"/",
-	"/index.html",
-	"/manifest.json",
-	"/icons/headphones.svg",
-	"/icons/volume-icon.svg",
-	"/icons/muted.svg",
+	"./",
+	"./index.html",
+	"./manifest.json",
+	"./icons/headphones.svg",
+	"./icons/volume-icon.svg",
+	"./icons/muted.svg",
 	"https://cdn.tailwindcss.com",
 	"https://fonts.googleapis.com/css2?family=VT323&display=swap",
 ];
@@ -56,7 +56,7 @@ self.addEventListener("fetch", (event) => {
 	if (event.request.mode === "navigate") {
 		event.respondWith(
 			fetch(event.request).catch(() => {
-				return caches.match("/index.html");
+				return caches.match("./index.html");
 			})
 		);
 		return;

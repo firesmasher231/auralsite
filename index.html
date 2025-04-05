@@ -22,6 +22,7 @@
 		/>
 		<meta name="theme-color" content="#ffffff" />
 		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="application-name" content="Aurals.LC" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
 		<meta name="apple-mobile-web-app-title" content="Aurals.LC" />
@@ -81,7 +82,7 @@
 		<link
 			rel="icon"
 			href="icons/headphones.svg"
-			sizes="any"
+			sizes="192x192 512x512"
 			type="image/svg+xml"
 		/>
 		<link rel="apple-touch-icon" href="icons/headphones.svg" />
@@ -1118,9 +1119,9 @@
 			window.addEventListener("load", async () => {
 				try {
 					const registration = await navigator.serviceWorker.register(
-						"/sw.js",
+						"./sw.js",
 						{
-							scope: "/",
+							scope: "./",
 						}
 					);
 					console.log(
