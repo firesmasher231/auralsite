@@ -22,15 +22,54 @@
 		/>
 		<meta name="theme-color" content="#ffffff" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<meta
+			name="description"
+			content="Practice for French, German, Spanish, Italian and Chinese language listening exams with Leaving Certificate aural papers. Free audio tool for Irish students."
+		/>
+		<meta
+			name="keywords"
+			content="Leaving Certificate, aural practice, French listening, German aural, Spanish exam, language learning, LC exam prep"
+		/>
+		<meta name="robots" content="index, follow" />
+		<meta
+			property="og:title"
+			content="Aurals.LC - Leaving Cert Language Listening Practice"
+		/>
+		<meta
+			property="og:description"
+			content="Practice for Leaving Certificate language listening exams with past papers and audio"
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://aurals.lc" />
+		<link rel="canonical" href="https://aurals.lc" />
 		<link rel="icon" type="image/svg+xml" href="icons/headphones.svg" />
 		<link rel="apple-touch-icon" href="icons/headphones.svg" />
-		<title>Aural Practice</title>
+		<title>Aural Practice for Leaving Certificate Languages | Aurals.LC</title>
 		<!-- Include Tailwind via CDN -->
 		<script src="https://cdn.tailwindcss.com"></script>
 		<link
 			href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
 			rel="stylesheet"
 		/>
+		<!-- Structured data for rich results -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "WebApplication",
+				"name": "Aurals.LC",
+				"description": "Leaving Certificate language aural practice tool with French, German, Spanish, Italian and Chinese listening exams",
+				"applicationCategory": "EducationalApplication",
+				"offers": {
+					"@type": "Offer",
+					"price": "0",
+					"priceCurrency": "EUR"
+				},
+				"audience": {
+					"@type": "EducationalAudience",
+					"educationalRole": "student"
+				}
+			}
+		</script>
 	</head>
 	<body
 		class="flex flex-col min-h-screen m-0 p-0 font-[Poppins]"
@@ -64,20 +103,23 @@
 				<select
 					id="languageSelector"
 					class="p-2 border border-gray-300 rounded-md shadow-md"
+					aria-label="Select examination language"
 				>
 					<!-- Will be populated dynamically -->
 				</select>
 				<select
 					id="audioSelector"
 					class="p-2 border border-gray-300 rounded-md shadow-md"
+					aria-label="Select examination year"
 				>
 					<!-- Will be populated dynamically -->
 				</select>
 			</div>
 
-			<div
+			<article
 				id="customPlayer"
 				class="max-w-[600px] mx-auto p-5 shadow-lg bg-white border-gray-300 border-2 rounded-md"
+				aria-label="Audio player for Leaving Certificate language exams"
 			>
 				<!-- Hidden native audio element -->
 				<audio
@@ -115,7 +157,7 @@
 								<button id="muteBtn" class="text-black focus:outline-none">
 									<img
 										src="icons/volume-icon.svg"
-										alt="Volume"
+										alt="Volume control"
 										class="h-6 w-6"
 										id="muteIcon"
 									/>
@@ -181,7 +223,7 @@
 					id="markingSchemeContainer"
 					class="flex justify-center mt-4 gap-4"
 				></div>
-			</div>
+			</article>
 
 			<div class="flex justify-center">
 				<p
@@ -202,23 +244,35 @@
 			<p class="sm:mx-8 mb-2 flex flex-row">
 				<!-- # github logo + link -->
 				<a
-					href=" https://github.com/firesmasher231/auralsite"
+					href="https://github.com/firesmasher231/auralsite"
 					class="flex flex-row"
 					target="_blank"
+					rel="noopener"
+					aria-label="Visit GitHub repository"
 				>
 					<img
 						width="25px"
 						height="25px"
 						class="w-[25px] h-[25px]"
 						src="https://img.icons8.com/ios-glyphs/360/000000/github.png"
+						alt="GitHub logo"
 					/>
 				</a>
 				&nbsp;&middot; built by&nbsp;
-				<a href="https://adityajoshi.cc" class="font-bold" target="_blank">
+				<a
+					href="https://adityajoshi.cc"
+					class="font-bold"
+					target="_blank"
+					rel="noopener"
+				>
 					aj</a
 				>
 				&nbsp;&middot; inspired by&nbsp;
-				<a href="https://www.studystrivers.ie" class="font-bold" target="_blank"
+				<a
+					href="https://www.studystrivers.ie"
+					class="font-bold"
+					target="_blank"
+					rel="noopener"
 					>studystrivers.ie</a
 				>
 				<!-- &nbsp;&middot; sponsored by&nbsp;
