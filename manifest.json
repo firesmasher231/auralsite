@@ -3,6 +3,7 @@
     "short_name": "Aurals.LC",
     "description": "Practice Leaving Certificate language aural exams with past papers and interactive audio",
     "start_url": "/index.html",
+    "id": "/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
@@ -12,7 +13,27 @@
             "src": "icons/headphones.svg",
             "sizes": "any",
             "type": "image/svg+xml",
-            "purpose": "any maskable"
+            "purpose": "any"
+        },
+        {
+            "src": "icons/headphones.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "icons/headphones.svg",
+            "sizes": "1280x720",
+            "type": "image/svg+xml"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "French Aural Practice",
+            "url": "/index.html",
+            "description": "Practice French Leaving Cert aural exams"
         }
     ]
 }
