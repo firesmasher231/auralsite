@@ -1,10 +1,11 @@
-const CACHE_NAME = "aurals-lc-v5";
+const CACHE_NAME = "aurals-lc-v6";
 const BASE_PATH = "./";
 const ASSETS_TO_CACHE = [
 	`${BASE_PATH}`,
 	`${BASE_PATH}index.html`,
 	`${BASE_PATH}manifest.json`,
 	`${BASE_PATH}icons/headphones.svg`,
+	`${BASE_PATH}icons/headphones.ico`,
 	`${BASE_PATH}icons/volume-icon.svg`,
 	`${BASE_PATH}icons/muted.svg`,
 ];

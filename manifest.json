@@ -15,6 +15,11 @@
     "lang": "en-IE",
     "icons": [
         {
+            "src": "icons/headphones.ico",
+            "sizes": "16x16 32x32 48x48",
+            "type": "image/x-icon"
+        },
+        {
             "src": "icons/headphones.svg",
             "sizes": "192x192",
             "type": "image/svg+xml",
