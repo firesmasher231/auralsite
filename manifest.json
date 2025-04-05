@@ -1,0 +1,18 @@
+{
+    "name": "Aurals.LC - Leaving Certificate Aural Practice",
+    "short_name": "Aurals.LC",
+    "description": "Practice Leaving Certificate language aural exams with past papers and interactive audio",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "icons/headphones.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ]
+}
