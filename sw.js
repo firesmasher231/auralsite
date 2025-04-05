@@ -1,11 +1,11 @@
-const CACHE_NAME = "aurals-lc-v6";
+const CACHE_NAME = "aurals-lc-v7";
 const BASE_PATH = "./";
 const ASSETS_TO_CACHE = [
 	`${BASE_PATH}`,
 	`${BASE_PATH}index.html`,
 	`${BASE_PATH}manifest.json`,
-	`${BASE_PATH}icons/headphones.svg`,
-	`${BASE_PATH}icons/headphones.ico`,
+	`${BASE_PATH}icons/headphones_192_192.png`,
+	`${BASE_PATH}icons/headphones_512_512.png`,
 	`${BASE_PATH}icons/volume-icon.svg`,
 	`${BASE_PATH}icons/muted.svg`,
 ];
@@ -13,8 +13,8 @@ const ASSETS_TO_CACHE = [
 // In notification options (future use)
 const options = {
 	body: "New content available",
-	icon: `${BASE_PATH}icons/headphones.svg`,
-	badge: `${BASE_PATH}icons/headphones.svg`,
+	icon: `${BASE_PATH}icons/headphones_192_192.png`,
+	badge: `${BASE_PATH}icons/headphones_192_192.png`,
 };
 
 // Install event - cache core app files
