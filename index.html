@@ -39,6 +39,7 @@
 			property="og:description"
 			content="Practice for Leaving Certificate language listening exams with past papers and audio"
 		/>
+
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://aurals.lc" />
 		<link rel="canonical" href="https://aurals.lc" />
@@ -69,6 +70,19 @@
 					"educationalRole": "student"
 				}
 			}
+		</script>
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-ZR3S3VRMBZ"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "G-ZR3S3VRMBZ");
 		</script>
 	</head>
 	<body
@@ -721,18 +735,18 @@
 				if (audio.paused) {
 					audio.play();
 					// When audio plays:
-					// gtag("event", "audio_play", {
-					// 	event_category: "engagement",
-					// 	event_label: "Aural Practice",
-					// });
+					gtag("event", "audio_play", {
+						event_category: "engagement",
+						event_label: "Aural Practice",
+					});
 					playPauseBtn.textContent = "❚❚";
 				} else {
 					audio.pause();
-					// // When audio plays:
-					// gtag("event", "audio_pause", {
-					// 	event_category: "engagement",
-					// 	event_label: "Aural Practice",
-					// });
+					// When audio plays:
+					gtag("event", "audio_pause", {
+						event_category: "engagement",
+						event_label: "Aural Practice",
+					});
 					playPauseBtn.textContent = "►";
 				}
 			});
