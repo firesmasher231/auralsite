@@ -1,4 +1,4 @@
-const CACHE_NAME = "aurals-lc-v3";
+const CACHE_NAME = "aurals-lc-v4";
 const ASSETS_TO_CACHE = [
 	"./",
 	"./index.html",
@@ -6,8 +6,7 @@ const ASSETS_TO_CACHE = [
 	"./icons/headphones.svg",
 	"./icons/volume-icon.svg",
 	"./icons/muted.svg",
-	"https://cdn.tailwindcss.com",
-	"https://fonts.googleapis.com/css2?family=VT323&display=swap",
+	// CDN resources removed to avoid CORS issues
 ];
 
 // Install event - cache core app files
@@ -43,13 +42,9 @@ self.addEventListener("activate", (event) => {
 
 // Fetch event - serve from cache if available, otherwise fetch from network
 self.addEventListener("fetch", (event) => {
-	// Skip cross-origin requests
-	if (
-		!event.request.url.startsWith(self.location.origin) &&
-		!event.request.url.includes("cdn.tailwindcss.com") &&
-		!event.request.url.includes("fonts.googleapis.com")
-	) {
-		return;
+	// Only handle requests from our origin
+	if (!event.request.url.startsWith(self.location.origin)) {
+		return; // Let browser handle external requests normally
 	}
 
 	// For navigation requests (HTML pages)

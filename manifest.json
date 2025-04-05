@@ -27,13 +27,6 @@
             "purpose": "any maskable"
         }
     ],
-    "screenshots": [
-        {
-            "src": "icons/headphones.svg",
-            "sizes": "1280x720",
-            "type": "image/svg+xml"
-        }
-    ],
     "shortcuts": [
         {
             "name": "French Practice",
