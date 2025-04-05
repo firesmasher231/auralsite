@@ -1,13 +1,20 @@
-const CACHE_NAME = "aurals-lc-v4";
+const CACHE_NAME = "aurals-lc-v5";
+const BASE_PATH = "./";
 const ASSETS_TO_CACHE = [
-	"./",
-	"./index.html",
-	"./manifest.json",
-	"./icons/headphones.svg",
-	"./icons/volume-icon.svg",
-	"./icons/muted.svg",
-	// CDN resources removed to avoid CORS issues
+	`${BASE_PATH}`,
+	`${BASE_PATH}index.html`,
+	`${BASE_PATH}manifest.json`,
+	`${BASE_PATH}icons/headphones.svg`,
+	`${BASE_PATH}icons/volume-icon.svg`,
+	`${BASE_PATH}icons/muted.svg`,
 ];
+
+// In notification options (future use)
+const options = {
+	body: "New content available",
+	icon: `${BASE_PATH}icons/headphones.svg`,
+	badge: `${BASE_PATH}icons/headphones.svg`,
+};
 
 // Install event - cache core app files
 self.addEventListener("install", (event) => {
@@ -51,7 +58,7 @@ self.addEventListener("fetch", (event) => {
 	if (event.request.mode === "navigate") {
 		event.respondWith(
 			fetch(event.request).catch(() => {
-				return caches.match("./index.html");
+				return caches.match(`${BASE_PATH}index.html`);
 			})
 		);
 		return;

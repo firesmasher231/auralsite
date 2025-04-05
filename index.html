@@ -20,11 +20,14 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0, viewport-fit=cover"
 		/>
-		<meta name="theme-color" content="#ffffff" />
+		<meta name="theme-color" content="#000000" />
 		<meta name="mobile-web-app-capable" content="yes" />
 		<meta name="application-name" content="Aurals.LC" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<meta
+			name="apple-mobile-web-app-status-bar-style"
+			content="black-translucent"
+		/>
 		<meta name="apple-mobile-web-app-title" content="Aurals.LC" />
 		<meta
 			name="description"
@@ -77,15 +80,15 @@
 		<link rel="alternate" hreflang="it" href="https://aurals.lc?lang=it" />
 		<link rel="alternate" hreflang="zh" href="https://aurals.lc?lang=zh" />
 		<link rel="alternate" hreflang="x-default" href="https://aurals.lc" />
-		<!-- Icon support for all devices -->
-		<link rel="icon" type="image/svg+xml" href="icons/headphones.svg" />
-		<link
-			rel="icon"
-			href="icons/headphones.svg"
-			sizes="192x192 512x512"
-			type="image/svg+xml"
-		/>
+		<!-- Basic favicon -->
+		<link rel="icon" href="icons/headphones.svg" />
+
+		<!-- PWA icon -->
 		<link rel="apple-touch-icon" href="icons/headphones.svg" />
+
+		<!-- iOS splash screen -->
+		<link rel="apple-touch-startup-image" href="icons/headphones.svg" />
+
 		<!-- PWA manifest -->
 		<link rel="manifest" href="manifest.json" />
 		<title>Aural Practice for Leaving Certificate Languages | Aurals.LC</title>
