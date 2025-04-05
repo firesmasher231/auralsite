@@ -177,4 +177,5 @@ import time
 
 # Irish example
 # process_transcript("1995.txt", "ga")
-process_transcript("transcripts/ga/2022.txt", "ga")
+# process_transcript("transcripts/ga/2022.txt", "ga")
+process_transcript("2024.txt", "zh")
