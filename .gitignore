@@ -2,3 +2,5 @@
 .venv/
 *.mp3
 .env
+
+proposals/
