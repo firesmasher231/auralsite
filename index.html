@@ -564,7 +564,16 @@
 
 				// First load the timestamps
 				fetch(`timestamps/${language}/${fileName}.json`, { signal })
-					.then((response) => response.json())
+					.then((response) => {
+						// If response is not ok (404 for Irish), return empty timestamp data
+						if (!response.ok) {
+							if (language === 'ga') {
+								return { "1": { "seconds": 0 } }; // Return minimal timestamp data for Irish
+							}
+							throw new Error(`Failed to load timestamps for ${language}/${fileName}`);
+						}
+						return response.json();
+					})
 					.then((timestampData) => {
 						if (signal.aborted) return;
 
@@ -594,68 +603,54 @@
 									sectionsContainer.innerHTML = `<div class="text-center text-gray-700">Error loading audio data, Are you outside of Ireland? Due to SEC restrictions this site only works in Ireland. Sorry!</div>`;
 								}
 
-								// Update marking scheme buttons
-								const markingSchemeContainer = document.getElementById(
-									"markingSchemeContainer"
-								);
-								if (examData.markingScheme) {
-									const markingScheme = examData.markingScheme;
-									markingSchemeContainer.innerHTML = ""; // Clear any previous buttons
+								// Function to create and add buttons for marking scheme or aural paper
+								function addExamButtons(containerId, data, type) {
+									const container = document.getElementById(containerId);
+									container.innerHTML = ""; // Clear any previous buttons
 
-									if (markingScheme.ordinaryLevel) {
+									if (!data) return;
+
+									const buttonConfig = {
+										markingScheme: {
+											ordinaryText: "Ordinary Level Marking Scheme",
+											higherText: "Higher Level Marking Scheme",
+											ordinaryClass: "text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-green-300",
+											higherClass: "text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-red-300"
+										},
+										auralPaper: {
+											ordinaryText: "📝 Ordinary Level Aural Paper",
+											higherText: "📝 Higher Level Aural Paper",
+											ordinaryClass: "text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-green-300",
+											higherClass: "text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-red-300"
+										}
+									};
+
+									const config = buttonConfig[type];
+
+									if (data.ordinaryLevel) {
 										const btnOrdinary = document.createElement("a");
-										btnOrdinary.textContent = "Ordinary Level Marking Scheme";
-										btnOrdinary.href = markingScheme.ordinaryLevel;
-										btnOrdinary.className =
-											" text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-green-300";
-										// "px-4 py-2 bg-green-300 text-gray-800 rounded hover:bg-green-400";
+										btnOrdinary.textContent = config.ordinaryText;
+										btnOrdinary.href = data.ordinaryLevel;
+										btnOrdinary.className = config.ordinaryClass;
 										btnOrdinary.target = "_blank";
-										markingSchemeContainer.appendChild(btnOrdinary);
+										container.appendChild(btnOrdinary);
 									}
 
-									if (markingScheme.higherLevel) {
+									if (data.higherLevel) {
 										const btnHigher = document.createElement("a");
-										btnHigher.textContent = "Higher Level Marking Scheme";
-										btnHigher.href = markingScheme.higherLevel;
-										btnHigher.className =
-											// "px-4 py-2 bg-red-300 text-gray-800 rounded hover:bg-red-400";
-											"text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-red-300";
+										btnHigher.textContent = config.higherText;
+										btnHigher.href = data.higherLevel;
+										btnHigher.className = config.higherClass;
 										btnHigher.target = "_blank";
-										markingSchemeContainer.appendChild(btnHigher);
+										container.appendChild(btnHigher);
 									}
-								} else {
-									markingSchemeContainer.innerHTML = "";
 								}
 
-								// Update aural paper buttons
-								const auralPaperContainer = document.getElementById(
-									"auralPaperContainer"
-								);
-								auralPaperContainer.innerHTML = ""; // Clear any previous buttons
+								// Add marking scheme buttons
+								addExamButtons("markingSchemeContainer", examData.markingScheme, "markingScheme");
 
-								if (examData.auralPaper) {
-									const auralPaper = examData.auralPaper;
-									if (auralPaper.ordinaryLevel) {
-										const btnOrdinary = document.createElement("a");
-										btnOrdinary.textContent = "📝 Ordinary Level Aural Paper";
-										btnOrdinary.href = auralPaper.ordinaryLevel;
-										btnOrdinary.className =
-											"text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-green-300";
-										btnOrdinary.target = "_blank";
-										auralPaperContainer.appendChild(btnOrdinary);
-									}
-									if (auralPaper.higherLevel) {
-										const btnHigher = document.createElement("a");
-										btnHigher.textContent = "📝 Higher Level Aural Paper";
-										btnHigher.href = auralPaper.higherLevel;
-										btnHigher.className =
-											"text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-red-300";
-										btnHigher.target = "_blank";
-										auralPaperContainer.appendChild(btnHigher);
-									}
-								} else {
-									auralPaperContainer.innerHTML = "";
-								}
+								// Add aural paper buttons
+								addExamButtons("auralPaperContainer", examData.auralPaper, "auralPaper");
 
 								// Set up metadata listener before loading audio
 								currentLoadedMetadataListener = () =>
@@ -700,6 +695,17 @@
 				labelsContainer.innerHTML = "";
 				sectionsContainer.innerHTML = "";
 				sectionsBackground.innerHTML = "";
+
+				// Check if this is minimal timestamp data (for Irish)
+				const isMinimalData = Object.keys(data).length === 1 && data["1"] && data["1"].seconds === 0;
+				if (isMinimalData) {
+					const btn = document.createElement("button");
+					btn.className = "m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-500 cursor-not-allowed rounded-md opacity-75";
+					btn.textContent = "Sorry! i'm still working on the Irish timestamps :)";
+					btn.disabled = true;
+					sectionsContainer.appendChild(btn);
+					return;
+				}
 
 				let colorIndex = 0;
 				const colors = [
@@ -848,6 +854,7 @@
 					zh: "Chinese",
 					it: "Italian",
 					es: "Spanish",
+					ga: "Irish"
 				};
 				const displayLanguage = languageNames[language] || language;
 				document.title = `Aural Practice - ${displayLanguage} - ${audioSelector.value}`;

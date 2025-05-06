@@ -44,6 +44,7 @@ for lang_code, lang_name in language_codes.items():
             "it",
             "es",
         ],  # Only French, German, Mandarin Chinese, and Irish enabled
+        "timestamps_disabled": lang_code in ["ga"],
         "examLinks": {},
     }
 

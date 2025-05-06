@@ -8,7 +8,6 @@ import os
 # --- 1. Load Audio Files ---
 
 
-
 # fileName = "2019"
 
 
@@ -114,7 +113,10 @@ def beepSplitter(fileName):
     for k in labels:
         idx = k - 1
         if idx < len(beep_times):
-            labels_seconds[labels[k]] = beep_times[idx]
+            # labels_seconds[labels[k]] = beep_times[idx] # seconds
+            labels_seconds[labels[k]] = (
+                str(int(beep_times[idx] // 60)) + ":" + str(int(beep_times[idx] % 60))
+            )  # minutes and seconds
         else:
             print(
                 f"Skipping label '{labels[k]}' because beep index {idx} is out of bounds."
@@ -148,6 +150,7 @@ def beepSplitter(fileName):
 
 # --- 5. Run the Beep Splitter on the Audio File ---
 
+# beepSplitter("ga_2024")
 
 os.makedirs("timestamps", exist_ok=True)
 wav_folder = "wav"
