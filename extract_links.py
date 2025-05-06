@@ -23,9 +23,14 @@ language_codes = {
     "fr": "French",
     "de": "German",
     "es": "Spanish",
+    "ga": "Irish",
     "it": "Italian",
     "zh": "Mandarin Chinese",
-    "ga": "Irish",
+    "lt": "Lithuanian",
+    "pt": "Portuguese",
+    "ja": "Japanese",
+    "ru": "Russian",
+    "pl": "Polish",
 }
 
 # Initialize output structure
@@ -43,8 +48,21 @@ for lang_code, lang_name in language_codes.items():
             "ga",
             "it",
             "es",
-        ],  # Only French, German, Mandarin Chinese, and Irish enabled
-        "timestamps_disabled": lang_code in ["ga"],
+            "lt",
+            "pt",
+            "ja",
+            "ru",
+            "pl",
+        ],  # All languages enabled
+        "timestamps_disabled": lang_code
+        in [
+            "ga",
+            "lt",
+            "pt",
+            "ja",
+            "ru",
+            "pl",
+        ],  # Irish and new languages have timestamps disabled
         "examLinks": {},
     }
 

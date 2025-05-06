@@ -567,7 +567,7 @@
 					.then((response) => {
 						// If response is not ok (404 for Irish), return empty timestamp data
 						if (!response.ok) {
-							if (language === 'ga') {
+							if (language === 'ga' || language === 'lt' || language === 'pt' || language === 'ja' || language === 'ru' || language === 'pl') {
 								return { "1": { "seconds": 0 } }; // Return minimal timestamp data for Irish
 							}
 							throw new Error(`Failed to load timestamps for ${language}/${fileName}`);
@@ -701,7 +701,7 @@
 				if (isMinimalData) {
 					const btn = document.createElement("button");
 					btn.className = "m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-500 cursor-not-allowed rounded-md opacity-75";
-					btn.textContent = "Sorry! i'm still working on the Irish timestamps :)";
+					btn.textContent = "Sorry! i'm still working on these timestamps :)";
 					btn.disabled = true;
 					sectionsContainer.appendChild(btn);
 					return;

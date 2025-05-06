@@ -705,6 +705,244 @@
             }
         }
     },
+    "ga": {
+        "name": "Irish",
+        "enabled": true,
+        "timestamps_disabled": true,
+        "examLinks": {
+            "2004": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2004/LC001BLPA08IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2004/LC001ALP1IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2004/LC001GLP1IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2004/LC001ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2004/LC001GLPA00IV.pdf"
+                }
+            },
+            "2005": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2005/LC001BLPA00IV.MP3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2005/LC001ALP1IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2005/LC001GLP1IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2005/LC001ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2005/LC001GLPA00IV.pdf"
+                }
+            },
+            "2006": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2006/LC001ZLPO17IV.MP3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2006/LC001ALPO00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2006/LC001GLPO00IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2006/LC001ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2006/LC001GLPA00IV.pdf"
+                }
+            },
+            "2007": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2007/LC001BLP000IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2007/LC001ALPO00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2007/LC001GLPO00IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2007/LC001ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2007/LC001GLPA00IV.pdf"
+                }
+            },
+            "2008": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2008/LC001ZLPO17IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2008/LC001ALP000IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2008/LC001GLP000IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2008/LC001ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2008/LC001GLPA00IV.pdf"
+                }
+            },
+            "2009": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2009/LC001BLP017IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2009/LC001ALP000IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2009/LC001GLP000IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2009/LC001ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2009/LC001GLP100IV.pdf"
+                }
+            },
+            "2010": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2010/LC001ZLP017IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2010/LC001ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2010/LC001GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2010/LC001ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2010/LC001GLPA00IV.pdf"
+                }
+            },
+            "2011": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2011/LC001BLP017IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2011/LC001ALP200IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2011/LC001GLP027EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2011/LC001ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2011/LC001GLPA00IV.pdf"
+                }
+            },
+            "2012": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2012/LC001BLPO17IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2012/LC001ALP000IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2012/LC001GLP000IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2012/LC001ALP100IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2012/LC001GLP100IV.pdf"
+                }
+            },
+            "2013": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2013/LC001BLP017IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2013/LC001ALP000IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2013/LC001GLP000IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2013/LC001ALP100IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2013/LC001GLP100IV.pdf"
+                }
+            },
+            "2014": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2014/LC001BLP017IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2014/LC001ALP000IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2014/LC001GLP000IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2014/LC001ALP100IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2014/LC001GLP100IV.pdf"
+                }
+            },
+            "2015": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2015/LC001BLP017IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2015/LC001ALP000IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2015/LC001GLP000IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2015/LC001ALP100IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2015/LC001GLP100IV.pdf"
+                }
+            },
+            "2016": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2016/LC001BLP017IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2016/LC001ALP000IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2016/LC001GLP000IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2016/LC001ALP100IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2016/LC001GLP100IV.pdf"
+                }
+            },
+            "2017": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2017/LC001BLP017IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2017/LC001ALP000IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2017/LC001GLP000IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2017/LC001ALP100IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2017/LC001GLP100IV.pdf"
+                }
+            },
+            "2018": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2018/LC001BLP017IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2018/LC001ALP000IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2018/LC001GLP000IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2018/LC001ALP100IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2018/LC001GLP100IV.pdf"
+                }
+            },
+            "2019": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2019/LC001BLP017IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2019/LC001ALP000IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2019/LC001GLP000IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2019/LC001ALP100IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2019/LC001GLP100IV.pdf"
+                }
+            },
+            "2020": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2020/LC001BLP017IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2020/LC001ALP000IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2020/LC001GLP000IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2020/LC001ALP100IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2020/LC001GLP100IV.pdf"
+                }
+            },
+            "2021": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2021/LC001BLP017IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2021/LC001ALP000IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2021/LC001GLP000IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2021/LC001ALP100IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2021/LC001GLP100IV.pdf"
+                }
+            },
+            "2022": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2022/LC001BLP017IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2022/LC001ALP000IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2022/LC001GLP000IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2022/LC001ALP100IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2022/LC001GLP100IV.pdf"
+                }
+            },
+            "2023": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2023/LC001BLP017IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2023/LC001ALP000IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2023/LC001GLP000IV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2023/LC001ALP100IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2023/LC001GLP100IV.pdf"
+                }
+            },
+            "2024": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2024/LC001ZLP017IV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2024/LC001ALP000IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2024/LC001GLP000IV.pdf"
+                },
+                "auralPaper": {
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2024/LC001GLP100IV.pdf",
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2024/LC001ALP100IV.pdf"
+                }
+            }
+        }
+    },
     "it": {
         "name": "Italian",
         "enabled": true,
@@ -975,240 +1213,857 @@
             }
         }
     },
-    "ga": {
-        "name": "Irish",
+    "lt": {
+        "name": "Lithuanian",
+        "enabled": true,
+        "timestamps_disabled": true,
+        "examLinks": {
+            "2008": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2008/LC550ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2009": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2009/LC550ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2010": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2010/LC550ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2011": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2011/LC550ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2012": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2012/LC550ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2013": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2013/LC550ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2014": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2014/LC550ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2015": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2015/LC550ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2016": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2016/LC550ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2017": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2017/LC550ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2018": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2018/LC550ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2019": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2019/LC550ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2020": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2020/LC550ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2021": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2021/LC550ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2022": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2022/LC550ZLP017BV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2022/LC550ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2022/LC550GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2022/LC550ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2022/LC550GLPA00IV.pdf"
+                }
+            },
+            "2023": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2023/LC550ZLP017BV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2023/LC550ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2023/LC550GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2023/LC550ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2023/LC550GLPA00IV.pdf"
+                }
+            },
+            "2024": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2024/LC550ZLP017BV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2024/LC550ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2024/LC550GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2024/LC550ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2024/LC550GLPA00IV.pdf"
+                }
+            }
+        }
+    },
+    "pt": {
+        "name": "Portuguese",
+        "enabled": true,
+        "timestamps_disabled": true,
+        "examLinks": {
+            "2008": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2008/LC018ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2010": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2010/LC018ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2011": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2011/LC018ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2012": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2012/LC018ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2013": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2013/LC018ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2014": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2014/LC018ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2015": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2015/LC018ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2016": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2016/LC018ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2017": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2017/LC018ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2018": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2018/LC018ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2019": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2019/LC018ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2021": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2021/LC018ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2022": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2022/LC018ZLP017BV.mp3",
+                "markingScheme": {
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2022/LC018GLP000EV.pdf",
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2022/LC018ALP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2022/LC018ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2022/LC018GLPA00IV.pdf"
+                }
+            },
+            "2023": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2023/LC018ZLP017BV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2023/LC018ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2023/LC018GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2023/LC018ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2023/LC018GLPA00IV.pdf"
+                }
+            },
+            "2024": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2024/LC018ZLP017BV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2024/LC018ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2024/LC018GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2024/LC018ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2024/LC018GLPA00IV.pdf"
+                }
+            }
+        }
+    },
+    "ja": {
+        "name": "Japanese",
+        "enabled": true,
+        "timestamps_disabled": true,
+        "examLinks": {
+            "2005": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2005/LC058CLPA00EV.MP3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2005/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2005/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2005/LC058ALPA08EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2005/LC058GLPA08EV.pdf"
+                }
+            },
+            "2006": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2006/LC058ZLPO17EV.MP3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2006/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2006/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2006/LC058ALPA00EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2006/LC058GLPA00ev.pdf"
+                }
+            },
+            "2007": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2007/LC058ZLP000EV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2007/LC058ALPO00EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2007/LC058ALPA00EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2007/LC058GLPA00EV.pdf"
+                }
+            },
+            "2008": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2008/LC058ZLPO17EV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2008/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2008/LC058GLP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2009": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2009/LC058ZLP017EV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2009/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2009/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2009/LC058ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2009/LC058GLPA00IV.pdf"
+                }
+            },
+            "2010": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2010/LC058ZLP017EV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2010/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2010/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2010/LC058ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2010/LC058GLPA00IV.pdf"
+                }
+            },
+            "2011": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2011/LC058ZLP017EV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2011/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2011/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2011/LC058ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2011/LC058GLPA00IV.pdf"
+                }
+            },
+            "2012": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2012/LC058ZLPO17EV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2012/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2012/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2012/LC058ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2012/LC058GLPA00IV.pdf"
+                }
+            },
+            "2013": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2013/LC058ZLP017EV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2013/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2013/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2013/LC058ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2013/LC058GLPA00IV.pdf"
+                }
+            },
+            "2014": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2014/LC058ZLP017EV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2014/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2014/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2014/LC058ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2014/LC058GLPA00IV.pdf"
+                }
+            },
+            "2015": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2015/LC058ZLP017EV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2015/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2015/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2015/LC058ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2015/LC058GLPA00IV.pdf"
+                }
+            },
+            "2016": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2016/LC058ZLP017EV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2016/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2016/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2016/LC058ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2016/LC058GLPA00IV.pdf"
+                }
+            },
+            "2017": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2017/LC058ZLP017EV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2017/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2017/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2017/LC058ALPA00EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2017/LC058GLPA00IV.pdf"
+                }
+            },
+            "2018": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2018/LC058ZLP017EV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2018/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2018/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2018/LC058ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2018/LC058GLPA00IV.pdf"
+                }
+            },
+            "2019": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2019/LC058ZLP017EV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2019/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2019/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2019/LC058ALPA00BV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2019/LC058GLPA00BV.pdf"
+                }
+            },
+            "2020": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2020/LC058ZLP017EV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2020/LC058ALP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2020/LC058ALPA00BV.pdf"
+                }
+            },
+            "2021": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2021/LC058ZLP017EV.mp3",
+                "markingScheme": {
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2021/LC058GLP000EV.pdf",
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2021/LC058ALP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2021/LC058ALPA00BV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2021/LC058GLPA00BV.pdf"
+                }
+            },
+            "2022": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2022/LC058ZLP017BV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2022/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2022/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2022/LC058ALPA00BV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2022/LC058GLPA00BV.pdf"
+                }
+            },
+            "2023": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2023/LC058ZLP017BV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2023/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2023/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2023/LC058ALPA00BV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2023/LC058GLPA00BV.pdf"
+                }
+            },
+            "2024": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2024/LC058ZLP017BV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2024/LC058ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2024/LC058GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2024/LC058ALPA00BV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2024/LC058GLPA00BV.pdf"
+                }
+            }
+        }
+    },
+    "ru": {
+        "name": "Russian",
         "enabled": true,
         "timestamps_disabled": true,
         "examLinks": {
             "2004": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2004/LC001BLPA08IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2004/LC099CLPA08EV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2004/LC001ALP1IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2004/LC001GLP1IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2004/LC099ALPAEV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2004/LC099GLPAEV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2004/LC001ALPA00IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2004/LC001GLPA00IV.pdf"
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2004/LC099GLPA08EV.pdf"
                 }
             },
             "2005": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2005/LC001BLPA00IV.MP3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2005/LC099CLPA00EV.MP3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2005/LC001ALP1IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2005/LC001GLP1IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2005/LC099ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2005/LC099GLP1EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2005/LC001ALPA00IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2005/LC001GLPA00IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2005/LC099ALPA08EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2005/LC099GLPA08EV.pdf"
                 }
             },
             "2006": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2006/LC001ZLPO17IV.MP3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2006/LC099ZLPO17EV.MP3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2006/LC001ALPO00IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2006/LC001GLPO00IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2006/LC099ALPO00EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2006/LC099GLPO00EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2006/LC001ALPA00IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2006/LC001GLPA00IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2006/LC099ALPA00EV.doc",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2006/LC099GLPA00EV.doc"
                 }
             },
             "2007": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2007/LC001BLP000IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2007/LC099ZLP000ev.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2007/LC001ALPO00IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2007/LC001GLPO00IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2007/LC099ALPO00EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2007/LC099GLPO00EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2007/LC001ALPA00IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2007/LC001GLPA00IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2007/LC099ALPA00EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2007/LC099GLPA00IV.pdf"
                 }
             },
             "2008": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2008/LC001ZLPO17IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2008/LC099ZLPO17EV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2008/LC001ALP000IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2008/LC001GLP000IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2008/LC099ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2008/LC099GLP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2008/LC001ALPA00IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2008/LC001GLPA00IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2008/LC099ALPA00EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2008/LC099GLPA00EV.pdf"
                 }
             },
             "2009": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2009/LC001BLP017IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2009/LC099ZLP017EV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2009/LC001ALP000IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2009/LC001GLP000IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2009/LC099ALP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2009/LC001ALPA00IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2009/LC001GLP100IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2009/LC099ALPA00EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2009/LC099GLPA00EV.pdf"
                 }
             },
             "2010": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2010/LC001ZLP017IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2010/LC099ZLP017EV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2010/LC001ALP000EV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2010/LC001GLP000EV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2010/LC099ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2010/LC099GLP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2010/LC001ALPA00IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2010/LC001GLPA00IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2010/LC099ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2010/LC099GLPA00IV.pdf"
                 }
             },
             "2011": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2011/LC001BLP017IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2011/LC099ZLP017EV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2011/LC001ALP200IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2011/LC001GLP027EV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2011/LC099ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2011/LC099GLP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2011/LC001ALPA00IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2011/LC001GLPA00IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2011/LC099ALPA00EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2011/LC099GLPA00EV.pdf"
                 }
             },
             "2012": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2012/LC001BLPO17IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2012/LC099ZLPO17EV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2012/LC001ALP000IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2012/LC001GLP000IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2012/LC099ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2012/LC099GLP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2012/LC001ALP100IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2012/LC001GLP100IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2012/LC099ALPA00EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2012/LC099GLPA00EV.pdf"
                 }
             },
             "2013": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2013/LC001BLP017IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2013/LC099ZLP017EV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2013/LC001ALP000IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2013/LC001GLP000IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2013/LC099ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2013/LC099GLP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2013/LC001ALP100IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2013/LC001GLP100IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2013/LC099ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2013/LC099GLPA00IV.pdf"
                 }
             },
             "2014": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2014/LC001BLP017IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2014/LC099ZLP017EV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2014/LC001ALP000IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2014/LC001GLP000IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2014/LC099ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2014/LC099GLP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2014/LC001ALP100IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2014/LC001GLP100IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2014/LC099ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2014/LC099GLPA00IV.pdf"
                 }
             },
             "2015": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2015/LC001BLP017IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2015/LC099ZLP017EV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2015/LC001ALP000IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2015/LC001GLP000IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2015/LC099ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2015/LC099GLP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2015/LC001ALP100IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2015/LC001GLP100IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2015/LC099ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2015/LC099GLPA00IV.pdf"
                 }
             },
             "2016": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2016/LC001BLP017IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2016/LC099ZLP017EV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2016/LC001ALP000IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2016/LC001GLP000IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2016/LC099ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2016/LC099GLP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2016/LC001ALP100IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2016/LC001GLP100IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2016/LC099ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2016/LC099GLPA00IV.pdf"
                 }
             },
             "2017": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2017/LC001BLP017IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2017/LC099ZLP017EV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2017/LC001ALP000IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2017/LC001GLP000IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2017/LC099ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2017/LC099GLP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2017/LC001ALP100IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2017/LC001GLP100IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2017/LC099ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2017/LC099GLPA00IV.pdf"
                 }
             },
             "2018": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2018/LC001BLP017IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2018/LC099ZLP017EV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2018/LC001ALP000IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2018/LC001GLP000IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2018/LC099ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2018/LC099GLP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2018/LC001ALP100IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2018/LC001GLP100IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2018/LC099ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2018/LC099GLPA00IV.pdf"
                 }
             },
             "2019": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2019/LC001BLP017IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2019/LC099ZLP017EV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2019/LC001ALP000IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2019/LC001GLP000IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2019/LC099ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2019/LC099GLP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2019/LC001ALP100IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2019/LC001GLP100IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2019/LC099ALPA00BV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2019/LC099GLPA00BV.pdf"
                 }
             },
             "2020": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2020/LC001BLP017IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2020/LC099ZLP017EV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2020/LC001ALP000IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2020/LC001GLP000IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2020/LC099ALP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2020/LC001ALP100IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2020/LC001GLP100IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2020/LC099ALPA00BV.pdf"
                 }
             },
             "2021": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2021/LC001BLP017IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2021/LC099ZLP017EV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2021/LC001ALP000IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2021/LC001GLP000IV.pdf"
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2021/LC099GLP000EV.pdf",
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2021/LC099ALP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2021/LC001ALP100IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2021/LC001GLP100IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2021/LC099ALPA00BV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2021/LC099GLPA00BV.pdf"
                 }
             },
             "2022": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2022/LC001BLP017IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2022/LC099ZLP017BV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2022/LC001ALP000IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2022/LC001GLP000IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2022/LC099ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2022/LC099GLP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2022/LC001ALP100IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2022/LC001GLP100IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2022/LC099ALPA00BV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2022/LC099GLPA00BV.pdf"
                 }
             },
             "2023": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2023/LC001BLP017IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2023/LC099ZLP017BV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2023/LC001ALP000IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2023/LC001GLP000IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2023/LC099ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2023/LC099GLP000EV.pdf"
                 },
                 "auralPaper": {
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2023/LC001ALP100IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2023/LC001GLP100IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2023/LC099ALPA00BV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2023/LC099GLPA00BV.pdf"
                 }
             },
             "2024": {
-                "examAudio": "https://www.examinations.ie/archive/exampapers/2024/LC001ZLP017IV.mp3",
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2024/LC099ZLP017BV.mp3",
                 "markingScheme": {
-                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2024/LC001ALP000IV.pdf",
-                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2024/LC001GLP000IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2024/LC099ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2024/LC099GLP000EV.pdf"
                 },
                 "auralPaper": {
-                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2024/LC001GLP100IV.pdf",
-                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2024/LC001ALP100IV.pdf"
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2024/LC099ALPA00BV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2024/LC099GLPA00BV.pdf"
+                }
+            }
+        }
+    },
+    "pl": {
+        "name": "Polish",
+        "enabled": true,
+        "timestamps_disabled": true,
+        "examLinks": {
+            "2008": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2008/LC548ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2009": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2009/LC548ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2010": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2010/LC548ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2011": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2011/LC548ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2012": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2012/LC548ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2013": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2013/LC548ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2014": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2014/LC548ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2015": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2015/LC548ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2016": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2016/LC548ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2017": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2017/LC548ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2018": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2018/LC548ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2019": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2019/LC548ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2020": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2020/LC548ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2021": {
+                "examAudio": null,
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2021/LC548ALP000EV.pdf"
+                },
+                "auralPaper": null
+            },
+            "2022": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2022/LC548ZLP017BV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2022/LC548ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2022/LC548GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2022/LC548ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2022/LC548GLPA00IV.pdf"
+                }
+            },
+            "2023": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2023/LC548ZLP017BV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2023/LC548ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2023/LC548GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2023/LC548ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2023/LC548GLPA00IV.pdf"
+                }
+            },
+            "2024": {
+                "examAudio": "https://www.examinations.ie/archive/exampapers/2024/LC548ZLP017BV.mp3",
+                "markingScheme": {
+                    "higherLevel": "https://www.examinations.ie/archive/markingschemes/2024/LC548ALP000EV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/markingschemes/2024/LC548GLP000EV.pdf"
+                },
+                "auralPaper": {
+                    "higherLevel": "https://www.examinations.ie/archive/exampapers/2024/LC548ALPA00IV.pdf",
+                    "ordinaryLevel": "https://www.examinations.ie/archive/exampapers/2024/LC548GLPA00IV.pdf"
                 }
             }
         }
