@@ -1,13 +1,8 @@
 const CACHE_NAME = "aurals-lc-v7";
 const BASE_PATH = "./";
 const ASSETS_TO_CACHE = [
-	`${BASE_PATH}`,
-	`${BASE_PATH}index.html`,
-	`${BASE_PATH}manifest.json`,
 	`${BASE_PATH}icons/headphones_192_192.png`,
 	`${BASE_PATH}icons/headphones_512_512.png`,
-	`${BASE_PATH}icons/volume-icon.svg`,
-	`${BASE_PATH}icons/muted.svg`,
 ];
 
 // In notification options (future use)
