@@ -1,6 +1,7 @@
 {
     "fr": {
         "name": "French",
+        "flag": "\ud83c\uddeb\ud83c\uddf7",
         "enabled": true,
         "timestamps_disabled": false,
         "examLinks": {
@@ -238,6 +239,7 @@
     },
     "de": {
         "name": "German",
+        "flag": "\ud83c\udde9\ud83c\uddea",
         "enabled": true,
         "timestamps_disabled": false,
         "examLinks": {
@@ -475,6 +477,7 @@
     },
     "es": {
         "name": "Spanish",
+        "flag": "\ud83c\uddea\ud83c\uddf8",
         "enabled": true,
         "timestamps_disabled": false,
         "examLinks": {
@@ -707,6 +710,7 @@
     },
     "ga": {
         "name": "Irish",
+        "flag": "\ud83c\uddee\ud83c\uddea",
         "enabled": true,
         "timestamps_disabled": true,
         "examLinks": {
@@ -945,6 +949,7 @@
     },
     "it": {
         "name": "Italian",
+        "flag": "\ud83c\uddee\ud83c\uddf9",
         "enabled": true,
         "timestamps_disabled": false,
         "examLinks": {
@@ -1175,6 +1180,7 @@
     },
     "zh": {
         "name": "Mandarin Chinese",
+        "flag": "\ud83c\udde8\ud83c\uddf3",
         "enabled": true,
         "timestamps_disabled": false,
         "examLinks": {
@@ -1215,6 +1221,7 @@
     },
     "lt": {
         "name": "Lithuanian",
+        "flag": "\ud83c\uddf1\ud83c\uddf9",
         "enabled": true,
         "timestamps_disabled": true,
         "examLinks": {
@@ -1353,6 +1360,7 @@
     },
     "pt": {
         "name": "Portuguese",
+        "flag": "\ud83c\uddf5\ud83c\uddf9",
         "enabled": true,
         "timestamps_disabled": true,
         "examLinks": {
@@ -1477,6 +1485,7 @@
     },
     "ja": {
         "name": "Japanese",
+        "flag": "\ud83c\uddef\ud83c\uddf5",
         "enabled": true,
         "timestamps_disabled": true,
         "examLinks": {
@@ -1698,6 +1707,7 @@
     },
     "ru": {
         "name": "Russian",
+        "flag": "\ud83c\uddf7\ud83c\uddfa",
         "enabled": true,
         "timestamps_disabled": true,
         "examLinks": {
@@ -1932,6 +1942,7 @@
     },
     "pl": {
         "name": "Polish",
+        "flag": "\ud83c\uddf5\ud83c\uddf1",
         "enabled": true,
         "timestamps_disabled": true,
         "examLinks": {

@@ -492,7 +492,7 @@
 					Object.entries(languages).forEach(([code, lang]) => {
 						const option = document.createElement("option");
 						option.value = code;
-						option.textContent = lang.name;
+						option.textContent = `${lang.flag} ${lang.name}`;
 						option.disabled = !lang.enabled;
 						if (code === "fr") option.selected = true; // Default to French
 						languageSelector.appendChild(option);

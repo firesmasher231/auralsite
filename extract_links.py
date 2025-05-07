@@ -20,26 +20,27 @@ with open("gettingaudio/data.json", "r", encoding="utf-8") as f:
 
 # Initialize language codes
 language_codes = {
-    "fr": "French",
-    "de": "German",
-    "es": "Spanish",
-    "ga": "Irish",
-    "it": "Italian",
-    "zh": "Mandarin Chinese",
-    "lt": "Lithuanian",
-    "pt": "Portuguese",
-    "ja": "Japanese",
-    "ru": "Russian",
-    "pl": "Polish",
+    "fr": {"name": "French", "flag": "🇫🇷"},
+    "de": {"name": "German", "flag": "🇩🇪"},
+    "es": {"name": "Spanish", "flag": "🇪🇸"},
+    "ga": {"name": "Irish", "flag": "🇮🇪"},
+    "it": {"name": "Italian", "flag": "🇮🇹"},
+    "zh": {"name": "Mandarin Chinese", "flag": "🇨🇳"},
+    "lt": {"name": "Lithuanian", "flag": "🇱🇹"},
+    "pt": {"name": "Portuguese", "flag": "🇵🇹"},
+    "ja": {"name": "Japanese", "flag": "🇯🇵"},
+    "ru": {"name": "Russian", "flag": "🇷🇺"},
+    "pl": {"name": "Polish", "flag": "🇵🇱"},
 }
 
 # Initialize output structure
 output = {}
 
 # Process each language
-for lang_code, lang_name in language_codes.items():
+for lang_code, lang_data in language_codes.items():
     output[lang_code] = {
-        "name": lang_name,
+        "name": lang_data["name"],
+        "flag": lang_data["flag"],
         "enabled": lang_code
         in [
             "fr",
@@ -74,8 +75,8 @@ for lang_code, lang_name in language_codes.items():
         aural_paper_link = None  # aural paper link to be retrieved
 
         # Try to get the exam audio file from the target language data if available
-        if year_str in data["lc"].get(lang_name, {}):
-            for item in data["lc"][lang_name][year_str]:
+        if year_str in data["lc"].get(lang_data["name"], {}):
+            for item in data["lc"][lang_data["name"]][year_str]:
                 if item["url"].lower().endswith(".mp3"):
                     exam_audio_link = (
                         item["url"]
@@ -85,7 +86,7 @@ for lang_code, lang_name in language_codes.items():
                     break
 
         # Now, try to get the marking scheme from the current language branch.
-        marking_source = data["lc"].get(lang_name, {})
+        marking_source = data["lc"].get(lang_data["name"], {})
         if year_str in marking_source:
             marking_schemes = {}
             aural_papers = {}
@@ -99,7 +100,7 @@ for lang_code, lang_name in language_codes.items():
                     )
                     # Only include marking schemes with EV.pdf in the URL.
                     if not marking_scheme_file_url.endswith("EV.pdf"):
-                        if lang_name == "Irish":
+                        if lang_data["name"] == "Irish":
                             if "higher" in detail:
                                 marking_schemes["higherLevel"] = marking_scheme_file_url
                             elif "ordinary" in detail:
@@ -127,16 +128,16 @@ for lang_code, lang_name in language_codes.items():
                     filename = item["url"].split("/")[-1].upper()
 
                     # Different handling for Irish vs other languages
-                    if lang_name == "Irish":
+                    if lang_data["name"] == "Irish":
                         # For Irish, look for aural papers with specific filename patterns
                         if "ALPA" in filename and "IV" in filename:
                             print(
-                                f"Added {lang_name} {year} aural paper to higher level: {filename}"
+                                f"Added {lang_data['name']} {year} aural paper to higher level: {filename}"
                             )
                             aural_papers["higherLevel"] = aural_paper_file_url
                         elif "GLPA" in filename and "IV" in filename:
                             print(
-                                f"Added {lang_name} {year} aural paper to ordinary level: {filename}"
+                                f"Added {lang_data['name']} {year} aural paper to ordinary level: {filename}"
                             )
                             aural_papers["ordinaryLevel"] = aural_paper_file_url
                     else:
@@ -147,7 +148,7 @@ for lang_code, lang_name in language_codes.items():
                             aural_papers["ordinaryLevel"] = aural_paper_file_url
 
                 # Special case for Irish: Paper One contains the aural content
-                elif lang_name == "Irish" and "paper one" in detail.lower():
+                elif lang_data["name"] == "Irish" and "paper one" in detail.lower():
                     paper_one_file_url = (
                         item["url"]
                         if item["url"].startswith("http")
@@ -159,12 +160,12 @@ for lang_code, lang_name in language_codes.items():
 
                     if "ALP100IV" in filename:
                         print(
-                            f"Added {lang_name} {year} Paper One (aural) to higher level: {filename}"
+                            f"Added {lang_data['name']} {year} Paper One (aural) to higher level: {filename}"
                         )
                         aural_papers["higherLevel"] = paper_one_file_url
                     elif "GLP100IV" in filename:
                         print(
-                            f"Added {lang_name} {year} Paper One (aural) to ordinary level: {filename}"
+                            f"Added {lang_data['name']} {year} Paper One (aural) to ordinary level: {filename}"
                         )
                         aural_papers["ordinaryLevel"] = paper_one_file_url
 
