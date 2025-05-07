@@ -1132,6 +1132,13 @@
 				-webkit-tap-highlight-color: transparent;
 				/* outline: none; optional, remove active outline */
 			}
+
+			/* Add padding for PWA view */
+			@media all and (display-mode: standalone) {
+				main {
+					padding-top: env(safe-area-inset-top, 20px);
+				}
+			}
 		</style>
 	</body>
 	<script>
