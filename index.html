@@ -16,7 +16,10 @@
 			})(window, document, "clarity", "script", "qxw0qthjku");
 		</script>
 		<meta charset="UTF-8" />
-		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta
+			http-equiv="Cache-Control"
+			content="no-cache, no-store, must-revalidate"
+		/>
 		<meta http-equiv="Pragma" content="no-cache" />
 		<meta http-equiv="Expires" content="0" />
 		<meta
@@ -370,21 +373,21 @@
 				></div>
 			</article>
 
-			<div class="flex flex-col justify-center items-center self-center mx-auto text-center m-4 text-gray-500 p-4  bg-white rounded-md shadow-lg border-gray-300 border-2 max-w-xs">
-				<p
-					class=""
-				>
+			<div
+				class="flex flex-col justify-center items-center self-center mx-auto text-center m-4 text-gray-500 p-4 bg-white rounded-md shadow-lg border-gray-300 border-2 max-w-xs"
+			>
+				<p class="">
 					bugs, suggestions, and other feedback welcome at
 					<a href="mailto:feedback@aurals.lc" class="font-bold"
 						>feedback@aurals.lc</a
 					>
 					<br />
-					<hr class="my-2 w-full" />
+					<!-- <hr class="my-2 w-full" /> -->
 				</p>
-				<a href="https://www.mh1-tutors.com/" target="_blank" class="text-sm">
+				<!-- <a href="https://www.mh1-tutors.com/" target="_blank" class="text-sm">
 					Looking for
 					<span class="underline">grinds?</span>
-				</a>
+				</a> -->
 			</div>
 
 			<section
@@ -416,7 +419,6 @@
 
 		<footer
 			class="mt-auto text-center text-gray-700 shadow-lg bg-white rounded-t-md max-w-[600px] mx-auto p-3 border-gray-300 border-2 border-b-0"
-			
 		>
 			<p class="sm:mx-8 mb-2 flex flex-row">
 				<!-- # github logo + link -->
@@ -570,10 +572,19 @@
 					.then((response) => {
 						// If response is not ok (404 for Irish), return empty timestamp data
 						if (!response.ok) {
-							if (language === 'ga' || language === 'lt' || language === 'pt' || language === 'ja' || language === 'ru' || language === 'pl') {
-								return { "1": { "seconds": 0 } }; // Return minimal timestamp data for Irish
+							if (
+								language === "ga" ||
+								language === "lt" ||
+								language === "pt" ||
+								language === "ja" ||
+								language === "ru" ||
+								language === "pl"
+							) {
+								return { 1: { seconds: 0 } }; // Return minimal timestamp data for Irish
 							}
-							throw new Error(`Failed to load timestamps for ${language}/${fileName}`);
+							throw new Error(
+								`Failed to load timestamps for ${language}/${fileName}`
+							);
 						}
 						return response.json();
 					})
@@ -617,15 +628,19 @@
 										markingScheme: {
 											ordinaryText: "Ordinary Level Marking Scheme",
 											higherText: "Higher Level Marking Scheme",
-											ordinaryClass: "text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-green-300",
-											higherClass: "text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-red-300"
+											ordinaryClass:
+												"text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-green-300",
+											higherClass:
+												"text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-red-300",
 										},
 										auralPaper: {
 											ordinaryText: "📝 Ordinary Level Aural Paper",
 											higherText: "📝 Higher Level Aural Paper",
-											ordinaryClass: "text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-green-300",
-											higherClass: "text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-red-300"
-										}
+											ordinaryClass:
+												"text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-green-300",
+											higherClass:
+												"text-center m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-300 rounded-md border-2 border-red-300",
+										},
 									};
 
 									const config = buttonConfig[type];
@@ -650,10 +665,18 @@
 								}
 
 								// Add marking scheme buttons
-								addExamButtons("markingSchemeContainer", examData.markingScheme, "markingScheme");
+								addExamButtons(
+									"markingSchemeContainer",
+									examData.markingScheme,
+									"markingScheme"
+								);
 
 								// Add aural paper buttons
-								addExamButtons("auralPaperContainer", examData.auralPaper, "auralPaper");
+								addExamButtons(
+									"auralPaperContainer",
+									examData.auralPaper,
+									"auralPaper"
+								);
 
 								// Set up metadata listener before loading audio
 								currentLoadedMetadataListener = () =>
@@ -700,10 +723,14 @@
 				sectionsBackground.innerHTML = "";
 
 				// Check if this is minimal timestamp data (for Irish)
-				const isMinimalData = Object.keys(data).length === 1 && data["1"] && data["1"].seconds === 0;
+				const isMinimalData =
+					Object.keys(data).length === 1 &&
+					data["1"] &&
+					data["1"].seconds === 0;
 				if (isMinimalData) {
 					const btn = document.createElement("button");
-					btn.className = "m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-500 cursor-not-allowed rounded-md opacity-75";
+					btn.className =
+						"m-[5px] py-[8px] px-[12px] border-0 bg-gray-200 text-gray-500 cursor-not-allowed rounded-md opacity-75";
 					btn.textContent = "Sorry! i'm still working on these timestamps :)";
 					btn.disabled = true;
 					sectionsContainer.appendChild(btn);
@@ -857,7 +884,7 @@
 					zh: "Chinese",
 					it: "Italian",
 					es: "Spanish",
-					ga: "Irish"
+					ga: "Irish",
 				};
 				const displayLanguage = languageNames[language] || language;
 				document.title = `Aural Practice - ${displayLanguage} - ${audioSelector.value}`;
