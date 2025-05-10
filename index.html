@@ -287,12 +287,33 @@
 							0:00 / 0:00
 						</div>
 						<!-- Custom controls -->
-						<div id="controls" class="justify-center items-center">
+						<div id="controls" class="justify-center items-center flex gap-4">
+							<!-- rewind 10 seconds -->
 							<button
-								id="playPauseBtn"
+								id="rewindBtn"
 								class="text-2xl text-center cursor-pointer bg-transparent border-0 mb-[2px]"
 							>
+								<img
+									src="icons/rewind-icon.svg"
+									alt="Rewind"
+									class="h-[24px] w-[24px]"
+								/>
+							</button>
+							<button
+								id="playPauseBtn"
+								class="text-2xl text-center self-center cursor-pointer bg-transparent border-0 mb-[2px]"
+							>
 								►
+							</button>
+							<button
+								id="fastForwardBtn"
+								class="text-2xl text-center cursor-pointer bg-transparent border-0 mb-[2px]"
+							>
+								<img
+									src="icons/fast-forward-icon.svg"
+									alt="Fast Forward"
+									class="h-[24px] w-[24px]"
+								/>
 							</button>
 						</div>
 						<div class="flex flex-row">
@@ -474,6 +495,8 @@
 			const audioSelector = document.getElementById("audioSelector");
 			const labelsContainer = document.getElementById("labelsContainer");
 			const timeDisplay = document.getElementById("timeDisplay");
+			const rewindBtn = document.getElementById("rewindBtn");
+			const fastForwardBtn = document.getElementById("fastForwardBtn");
 
 			// Global reference for the loadedmetadata listener
 			let currentLoadedMetadataListener = null;
@@ -1107,6 +1130,16 @@
 			window.addEventListener("DOMContentLoaded", restoreState);
 			// Save state before leaving the page.
 			window.addEventListener("beforeunload", saveState);
+
+			// Add rewind functionality
+			rewindBtn.addEventListener("click", () => {
+				audio.currentTime = Math.max(0, audio.currentTime - 10);
+			});
+
+			// Add fast forward functionality
+			fastForwardBtn.addEventListener("click", () => {
+				audio.currentTime = Math.min(audio.duration, audio.currentTime + 10);
+			});
 		</script>
 		<style>
 			input[type="range"]::-webkit-slider-runnable-track {
